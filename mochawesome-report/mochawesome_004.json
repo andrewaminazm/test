@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-08-10T11:27:04.171Z",
+    "end": "2021-08-10T11:28:33.473Z",
+    "duration": 89302,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "1e67465e-0802-4b22-b10d-7172dd84bc4f",
+      "title": "",
+      "fullFile": "cypress/integration/inventory/inventoryinsert1.spec.js",
+      "file": "cypress/integration/inventory/inventoryinsert1.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "2ebef486-0ef3-4a79-b8fc-00082b7b8ffb",
+          "title": "inventory",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "inventoryeditupdate",
+              "fullTitle": "inventory inventoryeditupdate",
+              "timedOut": null,
+              "duration": 86761,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.login();\ncy.get('.side-menu > :nth-child(3) > :nth-child(1)').click();\ncy.wait(5000);\ncy.get('.active > .nav > :nth-child(7) > a').click();\ncy.wait(8000);\ncy.contains('add').scrollIntoView();\ncy.wait(8000);\ncy.get('tr[trxid=\"1183\"] > :nth-child(3) > .btn-info').click();\ncy.wait(8000);\n/* ==== Generated with Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get(':nth-child(16) > .btn').click();\ncy.get('tbody > tr > :nth-child(1) > .col-md-12 > #txtStoreId').clear();\ncy.get('tbody > tr > :nth-child(1) > .col-md-12 > #txtStoreId').type('مخزن الدلتا تحت التشغيل');\ncy.get('tbody > tr > :nth-child(2) > .col-md-12 > #txtItemId').clear();\ncy.get('tbody > tr > :nth-child(2) > .col-md-12 > #txtItemId').type('100007 مكينة اندكشن سيلد ');\ncy.get('tbody > tr > :nth-child(3) > .col-md-12 > #txtUnitId').clear();\ncy.get('tbody > tr > :nth-child(3) > .col-md-12 > #txtUnitId').type('عدد');\ncy.get('tbody > tr > .tdQty > .col-md-12 > .form-control').clear();\ncy.get('tbody > tr > .tdQty > .col-md-12 > .form-control').type('2');\ncy.wait(8000);\ncy.get('#txtSupplierId').clear();\ncy.get('#txtSupplierId').type('شركة نات باك');\ncy.get('.divStoreId > #txtStoreId').clear();\ncy.get('.divStoreId > #txtStoreId').type('1 مخزن انتاج تام');\ncy.wait(8000);\ncy.get('.btnSend').click();\ncy.get('.confirm').click();\ncy.wait(8000);\ncy.get('tr[trxid=\"1183\"] > :nth-child(3) > .btn-info').click();\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "bf057a44-c19f-4a85-ba74-af82b5998bbc",
+              "parentUUID": "2ebef486-0ef3-4a79-b8fc-00082b7b8ffb",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "bf057a44-c19f-4a85-ba74-af82b5998bbc"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 86761,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

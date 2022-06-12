@@ -1,0 +1,108 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-11-16T11:21:05.346Z",
+    "end": "2021-11-16T11:21:30.044Z",
+    "duration": 24698,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "2432a45d-3fd9-4be3-bb31-c41d373ce7ea",
+      "title": "",
+      "fullFile": "cypress/integration/activity.spec.js",
+      "file": "cypress/integration/activity.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9d429bd8-c16c-421a-93ad-aa116fa359cf",
+          "title": "activity",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": " bug1",
+              "fullTitle": "activity  bug1",
+              "timedOut": null,
+              "duration": 22676,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(' https://bestinsurance.trumarket.dev/').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('enter website ');\n});\ncy.wait(8000);\ncy.wait(8000);\ncy.get('[href=\"/clients\"]').click();\ncy.get(':nth-child(3) > :nth-child(1) > a > :nth-child(2)').click();\ncy.get('#react-tabs-6').click();\ncy.get('.tru-column > .default > span').click();\ncy.wait(8000);\ncy.get('.tru-text-input:nth-child(2)').click();\ncy.wait(8000);\ncy.get('.popover-content').screenshot();",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[href=\"/clients\"]`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[href=\"/clients\"]`, but never found it.\n    at Context.eval (https://bestinsurance.trumarket.dev/__cypress/tests?p=cypress\\integration\\activity.spec.js:249:8)",
+                "diff": null
+              },
+              "uuid": "40db078c-296a-41cc-892a-03d9e7071c62",
+              "parentUUID": "9d429bd8-c16c-421a-93ad-aa116fa359cf",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "40db078c-296a-41cc-892a-03d9e7071c62"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 22676,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

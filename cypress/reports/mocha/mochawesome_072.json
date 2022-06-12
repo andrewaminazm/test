@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-04-07T02:30:21.994Z",
+    "end": "2022-04-07T02:33:43.408Z",
+    "duration": 201414,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "d708a32e-9772-492b-b8db-7e4aea511877",
+      "title": "",
+      "fullFile": "cypress/integration/clientfilter.spec.js",
+      "file": "cypress/integration/clientfilter.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "8ef5dcaf-33e4-4a38-adeb-e756a4b22f5d",
+          "title": "regression test ",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": " client filter ",
+              "fullTitle": "regression test   client filter ",
+              "timedOut": null,
+              "duration": 191917,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.log('filter all client  ');\ncy.log('1-login 2-enter client dashboard 3- filter  ');\ncy.log('see the steps executed below ');\ncy.wait(6000);\ncy.truflalogins();\ncy.wait(8000);\ncy.get('[href=\"/clients\"]').click();\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('.filter-icon > .tru-icon').click({\n  force: true\n});\ncy.wait(8000);\ncy.get('[data-title=\"Lead\"] > .tru-form-item > .custom-checkbox > .tru-boolean-input').check({\n  force: true\n});\ncy.wait(8000);\ncy.get('h1').click();\ncy.wait(8000);\ncy.get('.filter-icon > .tru-icon').click({\n  force: true\n});\ncy.wait(8000);\ncy.get('[data-title=\"Lead\"] > .tru-form-item > .custom-checkbox > .tru-boolean-input').uncheck({\n  force: true\n});\ncy.wait(8000);\ncy.get('.tru-app-content').click({\n  force: true\n});\ncy.wait(8000);\ncy.get('.filter-icon > .tru-icon > path').click({\n  force: true\n});\ncy.wait(8000);\ncy.get('[data-title=\"VIP\"] > .tru-form-item > .custom-checkbox > .tru-boolean-input').check({\n  force: true\n});\ncy.wait(8000);\ncy.get('h1').click({\n  force: true\n});\ncy.wait(8000);\ncy.get('.filter-icon > .tru-icon > path').click({\n  force: true\n});\ncy.wait(8000);\ncy.get('[data-title=\"VIP\"] > .tru-form-item > .custom-checkbox > .tru-boolean-input').uncheck({\n  force: true\n});\ncy.wait(8000);\ncy.get('[data-title=\"Lost\"] > .tru-form-item > .custom-checkbox > .tru-boolean-input').check({\n  force: true\n});\ncy.wait(8000);\ncy.get('[data-title=\"Lost\"] > .tru-form-item > .custom-checkbox > .tru-boolean-input').uncheck({\n  force: true\n});\ncy.wait(8000);\ncy.get('[data-title=\"Client\"] > .tru-form-item > .custom-checkbox > .tru-boolean-input').check({\n  force: true\n});\ncy.wait(8000);\ncy.get('[data-title=\"Client\"] > .tru-form-item > .custom-checkbox > .tru-boolean-input').uncheck({\n  force: true\n});\ncy.wait(8000);\ncy.get('h1').click({\n  force: true\n});\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "1238515d-f45f-400f-85d4-2469f991ea35",
+              "parentUUID": "8ef5dcaf-33e4-4a38-adeb-e756a4b22f5d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "1238515d-f45f-400f-85d4-2469f991ea35"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 191917,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-08-11T10:18:13.024Z",
+    "end": "2021-08-11T10:19:37.741Z",
+    "duration": 84717,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "b3ab8303-21eb-47c3-87a1-b7b7fff7d735",
+      "title": "",
+      "fullFile": "cypress/integration/task/task1.spec.js",
+      "file": "cypress/integration/task/task1.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b8a5b53c-e8ea-4504-895e-3d41d8aa65ea",
+          "title": "tsk",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "task1",
+              "fullTitle": "tsk task1",
+              "timedOut": null,
+              "duration": 80666,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://iso.digitaltransformationinstitute.org:8101/pages/context/list');\ncy.wait(8000);\ncy.get('#LoginInput_UserNameOrEmailAddress').type('awahbah');\ncy.wait(5000);\ncy.get('#LoginInput_Password').type('P@ssw0rdRMG');\ncy.wait(5000);\ncy.get('.btn-primary').click();\ncy.wait(8000);\n/* ==== Generated with Cypress Studio ==== */\ncy.get('.slider').click();\ncy.wait(8000);\ncy.get('[y=\"6\"]').click();\ncy.wait(8000);\ncy.get('a.ng-tns-c178-12 > .menu-title').click();\ncy.wait(8000);\ncy.get('a.ng-tns-c178-14 > .menu-title').click();\ncy.wait(8000);\ncy.get('[y=\"6\"]').click();\ncy.wait(8000);\ncy.screenshot();\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "95b4794f-6d3c-41a6-8c37-df09bc0510e8",
+              "parentUUID": "b8a5b53c-e8ea-4504-895e-3d41d8aa65ea",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "95b4794f-6d3c-41a6-8c37-df09bc0510e8"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 80666,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

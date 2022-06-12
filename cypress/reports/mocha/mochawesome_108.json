@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-05-12T13:33:59.097Z",
+    "end": "2022-05-12T13:35:43.706Z",
+    "duration": 104609,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "e2951e0d-c151-4254-b15b-f856c79e61ec",
+      "title": "",
+      "fullFile": "cypress/integration/quiz.spec.js",
+      "file": "cypress/integration/quiz.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "1937bad0-9ac1-41cd-88ff-a03710d89b5b",
+          "title": "testquiz",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "amazon  ",
+              "fullTitle": "testquiz amazon  ",
+              "timedOut": null,
+              "duration": 93314,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.log('make quiz');\ncy.wait(6000);\ncy.visit(\"https://www.amazon.in/\");\n/* ==== Generated with Cypress Studio ==== */\ncy.get('#twotabsearchtextbox').clear({\n  force: true\n});\ncy.wait(6000);\ncy.get('#twotabsearchtextbox').type('Wrist Watches', {\n  force: true\n});\ncy.wait(6000);\ncy.get('#nav-search-submit-button').click({\n  force: true\n});\ncy.wait(6000);\ncy.get('#p_n_feature_seven_browse-bin\\\\/1480900031 > .a-list-item > .a-link-normal > .a-size-base').click({\n  force: true\n});\ncy.wait(6000);\ncy.get('#p_n_material_browse\\\\/1480907031 > .a-list-item > .a-link-normal > .a-size-base').click({\n  force: true\n});\ncy.wait(6000);\ncy.get(':nth-child(8) > :nth-child(1) > .a-row > .a-expander-header > .a-expander-prompt').click({\n  force: true\n});\ncy.wait(6000);\ncy.get('#p_89\\\\/Titan > .a-list-item > .a-link-normal > .a-size-base').click({\n  force: true\n});\ncy.wait(6000);\ncy.get('#p_n_pct-off-with-tax\\\\/2665400031 > .a-list-item > .a-link-normal > .a-size-base').click({\n  force: true\n});\ncy.wait(6000);\ncy.get('[data-asin=\"B09L7R6L64\"] > .sg-col-inner > .s-widget-container > .s-card-container > .a-spacing-base > .s-product-image-container > .s-image-padding > .rush-component > .a-link-normal > .a-section > .s-image').invoke('removeAttr', 'target').click().then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.visit('https://www.amazon.in/Titan-Analog-Silver-Dial-Watch-1864SL09/dp/B09L7R6L64/ref=sr_1_5?crid=GA7O1CISE37G&keywords=Wrist+Watches&qid=1652362209&refinements=p_n_feature_seven_browse-bin%3A1480900031%2Cp_n_material_browse%3A1480907031%2Cp_89%3ATitan%2Cp_n_pct-off-with-tax%3A2665400031&rnid=2665398031&s=watches&sprefix=wrist+watches%2Caps%2C444&sr=1-5');\n});\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "0079c2e1-d669-4d65-be1a-10738eeecdf8",
+              "parentUUID": "1937bad0-9ac1-41cd-88ff-a03710d89b5b",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "0079c2e1-d669-4d65-be1a-10738eeecdf8"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 93314,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

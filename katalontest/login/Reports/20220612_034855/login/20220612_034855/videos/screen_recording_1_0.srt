@@ -1,0 +1,24 @@
+1
+00:00:00,680 --> 00:00:20,929
+1. startApplication("C:\Users\test\Downloads\Facebook Lite_v306.0.0.13.107_apkpure.com.apk", true)
+
+2
+00:00:20,939 --> 00:00:22,266
+5. setText(findTestObject("Object Repository/android.widget.MultiAutoCompleteTextView"), "aaaaaa", 0)
+
+3
+00:00:22,267 --> 00:00:23,575
+9. setText(findTestObject("Object Repository/android.widget.MultiAutoCompleteTextView (1)"), "111", 0)
+
+4
+00:00:23,575 --> 00:00:24,422
+13. tap(findTestObject("Object Repository/android.view.View"), 0)
+
+5
+00:00:24,422 --> 00:00:33,167
+17. switchToPortrait()
+
+6
+00:00:33,168 --> 00:00:36,667
+21. closeApplication()
+

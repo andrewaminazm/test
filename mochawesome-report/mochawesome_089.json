@@ -1,0 +1,162 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 2,
+    "failures": -2,
+    "start": "2021-11-23T11:27:55.682Z",
+    "end": "2021-11-23T11:29:22.206Z",
+    "duration": 86524,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 50,
+    "other": 2,
+    "hasOther": true,
+    "skipped": 2,
+    "hasSkipped": true
+  },
+  "results": [
+    {
+      "uuid": "be9d9552-0451-4a9b-967b-615e869c0de9",
+      "title": "",
+      "fullFile": "cypress/integration/getquote.spec.js",
+      "file": "cypress/integration/getquote.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "4fec42c2-4e81-4523-abcb-6bd2695fbd29",
+          "title": "quotebug",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": " login",
+              "fullTitle": "quotebug  login",
+              "timedOut": null,
+              "duration": 36384,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.truflalogins();\ncy.clearCookie('authId');\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "7834874e-dd3f-4711-864c-a0999b85d090",
+              "parentUUID": "4fec42c2-4e81-4523-abcb-6bd2695fbd29",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": " quote",
+              "fullTitle": "quotebug  quote",
+              "timedOut": null,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "aa5f4d2f-f26b-4658-8061-7aa357ddf246",
+              "parentUUID": "4fec42c2-4e81-4523-abcb-6bd2695fbd29",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": " quote",
+              "fullTitle": "quotebug  quote",
+              "timedOut": null,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "1478ff1c-b93b-464e-9232-c5d916caa530",
+              "parentUUID": "4fec42c2-4e81-4523-abcb-6bd2695fbd29",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": " quotebug",
+              "fullTitle": "quotebug  quotebug",
+              "timedOut": null,
+              "duration": 48033,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(' https://bestinsurance.trumarket.dev/').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('enter website ');\n});\ncy.wait(8000);\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('.pagination > :nth-child(4) > span').click();\ncy.wait(8000);\ncy.get(':nth-child(5) > :nth-child(1) > a').click();\ncy.wait(8000);\ncy.get(':nth-child(1) > :nth-child(2) > .tru-layout-horizontal-tabs > .tabs > :nth-child(2) > span').click();\ncy.get('.visible > .tru-layout-tab > :nth-child(1) > .tru-form-item > .tru-column > .tru-text-input').clear();\ncy.get('.visible > .tru-layout-tab > :nth-child(1) > .tru-form-item > .tru-column > .tru-text-input').type('andrewamin');\ncy.get(':nth-child(2) > .tru-form-item > .tru-column > .tru-text-input').clear();\ncy.get(':nth-child(2) > .tru-form-item > .tru-column > .tru-text-input').type('www.google.com');\ncy.get('.visible > .tru-layout-tab > :nth-child(3) > .tru-form-item > .tru-column > .tru-single-select-arrow-wrapper > .tru-select').select('United States of America');\ncy.get('.visible > .tru-layout-tab > :nth-child(3) > .tru-form-item').click();\ncy.get('.visible > .tru-layout-tab > :nth-child(4) > .tru-form-item > .tru-column > .tru-single-select-arrow-wrapper > .tru-select').select('Maryland');\ncy.get('.visible > .tru-layout-tab > :nth-child(5) > .tru-form-item').click();\ncy.get(':nth-child(5) > .tru-form-item > .tru-column > .tru-text-input').clear();\ncy.get(':nth-child(5) > .tru-form-item > .tru-column > .tru-text-input').type('ssss');\ncy.get('.visible > .tru-layout-tab > :nth-child(5) > .tru-form-item').click();\ncy.get(':nth-child(6) > .tru-form-item > .tru-column > .tru-text-input').clear();\ncy.get(':nth-child(6) > .tru-form-item > .tru-column > .tru-text-input').type('123456');\ncy.get('.visible > .tru-layout-tab > :nth-child(6) > .tru-form-item').click();\ncy.get('.visible > .tru-layout-tab > :nth-child(9) > .tru-form-item > .tru-column > .tru-single-select-arrow-wrapper > .tru-select').select('Gas Utility');\ncy.get('.visible > .tru-layout-tab > :nth-child(10) > .tru-form-item').click();\ncy.get('.tru-currency-input > .tru-text-input').clear();\ncy.get('.tru-currency-input > .tru-text-input').type('100,000,000,000');\ncy.get(':nth-child(13) > .tru-form-item').click();\ncy.get(':nth-child(2) > :nth-child(2) > .tru-layout-horizontal-tabs > .tabs > :nth-child(2) > span').click();\ncy.get('.visible > .tru-layout-tab > :nth-child(1) > .tru-form-item > .tru-column > .tru-radio-select > :nth-child(1) > input').check();\ncy.get('.visible > .tru-layout-tab > :nth-child(2) > .tru-form-item > .tru-column > .tru-radio-select > :nth-child(1) > .radio-button').click({\n  force: true\n});\ncy.get('.visible > .tru-layout-tab > :nth-child(2) > .tru-form-item > .tru-column > .tru-radio-select > :nth-child(1) > input').check({\n  force: true\n});\ncy.get(':nth-child(2) > :nth-child(2) > .tru-layout-horizontal-tabs > .content > .visible > .tru-layout-tab > :nth-child(2) > .tru-form-item').click({\n  force: true\n});\ncy.get(':nth-child(3) > .tru-form-item > .tru-column > .tru-text-input').clear({\n  force: true\n});\ncy.get(':nth-child(3) > .tru-form-item > .tru-column > .tru-text-input').type('www.google.com', {\n  force: true\n});\ncy.get(':nth-child(4) > .tru-form-item > .tru-column > .tru-radio-select > :nth-child(1) > input').check({\n  force: true\n});\ncy.get(':nth-child(2) > :nth-child(2) > .tru-layout-horizontal-tabs > .content > .visible > .tru-layout-tab > :nth-child(4) > .tru-form-item').click({\n  force: true\n});\ncy.get('.visible > .tru-layout-tab > :nth-child(5) > .tru-form-item > .tru-column > .tru-radio-select > :nth-child(1) > input').check({\n  force: true\n});\ncy.get(':nth-child(2) > :nth-child(2) > .tru-layout-horizontal-tabs > .content > .visible > .tru-layout-tab > :nth-child(6) > .tru-form-item').click({\n  force: true\n});\ncy.get('.visible > .tru-layout-tab > :nth-child(7) > .tru-form-item > .tru-column > .tru-radio-select > :nth-child(1) > input').check({\n  force: true\n});\ncy.get('.control-wrapper > .tru-form-item > .tru-column > .tru-single-select-arrow-wrapper:nth-child(2) > .tru-select').select('500,001 to 1,000,000');\ncy.get(':nth-child(2) > :nth-child(2) > .tru-layout-horizontal-tabs > .content > .visible > .tru-layout-tab > :nth-child(8) > .tru-form-item').click({\n  force: true\n});\ncy.get(':nth-child(9) > .tru-form-item > .tru-column > .tru-radio-select > :nth-child(1) > input').check({\n  force: true\n});\ncy.get('.tru-layout-vertical-steps > :nth-child(2)').click({\n  force: true\n});\ncy.get(':nth-child(3) > :nth-child(2) > .tru-layout-horizontal-tabs > .tabs > :nth-child(2) > span').click({\n  force: true\n});\ncy.get(':nth-child(1) > .tru-form-item > .tru-column > .tru-single-select-arrow-wrapper > .tru-select').select('4500000', {\n  force: true\n});\ncy.get(':nth-child(2) > .tru-form-item > .tru-column > .tru-single-select-arrow-wrapper > .tru-select').select('50000', {\n  force: true\n});\ncy.get('.visible > .tru-layout-tab > :nth-child(3) > .tru-form-item > .tru-column > .tru-radio-select > :nth-child(1) > input').check({\n  force: true\n});\ncy.get(':nth-child(3) > :nth-child(2) > .tru-layout-horizontal-tabs > .content > .visible > .tru-layout-tab > :nth-child(3) > .tru-form-item').click({\n  force: true\n});\ncy.get(':nth-child(3) > :nth-child(2) > .tru-layout-horizontal-tabs > .content > .visible > .tru-layout-tab > :nth-child(4) > .tru-form-item > .tru-column > .tru-single-select-arrow-wrapper > .tru-select').select('50000', {\n  force: true\n});\ncy.get(':nth-child(3) > :nth-child(2) > .tru-layout-horizontal-tabs > .content > .visible > .tru-layout-tab > :nth-child(5) > .tru-form-item > .tru-column > .tru-radio-select > :nth-child(1) > input').check({\n  force: true\n});\ncy.get(':nth-child(6) > .tru-form-item > .tru-column > .tru-radio-select > :nth-child(1) > input').check({\n  force: true\n});\ncy.get(':nth-child(3) > :nth-child(2) > .tru-layout-horizontal-tabs > .content > .visible > .tru-layout-tab > :nth-child(6) > .tru-form-item').click({\n  force: true\n});\ncy.get(':nth-child(3) > :nth-child(2) > .tru-layout-horizontal-tabs > .content > .visible > .tru-layout-tab > :nth-child(7) > .tru-form-item > .tru-column > .tru-radio-select > :nth-child(1) > .radio-button').click({\n  force: true\n});\ncy.get(':nth-child(3) > :nth-child(2) > .tru-layout-horizontal-tabs > .content > .visible > .tru-layout-tab > :nth-child(7) > .tru-form-item > .tru-column > .tru-radio-select > :nth-child(1) > input').check({\n  force: true\n});\ncy.get(':nth-child(3) > :nth-child(2) > .tru-layout-horizontal-tabs > .content > .visible > .tru-layout-tab > :nth-child(8) > .tru-form-item > .tru-column > .tru-single-select-arrow-wrapper > .tru-select').select('100000', {\n  force: true\n});\ncy.get(':nth-child(3) > :nth-child(2) > .tru-layout-horizontal-tabs > .content > .visible > .tru-layout-tab > :nth-child(9) > .tru-form-item > .tru-column > .tru-radio-select > :nth-child(1) > input').check({\n  force: true\n});\ncy.get('.tru-layout-vertical-steps > :nth-child(3)').click({\n  force: true\n});\ncy.get(':nth-child(4) > :nth-child(2) > .tru-layout-horizontal-tabs > .tabs > :nth-child(2) > span').click({\n  force: true\n});\ncy.get('.tru-layout-horizontal-inputs > .tru-button > span').click({\n  force: true\n});\ncy.wait(8000);\ncy.get('.header-form-and-hints-container').screenshot();\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "870dae08-5c7f-46a1-8a14-3a76645df8c5",
+              "parentUUID": "4fec42c2-4e81-4523-abcb-6bd2695fbd29",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7834874e-dd3f-4711-864c-a0999b85d090",
+            "870dae08-5c7f-46a1-8a14-3a76645df8c5"
+          ],
+          "failures": [],
+          "pending": [
+            "aa5f4d2f-f26b-4658-8061-7aa357ddf246",
+            "1478ff1c-b93b-464e-9232-c5d916caa530"
+          ],
+          "skipped": [],
+          "duration": 84417,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

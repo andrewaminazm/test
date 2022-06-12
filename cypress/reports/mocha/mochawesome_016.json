@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-03-26T23:10:21.060Z",
+    "end": "2022-03-26T23:12:09.178Z",
+    "duration": 108118,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "13841cb9-024f-4908-960f-5fe7d51025e5",
+      "title": "",
+      "fullFile": "cypress/integration/desjardin.spec.js",
+      "file": "cypress/integration/desjardin.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b8b65098-fa0a-4006-9bfd-fe5f2c1d072c",
+          "title": "des market",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "desjardin",
+              "fullTitle": "des market desjardin",
+              "timedOut": null,
+              "duration": 103164,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://yamlifeinsdev.wpengine.com/');\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('.t-header__quote-button').click();\ncy.get('#gform_next_button_7_60').click();\ncy.wait(6000);\ncy.wait(6000);\ncy.get('#field_7_11').invoke(\"css\", \"background-color\", \"red\");\ncy.wait(5000);\ncy.get('#choice_7_11_0').check();\ncy.wait(5000);\ncy.get('#field_7_12 > .gfield_label').invoke(\"css\", \"background-color\", \"red\");\ncy.get('#input_7_12').click();\ncy.get('.ui-datepicker-year').select('2001');\ncy.get(':nth-child(2) > :nth-child(5) > .ui-state-default').click();\ncy.wait(5000);\ncy.get('#field_7_13').scrollIntoView();\ncy.scrollTo('center');\ncy.wait(5000);\ncy.wait(5000);\ncy.get('#input_7_13_5').clear();\ncy.get('#input_7_13_5').type('A1A 1A1');\ncy.wait(5000);\ncy.get('#field_7_26').scrollIntoView();\ncy.scrollTo('center');\ncy.wait(5000);\ncy.get('#choice_7_26_0').check();\ncy.wait(5000);\ncy.get('#gform_next_button_7_9').click();\ncy.wait(5000);\ncy.wait(6000);\n/* ==== Generated with Cypress Studio ==== */\ncy.get('#input_7_15').select('3');\ncy.get('#input_7_16').select('50000');\n/* ==== End Cypress Studio ==== */\ncy.wait(6000);\ncy.wait(6000);\n/* ==== Generated with Cypress Studio ==== */\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get(':nth-child(1) > .select > .select-btn').click();\ncy.wait(6000);\ncy.get('.t-primary-content__col > .t-primary-content__container').scrollIntoView();\ncy.get('.t-primary-content__col > .t-primary-content__container').screenshot();\ncy.wait(6000);\ncy.get('[style=\"text-align: center;\"] > .t-button').click();\ncy.wait(6000);\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "ea9d5db8-9625-482e-b4fa-435cdc66fdc8",
+              "parentUUID": "b8b65098-fa0a-4006-9bfd-fe5f2c1d072c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ea9d5db8-9625-482e-b4fa-435cdc66fdc8"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 103164,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

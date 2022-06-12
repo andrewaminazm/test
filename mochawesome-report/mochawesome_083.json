@@ -1,0 +1,142 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-11-17T19:54:47.209Z",
+    "end": "2021-11-17T19:56:39.727Z",
+    "duration": 112518,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "6492efb3-00cf-43fa-bbe3-b5554314973b",
+      "title": "",
+      "fullFile": "cypress/integration/activity.spec.js",
+      "file": "cypress/integration/activity.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "5ac31758-4299-462d-9941-2e39aae92386",
+          "title": "activity",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": " login",
+              "fullTitle": "activity  login",
+              "timedOut": null,
+              "duration": 36814,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.truflalogins();\ncy.clearCookie('authId');\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "3017d4b7-f6a8-44ef-a459-db0525a3bfaa",
+              "parentUUID": "5ac31758-4299-462d-9941-2e39aae92386",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": " bug1",
+              "fullTitle": "activity  bug1",
+              "timedOut": null,
+              "duration": 35384,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(' https://bestinsurance.trumarket.dev/').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('enter website ');\n});\ncy.wait(8000);\ncy.wait(8000);\ncy.get('[href=\"/clients\"]').click();\ncy.get(':nth-child(3) > :nth-child(1) > a > :nth-child(2)').click();\ncy.get('#react-tabs-6').click();\ncy.get('.tru-column > .default > span').click();\ncy.wait(8000);\ncy.get('.tru-text-input:nth-child(2)').click();\ncy.wait(8000);\ncy.get('.popover-content').screenshot();",
+              "err": {},
+              "uuid": "8ab0d960-09b2-47b2-a642-5f404fc681bc",
+              "parentUUID": "5ac31758-4299-462d-9941-2e39aae92386",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": " bug2",
+              "fullTitle": "activity  bug2",
+              "timedOut": null,
+              "duration": 38124,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(' https://bestinsurance.trumarket.dev/').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('enter website ');\n});\n/* ==== Generated with Cypress Studio ==== */\ncy.get('[href=\"/clients\"]').click();\ncy.wait(8000);\ncy.get(':nth-child(2) > :nth-child(1) > a > :nth-child(2)').click();\ncy.wait(8000);\ncy.get('#react-tabs-6').click();\ncy.wait(8000);\ncy.get('.caret-up-and-down > .tru-button').click();\ncy.wait(8000);\ncy.get('.side-bar > .css-14fkux9 > .tru-card').screenshot();\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "c2c6b3a3-8fb5-4544-b695-d0041cfe34d2",
+              "parentUUID": "5ac31758-4299-462d-9941-2e39aae92386",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "3017d4b7-f6a8-44ef-a459-db0525a3bfaa",
+            "8ab0d960-09b2-47b2-a642-5f404fc681bc",
+            "c2c6b3a3-8fb5-4544-b695-d0041cfe34d2"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 110322,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

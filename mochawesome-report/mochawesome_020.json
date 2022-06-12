@@ -1,0 +1,108 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-08-10T23:14:04.835Z",
+    "end": "2021-08-10T23:15:46.826Z",
+    "duration": 101991,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "1e67d769-846c-4ef7-8bce-3e516c9ac3bb",
+      "title": "",
+      "fullFile": "cypress/integration/task/task1.spec.js",
+      "file": "cypress/integration/task/task1.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "35a510c5-a227-4747-918d-c6c3677216e8",
+          "title": "tsk",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "task1",
+              "fullTitle": "tsk task1",
+              "timedOut": null,
+              "duration": 99293,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://iso.digitaltransformationinstitute.org:8101/pages/context/list');\ncy.wait(8000);\ncy.get('#LoginInput_UserNameOrEmailAddress').type('awahbah');\ncy.wait(5000);\ncy.get('#LoginInput_Password').type('P@ssw0rdRMG');\ncy.wait(5000);\ncy.get('.btn-primary').click();\ncy.wait(8000);\n/* ==== Generated with Cypress Studio ==== */\ncy.get('.slider').click();\ncy.wait(8000);\ncy.get('[y=\"6\"]').click();\ncy.wait(8000);\ncy.get('a.ng-tns-c178-3 > .menu-title').click();\ncy.wait(8000);\ncy.get('[y=\"6\"]').click();\ncy.wait(8000);\ncy.get('#ContextListAdd').click();\ncy.wait(8000);\n/* ==== Generated with Cypress Studio ==== */\ncy.get('#addContextStandardId > .ng-select-container').click();\ncy.wait(8000);\ncy.xpath('/html/body/app-root/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div/div/nb-layout-column/ngx-components/ngx-add-context/nb-card/nb-card-body/form/div[1]/div[2]/div/ng-select/ng-dropdown-panel/div/div[2]/div[1]/span').click();\ncy.wait(8000);\ncy.xpath('/html/body/app-root/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div/div/nb-layout-column/ngx-components/ngx-add-context/nb-card/nb-card-body/form/div[2]/div[2]/div/ng-select/div/div/div[2]').click();\ncy.wait(8000);\ncy.xpath('/html/body/app-root/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div/div/nb-layout-column/ngx-components/ngx-add-context/nb-card/nb-card-body/form/div[2]/div[2]/div/ng-select/ng-dropdown-panel/div/div[2]/div[2]/span').click();\ncy.wait(8000);\ncy.xpath('//*[@id=\"addContextTitle\"]').type('خلل فى ادارة العملاء');\ncy.wait(9000);\ncy.xpath('/html/body/app-root/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div/div/nb-layout-column/ngx-components/ngx-add-context/nb-card/nb-card-body/form/div[4]/div[2]/div/nb-radio-group/nb-radio[2]/label/span[3]').click();\ncy.wait(9000);\ncy.xpath('//*[@id=\"addContextFactoryDescription\"]').type('خلل فى ادارة العملاء');\ncy.wait(8000);\ncy.xpath('//*[@id=\"addContextIssueDescription\"]').type('خلل فى ادارة العملاء');\ncy.wait(8000);\ncy.xpath('/html/body/app-root/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div/div/nb-layout-column/ngx-components/ngx-add-context/nb-card/nb-card-body/form/div[7]/div[2]/div/nb-radio-group/nb-radio[2]/label/span[2]').click();\ncy.wait(8000);\ncy.xpath('//*[@id=\"addContextMonitoringDescription\"]').type('عن طريق الكاميرات');\ncy.wait(8000);\ncy.xpath('//*[@id=\"addContextCreate\"]').click();\ncy.wait(8000);\ncy.screenshot();\n/* ==== End Cypress Studio ==== */",
+              "err": {
+                "message": "CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element:\n\n`<div role=\"combobox\" aria-haspopup=\"listbox\" class=\"ng-input\" aria-expanded=\"false\">...</div>`\n\nis being covered by another element:\n\n`<ngx-header _ngcontent-jvg-c227=\"\" _nghost-jvg-c225=\"\">...</ngx-header>`\n\nFix this problem, or use {force: true} to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with",
+                "estack": "CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element:\n\n`<div role=\"combobox\" aria-haspopup=\"listbox\" class=\"ng-input\" aria-expanded=\"false\">...</div>`\n\nis being covered by another element:\n\n`<ngx-header _ngcontent-jvg-c227=\"\" _nghost-jvg-c225=\"\">...</ngx-header>`\n\nFix this problem, or use {force: true} to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with\n    at $Cy.ensureDescendents (https://iso.digitaltransformationinstitute.org:8101/__cypress/runner/cypress_runner.js:148556:26)\n    at ensureDescendents (https://iso.digitaltransformationinstitute.org:8101/__cypress/runner/cypress_runner.js:135786:8)\n    at ensureDescendentsAndScroll (https://iso.digitaltransformationinstitute.org:8101/__cypress/runner/cypress_runner.js:135793:14)\n    at ensureElIsNotCovered (https://iso.digitaltransformationinstitute.org:8101/__cypress/runner/cypress_runner.js:135927:5)\n    at runAllChecks (https://iso.digitaltransformationinstitute.org:8101/__cypress/runner/cypress_runner.js:136114:52)\n    at retryActionability (https://iso.digitaltransformationinstitute.org:8101/__cypress/runner/cypress_runner.js:136137:16)\n    at tryCatcher (https://iso.digitaltransformationinstitute.org:8101/__cypress/runner/cypress_runner.js:13212:23)\n    at Function.Promise.attempt.Promise.try (https://iso.digitaltransformationinstitute.org:8101/__cypress/runner/cypress_runner.js:10486:29)\n    at tryFn (https://iso.digitaltransformationinstitute.org:8101/__cypress/runner/cypress_runner.js:153198:21)\n    at whenStable (https://iso.digitaltransformationinstitute.org:8101/__cypress/runner/cypress_runner.js:153236:12)\n    at https://iso.digitaltransformationinstitute.org:8101/__cypress/runner/cypress_runner.js:152728:16\n    at tryCatcher (https://iso.digitaltransformationinstitute.org:8101/__cypress/runner/cypress_runner.js:13212:23)\n    at Promise._settlePromiseFromHandler (https://iso.digitaltransformationinstitute.org:8101/__cypress/runner/cypress_runner.js:11147:31)\n    at Promise._settlePromise (https://iso.digitaltransformationinstitute.org:8101/__cypress/runner/cypress_runner.js:11204:18)\n    at Promise._settlePromise0 (https://iso.digitaltransformationinstitute.org:8101/__cypress/runner/cypress_runner.js:11249:10)\n    at Promise._settlePromises (https://iso.digitaltransformationinstitute.org:8101/__cypress/runner/cypress_runner.js:11329:18)\nFrom Your Spec Code:\n    at Context.eval (https://iso.digitaltransformationinstitute.org:8101/__cypress/tests?p=cypress\\integration\\task\\task1.spec.js:128:212)",
+                "diff": null
+              },
+              "uuid": "adfb7e97-b9e1-43b3-ba6d-8d2df300c7e5",
+              "parentUUID": "35a510c5-a227-4747-918d-c6c3677216e8",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "adfb7e97-b9e1-43b3-ba6d-8d2df300c7e5"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 99293,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

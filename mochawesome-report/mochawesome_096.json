@@ -1,0 +1,123 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-12-01T12:58:52.700Z",
+    "end": "2021-12-01T12:59:57.183Z",
+    "duration": 64483,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "a853bf34-24ef-4828-8304-00781219e5ff",
+      "title": "",
+      "fullFile": "cypress/integration/uicompatability.spec.js",
+      "file": "cypress/integration/uicompatability.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "a007e83f-8aa0-49cb-908d-b4e520603d47",
+          "title": "login",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": " login",
+              "fullTitle": "login  login",
+              "timedOut": null,
+              "duration": 36401,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.truflalogins();\ncy.clearCookie('authId');\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "7068d945-119c-455b-b58c-52187636bd3d",
+              "parentUUID": "a007e83f-8aa0-49cb-908d-b4e520603d47",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "androidissue",
+              "fullTitle": "login androidissue",
+              "timedOut": null,
+              "duration": 26134,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.viewport('samsung-s10');\ncy.visit(' https://bestinsurance.trumarket.dev/').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('enter website ');\n});\ncy.wait(5000);\ncy.get('.tru-app-content').swipe('right');\ncy.get('.header > :nth-child(3)').scrollIntoView({\n  force: true\n});\ncy.wait(5000);\ncy.get('.tru-content').screenshot();\ncy.wait(5000);\ncy.get('.tru-list > :nth-child(2) > :nth-child(5)').scrollIntoView({\n  force: true\n});\ncy.wait(5000);\ncy.get('.tru-content').screenshot();\ncy.wait(5000);\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "e31e5d1a-69fe-4ec7-9bfe-afe1876235e0",
+              "parentUUID": "a007e83f-8aa0-49cb-908d-b4e520603d47",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7068d945-119c-455b-b58c-52187636bd3d",
+            "e31e5d1a-69fe-4ec7-9bfe-afe1876235e0"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 62535,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

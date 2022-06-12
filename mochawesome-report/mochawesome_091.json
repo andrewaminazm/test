@@ -1,0 +1,142 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-11-29T15:22:43.999Z",
+    "end": "2021-11-29T15:27:54.287Z",
+    "duration": 310288,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "41ebcf8e-6a48-489e-abac-52f4daa72c79",
+      "title": "",
+      "fullFile": "cypress/integration/requestbugs.spec.js",
+      "file": "cypress/integration/requestbugs.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "e5be14b1-fa92-4e21-80fa-04a70c93a202",
+          "title": "clientnote",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": " login",
+              "fullTitle": "clientnote  login",
+              "timedOut": null,
+              "duration": 35745,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.truflalogins();\ncy.clearCookie('authId');\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "73a544be-6ad0-4bc0-ae20-797f54a4a9ca",
+              "parentUUID": "e5be14b1-fa92-4e21-80fa-04a70c93a202",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "request search",
+              "fullTitle": "clientnote request search",
+              "timedOut": null,
+              "duration": 115263,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(' https://bestinsurance.trumarket.dev/').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('enter website ');\n});\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get(':nth-child(2) > .cell-content > .list-filter > .filter-icon > .tru-icon').click();\ncy.wait(8000);\ncy.get('[data-title=\"New\"] > .tru-form-item > .custom-checkbox > .tru-boolean-input').check();\ncy.wait(8000);\ncy.get('.tru-list-footer > .tru-form-item').click();\ncy.wait(8000);\ncy.get(':nth-child(2) > .cell-content > .sort-arrows > .tru-icon').click();\ncy.wait(8000);\ncy.get(':nth-child(2) > .cell-content > .sort-arrows > .tru-icon > :nth-child(2) > g > path').click();\ncy.wait(8000);\ncy.get(':nth-child(5) > .cell-content > .sort-arrows > .tru-icon > :nth-child(2) > g > path').click();\ncy.wait(8000);\ncy.get(':nth-child(5) > .cell-content > .sort-arrows').click();\ncy.wait(8000);\ncy.get(':nth-child(2) > :nth-child(1) > a').click();\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get(':nth-child(2) > :nth-child(1) > .tru-search-bar > .false').clear();\ncy.wait(8000);\ncy.get(':nth-child(2) > :nth-child(1) > .tru-search-bar > .false').type('country');\ncy.wait(8000);\ncy.get(':nth-child(1) > :nth-child(2) > .tru-layout-horizontal-tabs > .tabs > :nth-child(2) > span').click();\ncy.wait(8000);\ncy.get(':nth-child(1) > :nth-child(2) > .tru-layout-horizontal-tabs > .tabs > :nth-child(3) > span').click();\ncy.wait(8000);\ncy.get(':nth-child(1) > :nth-child(2) > .tru-layout-horizontal-tabs > .tabs > :nth-child(4) > span').click();\ncy.wait(8000);",
+              "err": {},
+              "uuid": "6f1a9a9c-e5aa-42b2-a464-8dc3183ee36e",
+              "parentUUID": "e5be14b1-fa92-4e21-80fa-04a70c93a202",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "request postalcode",
+              "fullTitle": "clientnote request postalcode",
+              "timedOut": null,
+              "duration": 156326,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(' https://bestinsurance.trumarket.dev/').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('enter website ');\n});\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get(':nth-child(2) > .cell-content > .list-filter > .filter-icon > .tru-icon').click();\ncy.wait(8000);\ncy.get('[data-title=\"New\"] > .tru-form-item > .custom-checkbox > .tru-boolean-input').check();\ncy.wait(8000);\ncy.get('.tru-list-footer > .tru-form-item').click();\ncy.wait(8000);\ncy.get(':nth-child(2) > .cell-content > .sort-arrows > .tru-icon').click();\ncy.wait(8000);\ncy.get(':nth-child(2) > .cell-content > .sort-arrows > .tru-icon > :nth-child(2) > g > path').click();\ncy.wait(8000);\ncy.get(':nth-child(5) > .cell-content > .sort-arrows > .tru-icon > :nth-child(2) > g > path').click();\ncy.wait(8000);\ncy.get(':nth-child(5) > .cell-content > .sort-arrows').click();\ncy.wait(8000);\ncy.get(':nth-child(2) > :nth-child(1) > a').click();\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get(':nth-child(1) > :nth-child(2) > .tru-layout-horizontal-tabs > .tabs > :nth-child(2) > span').click();\ncy.wait(8000);\ncy.get('.visible > .tru-layout-tab > :nth-child(2) > .tru-form-item').click();\ncy.wait(8000);\ncy.get('.visible > .tru-layout-tab > :nth-child(3) > .tru-form-item > .tru-column > .tru-single-select-arrow-wrapper > .tru-select').select('United Kingdom');\ncy.wait(8000);\ncy.get('.visible > .tru-layout-tab > :nth-child(4) > .tru-form-item').click();\ncy.wait(8000);\ncy.get('.visible > .tru-layout-tab > :nth-child(5) > .tru-form-item > .tru-column > .tru-text-input').clear();\ncy.wait(8000);\ncy.get('.visible > .tru-layout-tab > :nth-child(5) > .tru-form-item > .tru-column > .tru-text-input').type('newcastle');\ncy.wait(8000);\ncy.get('.visible > .tru-layout-tab > :nth-child(5) > .tru-form-item').click();\ncy.wait(8000);\ncy.get('.visible > .tru-layout-tab > :nth-child(6) > .tru-form-item > .tru-column > .tru-text-input').click({\n  force: true\n});\ncy.wait(8000);\ncy.get('.visible > .tru-layout-tab > :nth-child(6) > .tru-form-item > .tru-column > .tru-text-input').type('we', {\n  force: true\n});\ncy.wait(8000);\ncy.get('.tru-errors').screenshot();\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "f136e3f6-20ef-4a7e-aca9-16edec17f0c2",
+              "parentUUID": "e5be14b1-fa92-4e21-80fa-04a70c93a202",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "73a544be-6ad0-4bc0-ae20-797f54a4a9ca",
+            "6f1a9a9c-e5aa-42b2-a464-8dc3183ee36e",
+            "f136e3f6-20ef-4a7e-aca9-16edec17f0c2"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 307334,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

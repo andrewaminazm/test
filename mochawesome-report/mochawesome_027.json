@@ -1,0 +1,108 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-08-17T01:49:19.613Z",
+    "end": "2021-08-17T01:53:35.064Z",
+    "duration": 255451,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "25783ba9-690f-407e-926d-237620fd94f7",
+      "title": "",
+      "fullFile": "cypress/integration/inventory/inventoryinsert9.spec.js",
+      "file": "cypress/integration/inventory/inventoryinsert9.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "37c8272b-f7fa-4910-a07f-6de3e956c7b6",
+          "title": "inventory",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "inventoryinsertd",
+              "fullTitle": "inventory inventoryinsertd",
+              "timedOut": null,
+              "duration": 252833,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.login();\n/* ==== Generated with Cypress Studio ==== */\ncy.get('.side-menu > :nth-child(4) > :nth-child(1)').click();\ncy.wait(8000);\ncy.wait(8000);\ncy.get('.active > .nav > :nth-child(1) > a').click();\ncy.wait(8000);\ncy.wait(8000);\ncy.get('[trxtypeid=\"22\"] > :nth-child(2) > .btn-info > .fa').click();\ncy.wait(8000);\ncy.wait(8000);\ncy.get('.chkAllowDealersAccounts > .switchery').click();\ncy.wait(8000);\ncy.wait(8000);\ncy.get('.chkAllowProduct > .switchery').click();\ncy.wait(8000);\ncy.wait(8000);\ncy.get('.modal-footer > .btn-info').click();\ncy.wait(8000);\ncy.wait(8000);\ncy.get('.confirm').click();\ncy.wait(8000);\ncy.wait(8000);\ncy.get(':nth-child(4) > :nth-child(1) > :nth-child(2)').click();\ncy.wait(8000);\ncy.wait(8000);\ncy.get('.active > .nav > :nth-child(15) > a').click();\ncy.wait(8000);\ncy.wait(8000);\ncy.get('thead > tr > :nth-child(3) > .btn').click();\ncy.wait(8000);\ncy.wait(8000);\ncy.get('.divProduct > .form__label').click();\ncy.wait(8000);\ncy.wait(8000);\ncy.get('#txtProductId').clear();\ncy.wait(8000);\ncy.get('#txtProductId').type('111001 premix phara ferro');\ncy.wait(8000);\ncy.get('.divSupplier > .form__label').click();\ncy.wait(8000);\ncy.get('#txtSupplierId').click();\ncy.wait(8000);\ncy.get('#txtSupplierId').clear();\ncy.wait(8000);\ncy.get('#txtSupplierId').type('شركة نات باك');\ncy.wait(8000);\ncy.get('.confirm').click();\ncy.wait(8000);\ncy.get('#txtSupplierId').clear();\ncy.wait(8000);\ncy.get('#txtSupplierId').type('شركة يونيتد بيونات');\ncy.wait(8000);\ncy.get(':nth-child(16) > .btn').click();\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */",
+              "err": {
+                "message": "CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element is not visible:\n\n`<button class=\"confirm btn btn-lg btn-primary\" tabindex=\"1\" style=\"display: inline-block;\">OK</button>`\n\nThis element `<button.confirm.btn.btn-lg.btn-primary>` is not visible because its parent `<div.sweet-alert.hideSweetAlert>` has CSS property: `display: none`\n\nFix this problem, or use `{force: true}` to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with",
+                "estack": "CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element is not visible:\n\n`<button class=\"confirm btn btn-lg btn-primary\" tabindex=\"1\" style=\"display: inline-block;\">OK</button>`\n\nThis element `<button.confirm.btn.btn-lg.btn-primary>` is not visible because its parent `<div.sweet-alert.hideSweetAlert>` has CSS property: `display: none`\n\nFix this problem, or use `{force: true}` to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with\n    at $Cy.ensureVisibility (http://printcheq.devartlabcrm.com/__cypress/runner/cypress_runner.js:148405:24)\n    at runAllChecks (http://printcheq.devartlabcrm.com/__cypress/runner/cypress_runner.js:136083:14)\n    at retryActionability (http://printcheq.devartlabcrm.com/__cypress/runner/cypress_runner.js:136137:16)\n    at tryCatcher (http://printcheq.devartlabcrm.com/__cypress/runner/cypress_runner.js:13212:23)\n    at Function.Promise.attempt.Promise.try (http://printcheq.devartlabcrm.com/__cypress/runner/cypress_runner.js:10486:29)\n    at tryFn (http://printcheq.devartlabcrm.com/__cypress/runner/cypress_runner.js:153198:21)\n    at whenStable (http://printcheq.devartlabcrm.com/__cypress/runner/cypress_runner.js:153236:12)\n    at http://printcheq.devartlabcrm.com/__cypress/runner/cypress_runner.js:152728:16\n    at tryCatcher (http://printcheq.devartlabcrm.com/__cypress/runner/cypress_runner.js:13212:23)\n    at Promise._settlePromiseFromHandler (http://printcheq.devartlabcrm.com/__cypress/runner/cypress_runner.js:11147:31)\n    at Promise._settlePromise (http://printcheq.devartlabcrm.com/__cypress/runner/cypress_runner.js:11204:18)\n    at Promise._settlePromise0 (http://printcheq.devartlabcrm.com/__cypress/runner/cypress_runner.js:11249:10)\n    at Promise._settlePromises (http://printcheq.devartlabcrm.com/__cypress/runner/cypress_runner.js:11329:18)\n    at Promise._fulfill (http://printcheq.devartlabcrm.com/__cypress/runner/cypress_runner.js:11273:18)\n    at http://printcheq.devartlabcrm.com/__cypress/runner/cypress_runner.js:12887:46\nFrom Your Spec Code:\n    at Context.eval (http://printcheq.devartlabcrm.com/__cypress/tests?p=cypress\\integration\\inventory\\inventoryinsert9.spec.js:173:24)",
+                "diff": null
+              },
+              "uuid": "aedd6739-28f3-4c98-b0be-52bb1751f87b",
+              "parentUUID": "37c8272b-f7fa-4910-a07f-6de3e956c7b6",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "aedd6739-28f3-4c98-b0be-52bb1751f87b"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 252833,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

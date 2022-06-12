@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login" time="72.956" tests="2" failures="0" errors="0">
+   <testsuite name="login" tests="2" failures="0" errors="0" time="72.956" skipped="0" timestamp="2022-06-12 03:49:03" hostname="test - 192.168.1.3" id="Test Suites/login">
+      <properties>
+         <property name="deviceName" value="OPPO CPH2235 (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\test\\Katalon Studio\\login\\Reports\\20220612_034855\\login\\20220612_034855"/>
+         <property name="logFiles" value="C:\\Users\\test\\Katalon Studio\\login\\Reports\\20220612_034855\\login\\20220612_034855\\appium.log, C:\\Users\\test\\Katalon Studio\\login\\Reports\\20220612_034855\\login\\20220612_034855\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="test - 192.168.1.3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="CPH2235"/>
+         <property name="hostAddress" value="192.168.1.3"/>
+         <property name="deviceManufacturer" value="OPPO"/>
+         <property name="deviceId" value="226d06e2"/>
+         <property name="deviceName" value="OPPO CPH2235 (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case" time="39.172" classname="Test Cases/New Test Case" status="PASSED">
+         <system-out><![CDATA[2022-06-12 03:49:03 - [TEST_CASE][PASSED] - Test Cases/New Test Case: Test Cases/New Test Case
+
+2022-06-12 03:49:04 - [TEST_STEP][PASSED] - startApplication("C:\Users\test\Downloads\Facebook Lite_v306.0.0.13.107_apkpure.com.apk", true): Started app at: 'C:\Users\test\Downloads\Facebook Lite_v306.0.0.13.107_apkpure.com.apk'
+
+2022-06-12 03:49:05 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-06-12 03:49:07 - [MESSAGE][INFO] - Appium server started on port 56,125
+
+2022-06-12 03:49:25 - [MESSAGE][PASSED] - Started app at: 'C:\Users\test\Downloads\Facebook Lite_v306.0.0.13.107_apkpure.com.apk'
+
+2022-06-12 03:49:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/android.widget.MultiAutoCompleteTextView"), "aaaaaa", 0): Text 'aaaaaa' has been set to element 'Object Repository/android.widget.MultiAutoCompleteTextView'
+
+2022-06-12 03:49:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-12 03:49:26 - [MESSAGE][PASSED] - Text 'aaaaaa' has been set to element 'Object Repository/android.widget.MultiAutoCompleteTextView'
+
+2022-06-12 03:49:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/android.widget.MultiAutoCompleteTextView (1)"), "111", 0): Text '111' has been set to element 'Object Repository/android.widget.MultiAutoCompleteTextView (1)'
+
+2022-06-12 03:49:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-12 03:49:27 - [MESSAGE][PASSED] - Text '111' has been set to element 'Object Repository/android.widget.MultiAutoCompleteTextView (1)'
+
+2022-06-12 03:49:27 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.view.View"), 0): Tapped on element 'Object Repository/android.view.View'
+
+2022-06-12 03:49:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-12 03:49:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.view.View'
+
+2022-06-12 03:49:28 - [TEST_STEP][PASSED] - switchToPortrait(): Switching the device to portrait mode successfully
+
+2022-06-12 03:49:37 - [MESSAGE][PASSED] - Switching the device to portrait mode successfully
+
+2022-06-12 03:49:37 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-06-12 03:49:40 - [MESSAGE][PASSED] - Close app successfully
+
+2022-06-12 03:49:43 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/New Test Case' .
+
+2022-06-12 03:49:43 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/New Test Case' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Test Case" time="33.301" classname="Test Cases/New Test Case" status="PASSED">
+         <system-out><![CDATA[2022-06-12 03:49:43 - [TEST_CASE][PASSED] - Test Cases/New Test Case: Test Cases/New Test Case
+
+2022-06-12 03:49:43 - [TEST_STEP][PASSED] - startApplication("C:\Users\test\Downloads\Facebook Lite_v306.0.0.13.107_apkpure.com.apk", true): Started app at: 'C:\Users\test\Downloads\Facebook Lite_v306.0.0.13.107_apkpure.com.apk'
+
+2022-06-12 03:49:43 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-06-12 03:49:45 - [MESSAGE][INFO] - Appium server started on port 54,261
+
+2022-06-12 03:49:59 - [MESSAGE][PASSED] - Started app at: 'C:\Users\test\Downloads\Facebook Lite_v306.0.0.13.107_apkpure.com.apk'
+
+2022-06-12 03:49:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/android.widget.MultiAutoCompleteTextView"), "aaaaaa", 0): Text 'aaaaaa' has been set to element 'Object Repository/android.widget.MultiAutoCompleteTextView'
+
+2022-06-12 03:49:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-12 03:50:00 - [MESSAGE][PASSED] - Text 'aaaaaa' has been set to element 'Object Repository/android.widget.MultiAutoCompleteTextView'
+
+2022-06-12 03:50:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/android.widget.MultiAutoCompleteTextView (1)"), "111", 0): Text '111' has been set to element 'Object Repository/android.widget.MultiAutoCompleteTextView (1)'
+
+2022-06-12 03:50:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-12 03:50:02 - [MESSAGE][PASSED] - Text '111' has been set to element 'Object Repository/android.widget.MultiAutoCompleteTextView (1)'
+
+2022-06-12 03:50:02 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.view.View"), 0): Tapped on element 'Object Repository/android.view.View'
+
+2022-06-12 03:50:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-12 03:50:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.view.View'
+
+2022-06-12 03:50:03 - [TEST_STEP][PASSED] - switchToPortrait(): Switching the device to portrait mode successfully
+
+2022-06-12 03:50:12 - [MESSAGE][PASSED] - Switching the device to portrait mode successfully
+
+2022-06-12 03:50:12 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-06-12 03:50:14 - [MESSAGE][PASSED] - Close app successfully
+
+2022-06-12 03:50:16 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/New Test Case' .
+
+2022-06-12 03:50:16 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/New Test Case' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-12 03:49:03 - [TEST_SUITE][PASSED] - login: Test Cases/New Test Case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

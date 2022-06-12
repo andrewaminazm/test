@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-04-03T00:44:45.802Z",
+    "end": "2022-04-03T00:46:09.142Z",
+    "duration": 83340,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "5dee9134-91a2-4177-80d6-b831ec939c14",
+      "title": "",
+      "fullFile": "cypress/integration/asc&descrequest.spec.js",
+      "file": "cypress/integration/asc&descrequest.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "1f26e5b2-c325-448f-856e-5c1774e224ae",
+          "title": "regression trumarket",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "asc&desc  ",
+              "fullTitle": "regression trumarket asc&desc  ",
+              "timedOut": null,
+              "duration": 74637,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.log('filter reqeust according to status ');\ncy.log('1-login 2-press the creat date 3- choose any asc or desc  ');\ncy.log('see the steps executed below ');\ncy.wait(6000);\ncy.truflalogins();\ncy.wait(6000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get(':nth-child(5) > .sort-arrows > .tru-icon').click({\n  force: true\n});\ncy.wait(4000);\ncy.get(':nth-child(5) > .sort-arrows > .tru-icon').click({\n  force: true\n});\ncy.wait(4000);\ncy.get(':nth-child(5) > .sort-arrows > .tru-icon > #UI > #Requests---Listing---Table > #Group-22 > #arrow-up').click({\n  force: true\n});\ncy.wait(4000);\ncy.get(':nth-child(5) > .sort-arrows > .tru-icon').click({\n  force: true\n});\ncy.wait(4000);\ncy.get(':nth-child(5) > .sort-arrows > .tru-icon').click({\n  force: true\n});\ncy.wait(4000);\ncy.get(':nth-child(5) > .sort-arrows > .tru-icon > #UI > #Requests---Listing---Table > #Group-22 > #arrow-up').click({\n  force: true\n});\ncy.wait(4000);\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "8a77f2c2-050a-4a13-9b93-00243c1cfa27",
+              "parentUUID": "1f26e5b2-c325-448f-856e-5c1774e224ae",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "8a77f2c2-050a-4a13-9b93-00243c1cfa27"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 74637,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

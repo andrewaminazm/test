@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-03-23T09:32:05.888Z",
+    "end": "2022-03-23T09:33:05.165Z",
+    "duration": 59277,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "e7ae3dfe-01f1-46ee-a1e9-7d75e2414e56",
+      "title": "",
+      "fullFile": "cypress/integration/assumptionlife.spec.js",
+      "file": "cypress/integration/assumptionlife.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "d36c4a5d-0b69-41eb-8ac9-96107e489dae",
+          "title": "text",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "getquote",
+              "fullTitle": "text getquote",
+              "timedOut": null,
+              "duration": 54668,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://yamlifeinsdev.wpengine.com/assumption-mutual-life-insurance-company-online-application/?code=ASSU&image=https%3A%2F%2Fwww.compulifeapi.com%2Fimages%2Flogosapicanada%2FASSU-small.png&coverage_amount=%2450%2C000&monthly_premium=%2413.95&term_coverage=10+Years&ep_token=25530fc7109533c9c2944a6af784ce');\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.wait(6000);\n/* ==== Generated with Cypress Studio ==== */\ncy.get('#input_20_14').clear();\ncy.get('#input_20_14').type('wwww');\ncy.get('#input_20_15').clear();\ncy.get('#input_20_15').type('www');\ncy.get('#input_20_16').clear();\ncy.get('#input_20_16').type('wwww');\ncy.get('#input_20_18').click();\ncy.get('.ui-datepicker-year').select('2003');\ncy.get(':nth-child(5) > :nth-child(3) > .ui-state-default').click();\ncy.get('#input_20_19').clear();\ncy.get('#input_20_19').type('(111) 111-1111');\ncy.get('#input_20_20').clear();\ncy.get('#input_20_20').type('aaaaa@gmial.com');\ncy.get('#input_20_24').clear();\ncy.get('#input_20_24').type('2222222');\ncy.get('#input_20_25').clear();\ncy.get('#input_20_25').type('2222222');\ncy.get('#input_20_26').clear();\ncy.get('#input_20_26').type('2222222222');\ncy.get('#input_20_28').clear();\ncy.get('#input_20_28').type('2222');\ncy.get('#input_20_147_5').clear();\ncy.get('#input_20_147_5').type('A1A 1A1');\ncy.get('#input_20_27').clear();\ncy.get('#input_20_27').type('1111111');\ncy.get('#input_20_13_4').select('Northwest Territories');\ncy.get('#input_20_31').clear();\ncy.get('#input_20_31').type('___-__-____');\ncy.get('#input_20_31').clear();\ncy.get('#input_20_31').type('111-11-1111');\ncy.get('#input_20_32').clear();\ncy.get('#input_20_32').type('(111) 111-1111');\n/* ==== End Cypress Studio ==== */\ncy.get('#field_20_16 > .gfield_label').invoke(\"css\", \"background-color\", \"red\");\ncy.get('#field_20_21').invoke(\"css\", \"background-color\", \"red\");\ncy.scrollTo('top');\ncy.get('#field_20_16').screenshot();\ncy.wait(4000);\ncy.get('#field_20_20 > .gfield_label').scrollIntoView();\ncy.get('#gform_next_button_20_33').click();\ncy.wait(5000);\ncy.get('#field_20_34').invoke(\"css\", \"background-color\", \"red\");\n/* ==== Generated with Cypress Studio ==== */\ncy.get('#gform_next_button_20_199').click();\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.wait(5000);\ncy.get('#choice_20_50_0').check();\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('#input_20_51').clear();\ncy.get('#input_20_51').type('a1111');\ncy.get('#input_20_52').clear();\ncy.get('#input_20_52').type('aaaaaa');\ncy.get('#input_20_53').clear();\ncy.get('#input_20_53').type('11111111');\ncy.get('#input_20_54').clear();\ncy.get('#input_20_54').type('111111');\ncy.get('#input_20_55').clear();\ncy.get('#input_20_55').type('11111111');\ncy.get('#input_20_56').clear();\ncy.get('#input_20_56').type('111111111');\ncy.get('#input_20_57').clear();\ncy.get('#input_20_57').type('1111111');\ncy.get('#input_20_58').clear();\ncy.get('#input_20_58').type('1111111111');\ncy.get('#input_20_59').clear();\ncy.get('#input_20_59').type('1111111');\ncy.get('#input_20_60').clear();\ncy.get('#input_20_60').type('111111111');\ncy.get('#input_20_61').clear();\ncy.get('#input_20_61').type('111111111');\ncy.get('#gform_next_button_20_62').click();\ncy.wait(5000);\ncy.get('#choice_20_144_0').check();\ncy.get('#input_20_64').clear();\ncy.get('#input_20_64').type('11111');\ncy.get('#choice_20_143_0').check();\ncy.get('#input_20_67').clear();\ncy.get('#input_20_67').type('1111');\ncy.get('#input_20_68').clear();\ncy.get('#input_20_68').type('111');\ncy.get('#gform_next_button_20_203').click({\n  force: true\n});\ncy.wait(5000);\ncy.wait(5000);\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "cfc1b047-2692-4214-abb0-8e3ae8171574",
+              "parentUUID": "d36c4a5d-0b69-41eb-8ac9-96107e489dae",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "cfc1b047-2692-4214-abb0-8e3ae8171574"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 54668,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

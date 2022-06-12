@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-08-19T13:59:47.779Z",
+    "end": "2021-08-19T14:02:58.270Z",
+    "duration": 190491,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "749bbf14-dfb7-4cad-b978-878e301c88a6",
+      "title": "",
+      "fullFile": "cypress/integration/inventory/ta7melseyara.spec.js",
+      "file": "cypress/integration/inventory/ta7melseyara.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "06d9f51c-00c5-40ce-b6df-569049c1a7f7",
+          "title": "inventory",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "inventoryinsertd",
+              "fullTitle": "inventory inventoryinsertd",
+              "timedOut": null,
+              "duration": 186503,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.login();\ncy.get('.side-menu > :nth-child(4) > :nth-child(1)').click();\ncy.wait(5000);\ncy.get('.active > .nav > :nth-child(24) > a').scrollIntoView();\ncy.get('.active > .nav > :nth-child(24) > a').click();\ncy.wait(7000);\n/* ==== Generated with Cypress Studio ==== */\ncy.get('thead > tr > :nth-child(3) > .btn').click();\ncy.wait(8000);\ncy.get('.divStoreId > #txtStoreId').click();\ncy.wait(8000);\ncy.get('.divStoreId > #txtStoreId').clear();\ncy.wait(8000);\ncy.get('.divStoreId > #txtStoreId').type('1 مخزن انتاج تام');\ncy.wait(8000);\ncy.get('.divTrxdate > .form__label').click();\ncy.wait(8000);\ncy.get('#txtTrxdate').click();\ncy.wait(8000);\ncy.get(':nth-child(3) > .active').click();\ncy.wait(8000);\ncy.get('#formDataid').click();\ncy.wait(8000);\ncy.get('.divPatchSerial > .form__label').click();\ncy.wait(8000);\ncy.get('#txtPatchSerial').clear();\ncy.wait(8000);\ncy.get('#txtPatchSerial').type('499');\ncy.wait(8000);\ncy.get('.divSalesTypeName').click();\ncy.wait(8000);\ncy.get('#txtTrxNote').clear();\ncy.wait(8000);\ncy.get('#txtTrxNote').type('and');\ncy.wait(8000);\ncy.get('.form-horizontal > .row').click();\ncy.wait(8000);\ncy.get(':nth-child(16) > .btn').click();\ncy.wait(8000);\ncy.get('tbody > tr > :nth-child(2) > .col-md-12 > #txtItemId').clear();\ncy.get('tbody > tr > :nth-child(2) > .col-md-12 > #txtItemId').type('31004 ماتريكس طوفى 20 حبة');\ncy.get('tbody > tr > :nth-child(3) > .col-md-12 > #txtUnitId').clear();\ncy.get('tbody > tr > :nth-child(3) > .col-md-12 > #txtUnitId').type('عدد.');\ncy.get('tbody > tr > .tdQty > .col-md-12 > .form-control').clear();\ncy.get('tbody > tr > .tdQty > .col-md-12 > .form-control').type('49');\ncy.wait(8000);\ncy.get('.btnSend').click();\ncy.wait(8000);\ncy.get('.confirm').click();\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "abf19b0a-db76-42e5-8688-dcb1ea4c1f1e",
+              "parentUUID": "06d9f51c-00c5-40ce-b6df-569049c1a7f7",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "abf19b0a-db76-42e5-8688-dcb1ea4c1f1e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 186503,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

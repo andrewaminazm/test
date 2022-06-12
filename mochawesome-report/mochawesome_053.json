@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-09-21T11:28:15.469Z",
+    "end": "2021-09-21T11:28:48.480Z",
+    "duration": 33011,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "4ed4723f-c4ae-4725-b45c-6f403f268338",
+      "title": "",
+      "fullFile": "cypress/integration/patientdashboard/registeration/register.spec.js",
+      "file": "cypress/integration/patientdashboard/registeration/register.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "26d62bd3-d2fd-4b15-be85-2499e8f6bca6",
+          "title": "registeration",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "registerwithvaliddata",
+              "fullTitle": "registeration registerwithvaliddata",
+              "timedOut": null,
+              "duration": 30440,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('http://23.250.115.98:2078/patient/Login');\ncy.get('.text-center > a').invoke('removeAttr', 'target').click({\n  force: true\n});\n/* ==== Generated with Cypress Studio ==== */\ncy.get('#firstName').clear({\n  force: true\n}).type('ahmed');\ncy.get('#lastName').clear({\n  force: true\n}).type('azmy');\ncy.get('#mobile').clear({\n  force: true\n}).type('01018388777');\ncy.get('#email').clear({\n  force: true\n}).type('aaaaaaaa@gmail.com');\ncy.get('#BirthDate').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .prev').click({\n  force: true\n});\ncy.get('tbody > :nth-child(3) > :nth-child(3)').click({\n  force: true\n});\ncy.get('#submit_form_password').clear({\n  force: true\n}).type('010aaaA');\ncy.get(':nth-child(6) > .fa').click({\n  force: true\n});\ncy.get(':nth-child(6) > .fa').click({\n  force: true\n});\ncy.get('#submit_form_password').clear({\n  force: true\n}).type('010aaaAaa');\ncy.get('#rpassword').clear({\n  force: true\n}).type('010aaaAaa');\ncy.get(':nth-child(8) > .custom-control > .custom-control-label').click({\n  force: true\n});\ncy.get('#termsOfUse').check({\n  force: true\n});\ncy.get('.btn-primary').click({\n  force: true\n});\ncy.wait(7000);\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "df2eef18-920c-402a-857f-03174b70fa52",
+              "parentUUID": "26d62bd3-d2fd-4b15-be85-2499e8f6bca6",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "df2eef18-920c-402a-857f-03174b70fa52"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 30440,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 3,
+    "passes": 2,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-08-03T07:18:36.585Z",
+    "end": "2021-08-03T11:16:23.678Z",
+    "duration": 68942,
+    "testsRegistered": 3,
+    "passPercent": 66.66666666666667,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "0aaa3c58-3a20-40ab-b336-0f3c3ade4eca",
+      "title": "",
+      "fullFile": "cypress/integration/affiliate.spec.js",
+      "file": "cypress/integration/affiliate.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9fe8e75f-e181-442e-8567-ba05191dd601",
+          "title": "affiliate",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "affiliateui",
+              "fullTitle": "affiliate affiliateui",
+              "timedOut": null,
+              "duration": 20423,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://affiliates.secondprofit.com/'); // visit link\ncy.wait(8000); // waiting\ncy.screenshot(); //screenshot\ncy.get('.phpdebugbar-header').should('not.be.visible'); // assertion to sure that debugarbar not visible",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: expected '<div.phpdebugbar-header.phpdebugbar-mini-design>' not to be 'visible'",
+                "estack": "AssertionError: Timed out retrying after 4000ms: expected '<div.phpdebugbar-header.phpdebugbar-mini-design>' not to be 'visible'\n    at Context.eval (https://affiliates.secondprofit.com/__cypress/tests?p=cypress\\integration\\affiliate.spec.js:108:35)",
+                "diff": null
+              },
+              "uuid": "10fc6d76-f7ea-46e9-a8b9-bae3e396aa71",
+              "parentUUID": "9fe8e75f-e181-442e-8567-ba05191dd601",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "10fc6d76-f7ea-46e9-a8b9-bae3e396aa71"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 20423,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "1497153f-74b8-4aad-b236-a44e15de88f6",
+      "title": "",
+      "fullFile": "cypress/integration/affiliate.spec.js",
+      "file": "cypress/integration/affiliate.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "30aa369a-b426-4cc2-96c8-4172244e6219",
+          "title": "affiliate",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "affiliateui",
+              "fullTitle": "affiliate affiliateui",
+              "timedOut": null,
+              "duration": 17896,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://affiliates.secondprofit.com/'); // visit link\ncy.wait(8000); // waiting\ncy.get(':nth-child(10) > .phpdebugbar-fa').click();\ncy.screenshot();",
+              "err": {},
+              "uuid": "5eb07f46-68d9-476f-b2cc-4e88a5914ae3",
+              "parentUUID": "30aa369a-b426-4cc2-96c8-4172244e6219",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5eb07f46-68d9-476f-b2cc-4e88a5914ae3"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 17896,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "c7b62f8d-9d73-4b6c-9d96-5cd88c7a94e3",
+      "title": "",
+      "fullFile": "cypress/integration/mainsiteregister.spec.js",
+      "file": "cypress/integration/mainsiteregister.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b34307cf-d9e1-478f-b2a2-11b8ccd160ad",
+          "title": "mainsitereg",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "regmainsite",
+              "fullTitle": "mainsitereg regmainsite",
+              "timedOut": null,
+              "duration": 30623,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://www.secondprofit.com/'); // navigate to secondprofit\ncy.wait(8000);\ncy.get('.nav-menu > ul > .login-register > a').click(); //click on register\ncy.get('.registernewaffiliate > #kt_login_forgot').click(); // click on forget\ncy.get('#first_name').type('andrewamin'); // firstname \ncy.get('#last_name').type('azmy'); //lastname\ncy.get('#country').select('Egypt'); //country\ncy.get('#phone').type('01211782855'); //number\ncy.get('#skype').type('123'); //skype\ncy.get('.col-md-12 > #email').type('andrewamin878@gmail.com'); //email\ncy.get('.col-md-12 > #password').type('12345'); //password\ncy.get('#password-confirm').type('12345'); //password\ncy.get('#hear_affiliate').type('web'); //question1\ncy.get('#main_traffic').type('web'); //question2\ncy.get('#promote').type('web'); //question3\ncy.get('#experience').type('web'); //question4\ncy.get('.kt-login__signin > form > .mb-0 > .col-md-8 > .btn').click(); //register\ncy.wait(8000);\ncy.screenshot();",
+              "err": {},
+              "uuid": "74990224-f12e-4d33-a95f-99464db35344",
+              "parentUUID": "b34307cf-d9e1-478f-b2a2-11b8ccd160ad",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "74990224-f12e-4d33-a95f-99464db35344"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 30623,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

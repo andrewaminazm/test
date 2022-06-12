@@ -1,0 +1,143 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 1,
+    "failures": -1,
+    "start": "2021-11-20T10:43:34.739Z",
+    "end": "2021-11-20T10:46:48.705Z",
+    "duration": 193966,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 33.33333333333333,
+    "other": 1,
+    "hasOther": true,
+    "skipped": 1,
+    "hasSkipped": true
+  },
+  "results": [
+    {
+      "uuid": "c658791d-a21b-4a49-915d-247955a8442a",
+      "title": "",
+      "fullFile": "cypress/integration/getquote.spec.js",
+      "file": "cypress/integration/getquote.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0c05ba4a-4f9e-4d90-9235-3f75bb10a776",
+          "title": "quotebug",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": " login",
+              "fullTitle": "quotebug  login",
+              "timedOut": null,
+              "duration": 36345,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.truflalogins();\ncy.clearCookie('authId');\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "474f9edf-49dd-4d58-b39d-1927ac5e746e",
+              "parentUUID": "0c05ba4a-4f9e-4d90-9235-3f75bb10a776",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": " quote",
+              "fullTitle": "quotebug  quote",
+              "timedOut": null,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "cc88a747-45ee-4f67-9777-c8b747b79646",
+              "parentUUID": "0c05ba4a-4f9e-4d90-9235-3f75bb10a776",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": " quote",
+              "fullTitle": "quotebug  quote",
+              "timedOut": null,
+              "duration": 155345,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(' https://bestinsurance.trumarket.dev/').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('enter website ');\n});\ncy.wait(8000);\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('.pagination > :nth-child(4) > span').click();\ncy.wait(8000);\ncy.get(':nth-child(4) > :nth-child(1) > a').click();\ncy.wait(8000);\ncy.get('.visible > .tru-layout-tab > .control-wrapper').click();\ncy.wait(8000);\ncy.get(':nth-child(2) > :nth-child(2) > .tru-layout-horizontal-tabs > .tabs > :nth-child(2) > span').click();\ncy.wait(8000);\ncy.get(':nth-child(2) > :nth-child(2) > .tru-layout-horizontal-tabs > .content > .visible > .tru-layout-tab > :nth-child(1)').click();\ncy.wait(8000);\ncy.get(':nth-child(3) > :nth-child(2) > .tru-layout-horizontal-tabs > .tabs > :nth-child(2) > span').click();\ncy.wait(8000);\ncy.get(':nth-child(3) > :nth-child(2) > .tru-layout-horizontal-tabs > .content > .visible > .tru-layout-tab > :nth-child(1) > .tru-form-item').click();\ncy.wait(8000);\ncy.get(':nth-child(3) > :nth-child(2) > .tru-layout-horizontal-tabs > .content > .visible > .tru-layout-tab > :nth-child(3) > .tru-form-item').click();\ncy.wait(8000);\ncy.get(':nth-child(3) > :nth-child(2) > .tru-layout-horizontal-tabs > .content > .visible > .tru-layout-tab > :nth-child(4) > .tru-form-item').click();\ncy.wait(8000);\ncy.get(':nth-child(3) > :nth-child(2) > .tru-layout-horizontal-tabs > .content > .visible > .tru-layout-tab > :nth-child(6)').click();\ncy.wait(8000);\ncy.get(':nth-child(3) > :nth-child(2) > .tru-layout-horizontal-tabs > .content > .visible > .tru-layout-tab > :nth-child(7) > .tru-form-item').click();\ncy.wait(8000);\ncy.get(':nth-child(3) > :nth-child(2) > .tru-layout-horizontal-tabs > .content > .visible > .tru-layout-tab > :nth-child(8)').click();\ncy.wait(8000);\ncy.get(':nth-child(4) > :nth-child(2) > .tru-layout-horizontal-tabs > .tabs > :nth-child(2) > span').click();\ncy.wait(8000);\ncy.get(':nth-child(4) > :nth-child(2) > .tru-layout-horizontal-tabs > .content > .visible > .tru-layout-tab > :nth-child(1)').click();\ncy.wait(8000);\ncy.get(':nth-child(4) > :nth-child(2) > .tru-layout-horizontal-tabs > .content > .visible > .tru-layout-tab > :nth-child(2)').click();\ncy.wait(8000);\ncy.get('.tru-layout-horizontal-inputs > .tru-button > span').click();\ncy.wait(8000);\ncy.get('.tru-layout-horizontal-inputs > .tru-button > span').invoke(\"css\", \"background-color\", \"red\");\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "181ff3a4-1ff3-4015-94b7-c09bf77bb43e",
+              "parentUUID": "0c05ba4a-4f9e-4d90-9235-3f75bb10a776",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "474f9edf-49dd-4d58-b39d-1927ac5e746e",
+            "181ff3a4-1ff3-4015-94b7-c09bf77bb43e"
+          ],
+          "failures": [],
+          "pending": [
+            "cc88a747-45ee-4f67-9777-c8b747b79646"
+          ],
+          "skipped": [],
+          "duration": 191690,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-03-24T08:36:24.491Z",
+    "end": "2022-03-24T08:37:03.916Z",
+    "duration": 39425,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "6d7d2647-5346-4f28-8b2a-c17f744258b3",
+      "title": "",
+      "fullFile": "cypress/integration/cpp.spec.js",
+      "file": "cypress/integration/cpp.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "39581d74-336e-455e-bb10-25a0b938b2a1",
+          "title": "label ",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "title case",
+              "fullTitle": "label  title case",
+              "timedOut": null,
+              "duration": 34010,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://yamlifeinsdev.wpengine.com/canada-protection-plan-cpp-online-application/');\ncy.get('#input_21_13').clear(); // cy.wait(3000)\ncy.get('#input_21_13').type('andrew'); // cy.wait(3000)\ncy.get('#input_21_14').clear(); // cy.wait(3000)\ncy.get('#input_21_14').type('amin'); // cy.wait(3000)\ncy.get('#input_21_15').clear(); // cy.wait(3000)\ncy.get('#input_21_15').type('azmy'); // cy.wait(3000)\ncy.get('#input_21_17').click(); //cy.wait(3000)\ncy.get('.ui-datepicker-year').select('2003'); //cy.wait(3000)\ncy.get(':nth-child(3) > :nth-child(4) > .ui-state-default').click(); // cy.wait(3000)\ncy.get('#input_21_18').clear(); //cy.wait(3000)\ncy.get('#input_21_18').type('(111) 111-1111'); // cy.wait(3000)\ncy.get('#input_21_19').clear(); // cy.wait(3000)\ncy.get('#input_21_19').type('aaaa@gmail.com'); //cy.wait(3000)\ncy.get('#input_21_184').clear(); // cy.wait(3000)\ncy.get('#input_21_184').type('111-11-1111'); //cy.wait(3000)\ncy.get('#input_21_23').clear(); //cy.wait(3000)\ncy.get('#input_21_23').type('aaaaaa'); //cy.wait(3000)\ncy.get('#input_21_24').clear(); //cy.wait(3000)\ncy.get('#input_21_24').type('aaaaaaaa'); //cy.wait(3000)\ncy.get('#input_21_25').clear(); //cy.wait(3000)\ncy.get('#input_21_25').type('aaaaa'); //cy.wait(3000)\ncy.get('#input_21_183_5').clear(); //cy.wait(3000)\ncy.get('#input_21_183_5').type('A1A 1A1'); //cy.wait(3000)\ncy.get('#input_21_27').clear(); //cy.wait(3000)\ncy.get('#input_21_27').type('(111) 111-1111'); //cy.wait(3000)\ncy.get('#input_21_28').clear(); //cy.wait(3000)\ncy.get('#input_21_28').type('11111'); //cy.wait(3000)\ncy.get('#input_21_29').clear();\ncy.get('#input_21_29').type('1111111111');\ncy.get('#input_21_182').select('Prince Edward Island');\ncy.get('#input_21_31').click();\ncy.get(':nth-child(2) > :nth-child(3) > .ui-state-default').click();\ncy.get('#field_21_21 > .gfield_label').scrollIntoView();\ncy.get('#field_21_21 > .gfield_label').invoke(\"css\", \"background-color\", \"red\");\ncy.get('#field_21_28 > .gfield_label').scrollIntoView();\ncy.get('#field_21_28 > .gfield_label').invoke(\"css\", \"background-color\", \"red\");\ncy.get('#field_21_29 > .gfield_label').scrollIntoView();\ncy.get('#field_21_29 > .gfield_label').invoke(\"css\", \"background-color\", \"red\");\ncy.get('#gform_next_button_21_32').click();\ncy.wait(6000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('#input_21_33').clear();\ncy.get('#input_21_33').type('1111');\ncy.get('#choice_21_34_0').check();\ncy.get('#choice_21_35_0').check();\ncy.get('#input_21_36').clear();\ncy.get('#input_21_36').type('aaaa');\ncy.get('#input_21_37').clear();\ncy.get('#input_21_37').type('1111');\ncy.get('#input_21_38').clear();\ncy.get('#input_21_38').type('aaaa');\ncy.get('#choice_21_39_0').check();\ncy.get('#input_21_53').clear();\ncy.get('#input_21_53').type('aaaaa');\ncy.get('#input_21_54').clear();\ncy.get('#input_21_54').type('www111');\ncy.get('#field_21_53').click();\ncy.get('#field_21_34').invoke(\"css\", \"background-color\", \"red\");\ncy.get('#field_21_39').invoke(\"css\", \"background-color\", \"red\");\ncy.get('#gform_next_button_21_55').click();\ncy.wait(5000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('#choice_21_56_0').check();\ncy.get('#input_21_57').clear();\ncy.get('#input_21_57').type('aaaaaa');\ncy.get('#choice_21_58_0').check();\ncy.get('#choice_21_59_0').check();\ncy.get('#input_21_60').clear();\ncy.get('#input_21_60').type('ssss');\ncy.get('#choice_21_61_0').check();\ncy.get('#choice_21_62_0').check();\ncy.get('#choice_21_63_0').check();\ncy.get('#choice_21_64_0').check();\ncy.get('#choice_21_65_0').check();\ncy.get('#choice_21_66_0').check();\ncy.get('#choice_21_67_0').check();\ncy.get('#choice_21_68_0').check();\ncy.get('#choice_21_69_0').check();\ncy.get('#choice_21_70_0').check();\ncy.get('#choice_21_71_0').check();\ncy.get('#choice_21_72_0').check();\ncy.get('#choice_21_73_0').check();\ncy.get('#choice_21_74_0').check();\ncy.get('#choice_21_75_0').check();\ncy.get('#choice_21_76_0').check();\ncy.get('#choice_21_77_0').check();\ncy.get('#field_21_76').invoke(\"css\", \"background-color\", \"red\");\ncy.get('#field_21_60 > .gfield_label').invoke(\"css\", \"background-color\", \"red\");\ncy.get('#gform_next_button_21_122').click();\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "074a05cc-8973-48e4-aed6-9c1d4e7b3628",
+              "parentUUID": "39581d74-336e-455e-bb10-25a0b938b2a1",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "074a05cc-8973-48e4-aed6-9c1d4e7b3628"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 34010,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

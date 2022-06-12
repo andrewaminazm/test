@@ -1,0 +1,43 @@
+{"pageLoadTimeout": 350000,
+    "experimentalStudio": true,
+    "watchforfilechanges": true,
+    "defaultcommandtimeout": 10000,
+    "viewportwidth":1400,
+    "viewportheight":1000,
+    "chromeWebSecurity": false,
+    "projectId": "95rnwu",
+    "baseUrl":"https://www.musala.com/",
+  
+    
+    "testfiles": [
+  
+  "TC0001 Login happy scenario.spec.js"
+  ],
+  
+  
+  
+   "reporter": "cypress-multi-reporters",
+   "reporterOptions": {
+       "reporterEnabled": "mochawesome",
+       "mochawesomeReporterOptions": {
+           "reportDir": "cypress/reports/mocha",
+           "quite": true,
+           "overwrite": false,
+           "html": true,
+           "json": true
+       }
+   }
+  
+  
+  
+  }
+
+   
+  
+  
+    
+    
+   
+  
+  
+  

@@ -1,0 +1,199 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 6,
+    "passes": 6,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-11-29T15:48:06.319Z",
+    "end": "2021-11-29T15:55:20.948Z",
+    "duration": 434629,
+    "testsRegistered": 6,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "8db81827-0d4a-4a0d-8e63-2d2770fa58ee",
+      "title": "",
+      "fullFile": "cypress/integration/clientbugs.spec.js",
+      "file": "cypress/integration/clientbugs.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "bb1e31c5-7b37-42ea-b5e0-b34a637bbff1",
+          "title": "clientnote",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": " login",
+              "fullTitle": "clientnote  login",
+              "timedOut": null,
+              "duration": 35927,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.truflalogins();\ncy.clearCookie('authId');\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "9c059694-f6f5-421b-83c2-7094b842bf88",
+              "parentUUID": "bb1e31c5-7b37-42ea-b5e0-b34a637bbff1",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": " attachement",
+              "fullTitle": "clientnote  attachement",
+              "timedOut": null,
+              "duration": 74293,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(' https://bestinsurance.trumarket.dev/').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('enter website ');\n});\ncy.wait(8000);\ncy.wait(8000);\nconst fileName = '20211113_092354.pdf';\n/* ==== Generated with Cypress Studio ==== */\ncy.get('[href=\"/clients\"]').click();\ncy.wait(5000);\ncy.get(':nth-child(2) > :nth-child(1) > a > :nth-child(2)').click();\ncy.wait(5000);\ncy.get('#react-tabs-2').click();\ncy.wait(5000);\ncy.get('.right > .primary > span').click();\ncy.wait(5000);\ncy.get('.tru-text-input').clear();\ncy.wait(5000);\ncy.get('.tru-text-input').type('andrew');\ncy.wait(5000);\ncy.get('.upload').attachFile('20211113_092354.pdf', {\n  subjectType: 'drag-n-drop'\n});\ncy.wait(5000);\ncy.get('.ant-form-item-control-input-content > .primary').click();\ncy.wait(5000);\ncy.get('#react-tabs-0').click();\ncy.wait(5000);\ncy.get('.tru-client-details-wrapper > :nth-child(1) > .ghost').invoke(\"css\", \"background-color\", \"red\");\ncy.wait(5000);\ncy.get('.tru-client-details-wrapper > :nth-child(1) > .ghost').screenshot();\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "f8a77b16-d740-488c-8fda-eb880dc2ce57",
+              "parentUUID": "bb1e31c5-7b37-42ea-b5e0-b34a637bbff1",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": " phone,mail",
+              "fullTitle": "clientnote  phone,mail",
+              "timedOut": null,
+              "duration": 98691,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(' https://bestinsurance.trumarket.dev/').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('enter website ');\n});\ncy.wait(8000);\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('[href=\"/clients\"]').click();\ncy.wait(8000);\ncy.get(':nth-child(2) > :nth-child(1) > a > :nth-child(2)').click();\ncy.wait(8000);\ncy.get('.record-icon-button').click();\ncy.wait(8000);\ncy.get('.dropdown-menu-wrapper > .tru-dropdown-menu > .animate__animated > :nth-child(1) > span').click();\ncy.wait(8000);\ncy.get('.record-icon-button > span').click();\ncy.wait(8000);\ncy.get('.dropdown-menu-wrapper > .tru-dropdown-menu > .animate__animated > :nth-child(2) > span').click();\ncy.wait(8000);\ncy.get('.record-icon-button > span').click();\ncy.wait(8000);\ncy.get('.dropdown-menu-wrapper > .tru-dropdown-menu > .animate__animated > :nth-child(3) > span').click();\ncy.wait(8000);\ncy.get('.record-icon-button').click();\ncy.wait(8000);\ncy.get('.dropdown-menu-wrapper > .tru-dropdown-menu > .animate__animated > :nth-child(4) > span').click();\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "a214f4f6-85f2-41b9-9718-7726cbb95b03",
+              "parentUUID": "bb1e31c5-7b37-42ea-b5e0-b34a637bbff1",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": " Notes should bring up the new note popover",
+              "fullTitle": "clientnote  Notes should bring up the new note popover",
+              "timedOut": null,
+              "duration": 98862,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(' https://bestinsurance.trumarket.dev/').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('enter website ');\n});\ncy.wait(8000);\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('[href=\"/clients\"]').click();\ncy.wait(8000);\ncy.wait(8000);\ncy.get(':nth-child(2) > :nth-child(1) > a > :nth-child(2)').click();\ncy.wait(8000);\ncy.get('span > .tru-icon > path').click();\ncy.wait(8000);\ncy.get('.dropdown-menu-wrapper > .tru-dropdown-menu > .animate__animated > :nth-child(5) > span').click();\ncy.wait(8000);\ncy.get('.tru-text-input').clear();\ncy.wait(8000);\ncy.get('.tru-text-input').type('andrewtestaaaa');\ncy.wait(8000);\ncy.get('.tru-textarea').click().type('andrewtestaadsd');\ncy.wait(8000);\ncy.get('.tru-form > :nth-child(3)').click();\ncy.wait(8000);\ncy.get('.ant-form-item-control-input-content > .primary').click();\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "030c7dbe-9693-4ff4-8dc9-e422fcf10dda",
+              "parentUUID": "bb1e31c5-7b37-42ea-b5e0-b34a637bbff1",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": " attachement search",
+              "fullTitle": "clientnote  attachement search",
+              "timedOut": null,
+              "duration": 74137,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(' https://bestinsurance.trumarket.dev/').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('enter website ');\n});\ncy.wait(8000);\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('[href=\"/clients\"]').click();\ncy.wait(8000);\ncy.get(':nth-child(2) > :nth-child(1) > a > :nth-child(2)').click();\ncy.wait(8000);\ncy.get('#react-tabs-2').click();\ncy.wait(8000);\ncy.get('.attachment-search-bar > .tru-search-bar > .false').clear();\ncy.wait(8000);\ncy.get('.attachment-search-bar > .tru-search-bar > .false').type('fsd{enter}');\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('.filter-option-caretDown > .tru-icon > :nth-child(2) > g > path').click();\ncy.wait(8000);\ncy.get('.animate__animated > :nth-child(2) > :nth-child(1) > span').click();\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "55903c9e-4da1-4793-ba10-700b8443dacb",
+              "parentUUID": "bb1e31c5-7b37-42ea-b5e0-b34a637bbff1",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": " attachement search criteria ",
+              "fullTitle": "clientnote  attachement search criteria ",
+              "timedOut": null,
+              "duration": 49714,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(' https://bestinsurance.trumarket.dev/').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('enter website ');\n});\ncy.wait(8000);\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('[href=\"/clients\"]').click();\ncy.wait(8000);\ncy.get(':nth-child(2) > :nth-child(1) > a > :nth-child(2)').click();\ncy.wait(8000);\ncy.get('#react-tabs-2').click();\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('.filter-option-caretDown > .tru-icon > :nth-child(2) > g > path').click();\ncy.wait(8000);\ncy.get('.attachment-search-bar > .tru-dropdown-menu > .animate__animated').scrollIntoView();\ncy.get('.attachment-search-bar > .tru-dropdown-menu > .animate__animated').invoke(\"css\", \"background-color\", \"red\");\ncy.get('.attachment-search-bar > .tru-dropdown-menu > .animate__animated').screenshot();\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "e6372859-3bd7-4ad0-8168-a0c0930b998f",
+              "parentUUID": "bb1e31c5-7b37-42ea-b5e0-b34a637bbff1",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "9c059694-f6f5-421b-83c2-7094b842bf88",
+            "f8a77b16-d740-488c-8fda-eb880dc2ce57",
+            "a214f4f6-85f2-41b9-9718-7726cbb95b03",
+            "030c7dbe-9693-4ff4-8dc9-e422fcf10dda",
+            "55903c9e-4da1-4793-ba10-700b8443dacb",
+            "e6372859-3bd7-4ad0-8168-a0c0930b998f"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 431624,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

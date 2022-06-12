@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login,,,,2022-06-12 03:49:03,2022-06-12 03:50:16,1m - 12.956s,PASSED
+,,,,,,,
+Test Cases/New Test Case,,,,2022-06-12 03:49:03,2022-06-12 03:49:43,39.172s,PASSED
+"startApplication(""C:\Users\test\Downloads\Facebook Lite_v306.0.0.13.107_apkpure.com.apk"", true)",,,,2022-06-12 03:49:04,2022-06-12 03:49:25,20.257s,PASSED
+"setText(findTestObject(""Object Repository/android.widget.MultiAutoCompleteTextView""), ""aaaaaa"", 0)",,,,2022-06-12 03:49:25,2022-06-12 03:49:26,1.327s,PASSED
+"setText(findTestObject(""Object Repository/android.widget.MultiAutoCompleteTextView (1)""), ""111"", 0)",,,,2022-06-12 03:49:26,2022-06-12 03:49:27,1.308s,PASSED
+"tap(findTestObject(""Object Repository/android.view.View""), 0)",,,,2022-06-12 03:49:27,2022-06-12 03:49:28,0.847s,PASSED
+switchToPortrait(),,,,2022-06-12 03:49:28,2022-06-12 03:49:37,8.745s,PASSED
+closeApplication(),,,,2022-06-12 03:49:37,2022-06-12 03:49:40,3.498s,PASSED
+Video,,,,2022-06-12 03:49:43,2022-06-12 03:49:43,0.001s,PASSED
+,,,,,,,
+Test Cases/New Test Case,,,,2022-06-12 03:49:43,2022-06-12 03:50:16,33.301s,PASSED
+"startApplication(""C:\Users\test\Downloads\Facebook Lite_v306.0.0.13.107_apkpure.com.apk"", true)",,,,2022-06-12 03:49:43,2022-06-12 03:49:59,16.521s,PASSED
+"setText(findTestObject(""Object Repository/android.widget.MultiAutoCompleteTextView""), ""aaaaaa"", 0)",,,,2022-06-12 03:49:59,2022-06-12 03:50:00,1.088s,PASSED
+"setText(findTestObject(""Object Repository/android.widget.MultiAutoCompleteTextView (1)""), ""111"", 0)",,,,2022-06-12 03:50:00,2022-06-12 03:50:02,1.438s,PASSED
+"tap(findTestObject(""Object Repository/android.view.View""), 0)",,,,2022-06-12 03:50:02,2022-06-12 03:50:03,1.307s,PASSED
+switchToPortrait(),,,,2022-06-12 03:50:03,2022-06-12 03:50:12,8.794s,PASSED
+closeApplication(),,,,2022-06-12 03:50:12,2022-06-12 03:50:14,2.076s,PASSED
+Video,,,,2022-06-12 03:50:16,2022-06-12 03:50:16,0.001s,PASSED

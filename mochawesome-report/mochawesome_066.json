@@ -1,0 +1,108 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-10-26T13:35:46.409Z",
+    "end": "2021-10-26T13:36:35.119Z",
+    "duration": 48710,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "3b22fb48-0242-426c-9a66-5e61fd8bddd0",
+      "title": "",
+      "fullFile": "cypress/integration/admindashboard/adv/mobadv.spec.js",
+      "file": "cypress/integration/admindashboard/adv/mobadv.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "598f9ea3-7360-4e01-82b6-c69b517c5d3d",
+          "title": "mobadv",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "add delete",
+              "fullTitle": "mobadv add delete",
+              "timedOut": null,
+              "duration": 46681,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.logins();\ncy.get(':nth-child(8) > [href=\"\"]').click();\ncy.get(':nth-child(8) > ul > :nth-child(2) > a').click();\ncy.wait(7000);\ncy.get('#tr_8 > .text-right > .actions > .bg-danger-light').click();\ncy.wait(7000);\ncy.get('#delete_modal > .modal-dialog > .modal-content > .modal-body > .form-content > .btn-primary').click();\ncy.wait(7000);",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `:nth-child(8) > [href=\"\"]`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `:nth-child(8) > [href=\"\"]`, but never found it.\n    at Context.eval (http://23.250.115.98:2078/__cypress/tests?p=cypress\\integration\\admindashboard\\adv\\mobadv.spec.js:166:8)",
+                "diff": null
+              },
+              "uuid": "207dedf1-2d7b-4c51-b0b0-dafc4db5f387",
+              "parentUUID": "598f9ea3-7360-4e01-82b6-c69b517c5d3d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "207dedf1-2d7b-4c51-b0b0-dafc4db5f387"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 46681,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

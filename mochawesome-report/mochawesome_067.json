@@ -1,0 +1,108 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-10-26T13:36:52.955Z",
+    "end": "2021-10-26T13:37:48.829Z",
+    "duration": 55874,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "bfd80ceb-7ac2-489e-89c3-786b2ba553b0",
+      "title": "",
+      "fullFile": "cypress/integration/admindashboard/blog/allarticle.spec.js",
+      "file": "cypress/integration/admindashboard/blog/allarticle.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "6aff8116-f1b4-4861-8055-2c0e2b6b873c",
+          "title": "blog",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "deletearticle",
+              "fullTitle": "blog deletearticle",
+              "timedOut": null,
+              "duration": 54234,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.logins();\ncy.get('#sidebar-menu > ul > .submenu:nth-child(9) > a > span:nth-child(2)').click();\ncy.wait(7000);\ncy.get('ul > .submenu:nth-child(9) > ul > #EmergencyIndex > a').click();\ncy.wait(7000);\n/* ==== Generated with Cypress Studio ==== */\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('.bg-danger-light').click();\ncy.get('#delete_modal > .modal-dialog > .modal-content > .modal-body > .form-content > .btn-primary').click();\n/* ==== End Cypress Studio ==== */",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `ul > .submenu:nth-child(9) > ul > #EmergencyIndex > a`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `ul > .submenu:nth-child(9) > ul > #EmergencyIndex > a`, but never found it.\n    at Context.eval (http://23.250.115.98:2078/__cypress/tests?p=cypress\\integration\\admindashboard\\blog\\allarticle.spec.js:192:8)",
+                "diff": null
+              },
+              "uuid": "f23502bd-75db-425e-b3f1-63b1c539db4d",
+              "parentUUID": "6aff8116-f1b4-4861-8055-2c0e2b6b873c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "f23502bd-75db-425e-b3f1-63b1c539db4d"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 54234,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

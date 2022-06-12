@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-09-22T23:17:23.921Z",
+    "end": "2021-09-22T23:18:43.495Z",
+    "duration": 79574,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ad489b27-bee6-4862-9f0f-e0adbb48299e",
+      "title": "",
+      "fullFile": "cypress/integration/iamsolid/login.spec.js",
+      "file": "cypress/integration/iamsolid/login.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b0a12586-19c4-4bfe-8553-55b95dddc71b",
+          "title": "iamsolid",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "registerwithinvalidphone",
+              "fullTitle": "iamsolid registerwithinvalidphone",
+              "timedOut": null,
+              "duration": 76080,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://www.iamsold.co.uk/sign-in').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('visit your site ');\n});\ncy.wait(7000);\ncy.get('#forenames').clear().type('111111').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('enter firstname');\n});\ncy.wait(7000);\ncy.get('#surname').clear().type('1222222').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('enter surname');\n});\ncy.wait(7000);\ncy.get('#contacttel').clear().type('andrew').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('enter phonenumber');\n});\ncy.wait(7000);\ncy.get('#email').clear().type('andrewazmy93@gmail.com').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('enter email');\n});\ncy.wait(7000);\ncy.xpath('/html/body/div[7]/div/div[2]/div/div/form/div[6]/div/div/a[2]').click().then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('choose about you');\n  cy.wait(7000);\n  cy.xpath('/html/body/div[7]/div/div[2]/div/div/form/div[4]/div/div/div/ul/li[4]/a').click({\n    force: true\n  });\n});\n/* ==== Generated with Cypress Studio ==== */\ncy.get('#password').clear();\ncy.get('#password').type('andrew012').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('enter password');\n});\ncy.get('#confirm').clear();\ncy.get('#confirm').type('andrew012').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('enter  confirm password');\n});\ncy.xpath('/html/body/div[7]/div/div[2]/div/div/form/div[6]/div/div/a[2]').click().then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('choose secret question');\n  cy.wait(7000);\n  cy.xpath('/html/body/div[7]/div/div[2]/div/div/form/div[6]/div/div/div/ul/li[3]/a').click({\n    force: true\n  });\n});\ncy.get('#secret_question_answer').clear();\ncy.get('#secret_question_answer').type('aaaaaaaaaaaa');\ncy.get('#termsConditions').check();\ncy.get('#marketing_consent').check();\ncy.get('#callsRecorded').check();\n/* ==== End Cypress Studio ==== */\ncy.get(':nth-child(9) > .contact-form-inner > .btn').click();\ncy.wait(7000);\ncy.get('#contact-validation-error-bg').scrollIntoView();\ncy.wait(7000);",
+              "err": {},
+              "uuid": "6f4b5fd9-441f-471c-b86b-6d2dd79a244b",
+              "parentUUID": "b0a12586-19c4-4bfe-8553-55b95dddc71b",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "6f4b5fd9-441f-471c-b86b-6d2dd79a244b"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 76080,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

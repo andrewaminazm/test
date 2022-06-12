@@ -1,0 +1,131 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 1,
+    "failures": 0,
+    "start": "2022-05-25T04:11:57.270Z",
+    "end": "2022-05-25T04:13:07.106Z",
+    "duration": 69836,
+    "testsRegistered": 2,
+    "passPercent": 0,
+    "pendingPercent": 50,
+    "other": 1,
+    "hasOther": true,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "51f23499-6a98-4a9c-b202-453ede135321",
+      "title": "",
+      "fullFile": "cypress/integration/quiz.spec.js",
+      "file": "cypress/integration/quiz.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "73119e07-a189-4464-bdb7-49b6ca07ac62",
+          "title": "quiz",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": " case2",
+              "fullTitle": "quiz  case2",
+              "timedOut": null,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "605b5ad8-c2c9-461c-8467-614cafb2f859",
+              "parentUUID": "73119e07-a189-4464-bdb7-49b6ca07ac62",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": " case1",
+              "fullTitle": "quiz  case1",
+              "timedOut": null,
+              "duration": 64631,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const fileName = 'original.jpeg';\ncy.visit('https://staging.mazaady.com/', {\n  headers: {\n    \"Accept-Encoding\": \"gzip, deflate, br\"\n  }\n});\n/* ==== Generated with Cypress Studio ==== */\ncy.get('.flex-row > .user-actions').click({\n  force: true\n});\ncy.get('.flex-row > .user-actions > .dropdown-menu > .categories-sections > .nav-item > [href=\"https://staging.mazaady.com/login\"]').click({\n  force: true\n});\ncy.get('#email').clear({\n  force: true\n});\ncy.get('#email').type('an_tester@mazaady.com', {\n  force: true\n});\ncy.get('#password').clear({\n  force: true\n});\ncy.get('#password').type('testermazaady', {\n  force: true\n});\ncy.get('.w-75 > .btn').click({\n  force: true\n});\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('.flex-row > .user-actions').click({\n  force: true\n});\ncy.get('.flex-row > .user-actions > .dropdown-menu > .categories-sections > :nth-child(5) > a').click({\n  force: true\n});\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('[href=\"https://staging.mazaady.com/add-product/multiple\"]').click();\ncy.get('.w-25 > .btn').click();\ncy.get('.m-2').click();\ncy.get(':nth-child(1) > .col > :nth-child(3) > .form-control').clear();\ncy.get(':nth-child(1) > .col > :nth-child(3) > .form-control').type('wwwww');\ncy.get('#vs11__combobox > .vs__selected-options > .vs__search').clear();\ncy.get('#vs11__combobox > .vs__selected-options > .vs__search').type('clo{enter}');\ncy.get('#vs12__combobox > .vs__selected-options > .vs__search').clear();\ncy.get('#vs12__combobox > .vs__selected-options > .vs__search').type('clo{enter}');\ncy.get('#vs13__combobox > .vs__selected-options > .vs__search').clear();\ncy.get('#vs13__combobox > .vs__selected-options > .vs__search').type('boy{enter}');\ncy.get('#vs19__combobox > .vs__selected-options > .vs__search').clear();\ncy.get('#vs19__combobox > .vs__selected-options > .vs__search').type('2b{enter}');\ncy.get('#vs14__combobox > .vs__selected-options > .vs__search').clear();\ncy.get('#vs14__combobox > .vs__selected-options > .vs__search').type('aba{enter}');\ncy.get(':nth-child(10) > [data-type=\"General\"]').click();\ncy.get('#vs15__combobox > .vs__selected-options > .vs__search').clear();\ncy.get('#vs15__combobox > .vs__selected-options > .vs__search').type('bam{enter}');\ncy.get('#vs16__combobox > .vs__selected-options > .vs__search').clear();\ncy.get('#vs16__combobox > .vs__selected-options > .vs__search').type('bla{enter}');\ncy.get('#vs17__combobox > .vs__selected-options > .vs__search').clear();\ncy.get('#vs17__combobox > .vs__selected-options > .vs__search').type('new{enter}');\ncy.get('.col > div > .form-control').clear();\ncy.get('.col > div > .form-control').type('2321');\ncy.get('#vs18__combobox > .vs__selected-options > .vs__search').clear();\ncy.get('#vs18__combobox > .vs__selected-options > .vs__search').type('egy{enter}');\ncy.get(':nth-child(3) > .col > :nth-child(3) > .form-control').clear();\ncy.get(':nth-child(3) > .col > :nth-child(3) > .form-control').type('3');\n/* ==== End Cypress Studio ==== */\ncy.get('.modal-footer > .btn-danger').click({\n  force: true\n});\ncy.wait(5000);\n/* ==== Generated with Cypress Studio ==== */\ncy.get(':nth-child(4) > .col > :nth-child(3) > .form-control').clear();\ncy.get(':nth-child(4) > .col > :nth-child(3) > .form-control').type('wawsa');\ncy.get('.m-2').click();\ncy.get(':nth-child(1) > .col > :nth-child(3) > .form-control').clear();\ncy.get(':nth-child(1) > .col > :nth-child(3) > .form-control').type('qae');\ncy.get('#vs22__combobox > .vs__selected-options > .vs__search').clear();\ncy.get('#vs22__combobox > .vs__selected-options > .vs__search').type('anim{enter}');\ncy.get('#vs23__combobox > .vs__selected-options > .vs__search').clear();\ncy.get('#vs23__combobox > .vs__selected-options > .vs__search').type('pet{enter}');\ncy.get('#vs24__combobox > .vs__selected-options > .vs__search').clear();\ncy.get('#vs24__combobox > .vs__selected-options > .vs__search').type('cat{enter}');\ncy.get('#vs29__combobox > .vs__selected-options > .vs__search').clear();\ncy.get('#vs29__combobox > .vs__selected-options > .vs__search').type('american bob{enter}');\ncy.get('#vs25__combobox > .vs__selected-options > .vs__search').clear();\ncy.get('#vs25__combobox > .vs__selected-options > .vs__search').type('un{enter}');\ncy.get('#vs26__combobox > .vs__selected-options > .vs__search').clear();\ncy.get('#vs26__combobox > .vs__selected-options > .vs__search').type('bla{enter}');\ncy.get('.col > div > .form-control').clear();\ncy.get('.col > div > .form-control').type('23');\ncy.get('#vs27__combobox > .vs__selected-options > .vs__search').clear();\ncy.get('#vs27__combobox > .vs__selected-options > .vs__search').type('fe{enter}');\ncy.get('#vs28__combobox > .vs__selected-options > .vs__search').clear();\ncy.get('#vs28__combobox > .vs__selected-options > .vs__search').type('aki{enter}');\ncy.get(':nth-child(3) > .col > :nth-child(3) > .form-control').clear();\ncy.get(':nth-child(3) > .col > :nth-child(3) > .form-control').type('23');\ncy.get('.modal-footer > .btn-danger').click();\n/* ==== End Cypress Studio ==== */\nconst iframe = cy.get(\"#tinymce_description_ifr\").its('0.contentDocument.body').should('be.visible').then(cy.wrap);\niframe.clear().type('helloaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa');\nconst iframe2 = cy.get(\"#tinymce_policy_ifr\").its('0.contentDocument.body').should('be.visible').then(cy.wrap);\niframe.clear().type('hellowwwwwwwwwwwwwwwwwwwwwwwwwwww');\ncy.wait(5000);\ncy.get(':nth-child(2) > :nth-child(2) > :nth-child(3) > .form-control').clear();\ncy.get(':nth-child(2) > :nth-child(2) > :nth-child(3) > .form-control').type('200000');\ncy.get(':nth-child(1) > :nth-child(4) > .form-control').clear();\ncy.get(':nth-child(1) > :nth-child(4) > .form-control').type('20000000');\ncy.get(':nth-child(3) > :nth-child(2) > :nth-child(3) > .form-control').clear();\ncy.get(':nth-child(3) > :nth-child(2) > :nth-child(3) > .form-control').type('20000000');\ncy.get('.col-sm-12 > :nth-child(3) > .form-control').clear();\ncy.get('.col-sm-12 > :nth-child(3) > .form-control').type('3');\ncy.get('#vue-button-to-open-date').click();\ncy.get('#mddtp-date__current > .mddtp-picker__grid > .mddtp-picker__tr > :nth-child(26)').click();\ncy.get('#mddtp-date__current > .mddtp-picker__grid > .mddtp-picker__tr > :nth-child(31)').click();\ncy.get('#mddtp-date__ok').click();\ncy.get('#vue-button-to-open-time').click();\ncy.get('#mddtp-time__hourView > .mddtp-picker__cell--rotate-100 > span').click();\ncy.get('#mddtp-time__minuteView > .mddtp-picker__cell--rotate-100 > span').click();\ncy.get('#mddtp-time__ok').click();\ncy.get(':nth-child(1) > .cl-switch > .switcher').click();\ncy.get(':nth-child(1) > .cl-switch > .hidden').check({\n  force: true\n});\ncy.get('#step-3 > :nth-child(1) > .container > .mt-4 > .col-12 > .btn').click({\n  force: true\n});\ncy.wait(5000);\ncy.get('.swal-button').click({\n  force: true\n});\ncy.get(':nth-child(1) > :nth-child(4) > .form-control').clear({\n  force: true\n});\ncy.get(':nth-child(1) > :nth-child(4) > .form-control').type('2', {\n  force: true\n});\ncy.get(':nth-child(3) > :nth-child(2) > :nth-child(3) > .form-control').clear({\n  force: true\n});\ncy.get(':nth-child(3) > :nth-child(2) > :nth-child(3) > .form-control').type('20', {\n  force: true\n});\ncy.get('#step-3 > :nth-child(1) > .container > .mt-4 > .col-12 > .btn').click({\n  force: true\n});\ncy.wait(5000);\ncy.get(':nth-child(2) > .col-12 > .btn').click({\n  force: true\n});\ncy.wait(5000);\ncy.get(':nth-child(2) > .swal-button').click({\n  force: true\n});\ncy.wait(5000);\ncy.get('.nav > :nth-child(1) > a').click({\n  force: true\n});\ncy.wait(5000);\n/* ==== Generated with Cypress Studio ==== */\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('#main_image_btn').click();\ncy.get('#main-image').click({\n  force: true\n}).attachFile('original.jpeg');\ncy.wait(5000);\ncy.get('#step-2 > :nth-child(1) > .form-container-group > .mt-4 > .col-12 > .btn').click({\n  force: true\n});\ncy.wait(5000);",
+              "err": {
+                "message": "CypressError: Timed out retrying after 4000ms: `cy.clear()` failed because this element is not visible:\n\n`<input type=\"number\" name=\"value\" placeholder=\"Buy Now Value\" class=\"form-control\">`\n\nThis element `<input.form-control>` is not visible because its parent `<div#step-3.tab-pane.pt-3.pb-3>` has CSS property: `display: none`\n\nFix this problem, or use `{force: true}` to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with",
+                "estack": "CypressError: Timed out retrying after 4000ms: `cy.clear()` failed because this element is not visible:\n\n`<input type=\"number\" name=\"value\" placeholder=\"Buy Now Value\" class=\"form-control\">`\n\nThis element `<input.form-control>` is not visible because its parent `<div#step-3.tab-pane.pt-3.pb-3>` has CSS property: `display: none`\n\nFix this problem, or use `{force: true}` to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with\n    at runVisibilityCheck (https://staging.mazaady.com/__cypress/runner/cypress_runner.js:163892:76)\n    at $Cy.ensureStrictVisibility (https://staging.mazaady.com/__cypress/runner/cypress_runner.js:163908:12)\n    at runAllChecks (https://staging.mazaady.com/__cypress/runner/cypress_runner.js:150566:14)\n    at retryActionability (https://staging.mazaady.com/__cypress/runner/cypress_runner.js:150621:16)\n    at tryCatcher (https://staging.mazaady.com/__cypress/runner/cypress_runner.js:13022:23)\n    at Function.Promise.attempt.Promise.try (https://staging.mazaady.com/__cypress/runner/cypress_runner.js:10296:29)\n    at whenStable (https://staging.mazaady.com/__cypress/runner/cypress_runner.js:168785:63)\n    at https://staging.mazaady.com/__cypress/runner/cypress_runner.js:168282:14\n    at tryCatcher (https://staging.mazaady.com/__cypress/runner/cypress_runner.js:13022:23)\n    at Promise._settlePromiseFromHandler (https://staging.mazaady.com/__cypress/runner/cypress_runner.js:10957:31)\n    at Promise._settlePromise (https://staging.mazaady.com/__cypress/runner/cypress_runner.js:11014:18)\n    at Promise._settlePromise0 (https://staging.mazaady.com/__cypress/runner/cypress_runner.js:11059:10)\n    at Promise._settlePromises (https://staging.mazaady.com/__cypress/runner/cypress_runner.js:11139:18)\n    at Promise._fulfill (https://staging.mazaady.com/__cypress/runner/cypress_runner.js:11083:18)\n    at https://staging.mazaady.com/__cypress/runner/cypress_runner.js:12697:46\nFrom Your Spec Code:\n    at Context.eval (https://staging.mazaady.com/__cypress/tests?p=cypress\\integration\\quiz.spec.js:415:77)",
+                "diff": null
+              },
+              "uuid": "0bd503ab-305e-4958-bd41-e7d95b81af79",
+              "parentUUID": "73119e07-a189-4464-bdb7-49b6ca07ac62",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "0bd503ab-305e-4958-bd41-e7d95b81af79"
+          ],
+          "pending": [
+            "605b5ad8-c2c9-461c-8467-614cafb2f859"
+          ],
+          "skipped": [],
+          "duration": 64631,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

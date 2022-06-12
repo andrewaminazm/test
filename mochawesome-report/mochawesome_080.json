@@ -1,0 +1,123 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-11-17T01:08:16.009Z",
+    "end": "2021-11-17T01:10:09.415Z",
+    "duration": 113406,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "fd24d910-c5fd-46b2-874f-f43472c13067",
+      "title": "",
+      "fullFile": "cypress/integration/clientnote.spec.js",
+      "file": "cypress/integration/clientnote.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "52e4041e-d663-416d-802c-c2289f1b6ae4",
+          "title": "clientnote",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": " Notes should bring up the new note popover",
+              "fullTitle": "clientnote  Notes should bring up the new note popover",
+              "timedOut": null,
+              "duration": 36296,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.truflalogins();\ncy.clearCookie('authId');\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "3bfb6149-aaea-471f-ac6c-f00cb4404aee",
+              "parentUUID": "52e4041e-d663-416d-802c-c2289f1b6ae4",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": " Notes should bring up the new note popover",
+              "fullTitle": "clientnote  Notes should bring up the new note popover",
+              "timedOut": null,
+              "duration": 75024,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(' https://bestinsurance.trumarket.dev/').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('enter website ');\n});\ncy.wait(8000);\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('[href=\"/clients\"]').click();\ncy.wait(8000);\ncy.wait(8000);\ncy.get(':nth-child(2) > :nth-child(1) > a > :nth-child(2)').click();\ncy.get('span > .tru-icon > path').click();\ncy.get('.dropdown-menu-wrapper > .tru-dropdown-menu > .animate__animated > :nth-child(5) > span').click();\ncy.wait(8000);\ncy.get('.ant-form-item-control-input-content > .primary').click();\ncy.wait(8000);\ncy.get('.tru-textarea').click().type('andrewtest');\ncy.wait(8000);\ncy.get('.ant-form-item-control-input-content > .primary').click();\ncy.wait(8000);\ncy.get('.tru-text-input').clear();\ncy.get('.tru-text-input').type('andrewtest');\ncy.wait(8000);\ncy.get('.popover-content').invoke(\"css\", \"background-color\", \"red\");\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "47d3f612-e7f2-4e73-8cd5-fdc8dd62d4e2",
+              "parentUUID": "52e4041e-d663-416d-802c-c2289f1b6ae4",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "3bfb6149-aaea-471f-ac6c-f00cb4404aee",
+            "47d3f612-e7f2-4e73-8cd5-fdc8dd62d4e2"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 111320,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

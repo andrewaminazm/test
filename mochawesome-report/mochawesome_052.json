@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-09-15T14:18:59.357Z",
+    "end": "2021-09-15T14:21:18.917Z",
+    "duration": 139560,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "6a1e1653-4157-49d0-9cad-24000559b393",
+      "title": "",
+      "fullFile": "cypress/integration/truflla/tasks.spec.js",
+      "file": "cypress/integration/truflla/tasks.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0e5f017b-3aa5-4e62-8cc4-99288b05406f",
+          "title": "truflla",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "requestdemo",
+              "fullTitle": "truflla requestdemo",
+              "timedOut": null,
+              "duration": 136096,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://www.trufla.com/').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('visit your site ');\n});\ncy.wait(7000);\ncy.get('.t-header__quote-button').click().then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('click on request demo ');\n});\ncy.wait(7000);\ncy.get('#input_2_9_3').clear().then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('make name empty');\n});\ncy.wait(7000);\ncy.get('#input_2_9_3').type('andrewamin').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('enter your name');\n});\ncy.wait(7000);\ncy.get('#input_2_9_6').clear().then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('make name empty');\n});\ncy.wait(7000);\ncy.get('#input_2_9_6').type('azmy').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('enter last name');\n});\ncy.wait(7000);\ncy.get('#input_2_3').clear().then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('make email empty');\n});\ncy.wait(7000);\ncy.get('#input_2_3').type('andrewamin878@gmail.com').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('enter email');\n});\ncy.wait(7000);\ncy.get('#input_2_4').clear().then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('make phone empty');\n});\ncy.wait(7000);\ncy.get('#input_2_4').type('01211782855').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('enter phone');\n});\ncy.wait(7000);\ncy.get('#input_2_5').clear().then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('make broker empty');\n});\ncy.wait(7000);\ncy.get('#input_2_5').type('aaaaaaaaaa').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('enter broker');\n});\ncy.wait(7000);\ncy.get('.gform_body > #gform_fields_2 > #field_2_6 > .ginput_container > #input_2_6').select('truWeb').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('chooose trueweb ');\n});\ncy.wait(7000);\ncy.get('.gform_body > #gform_fields_2 > #field_2_7 > .ginput_container > #input_2_7').select('Conference').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('chooose conference');\n});\ncy.get('#input_2_8').clear().clear().then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('make text-field clear');\n});\ncy.wait(7000);\ncy.get('#input_2_8').type('andrewaminautomationtester').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('type your message');\n});\ncy.get('.t-module--margin-bottom-none > .t-primary-content__background').scrollIntoView();\ncy.wait(7000);\ncy.get('h1').invoke(\"css\", \"color\", \"red\").then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('change css property');\n});\ncy.wait(7000);\ncy.get('h1').scrollIntoView().then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('color changed');\n});\ncy.get('#gform_submit_button_2').scrollIntoView();\ncy.wait(7000);\ncy.get('#gform_submit_button_2').click().then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('click submit');\n});\ncy.wait(7000);",
+              "err": {},
+              "uuid": "32ace11f-61a1-411e-9fe5-51e7e5522a3c",
+              "parentUUID": "0e5f017b-3aa5-4e62-8cc4-99288b05406f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "32ace11f-61a1-411e-9fe5-51e7e5522a3c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 136096,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-09-15T14:09:17.598Z",
+    "end": "2021-09-15T14:10:27.156Z",
+    "duration": 69558,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "e5b12d01-a3b6-4a1a-a90d-e949949647f9",
+      "title": "",
+      "fullFile": "cypress/integration/truflla/tasks.spec.js",
+      "file": "cypress/integration/truflla/tasks.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "c275ebe2-40fc-4569-be12-579bf10f3389",
+          "title": "truflla",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "tasks",
+              "fullTitle": "truflla tasks",
+              "timedOut": null,
+              "duration": 66929,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://www.trufla.com/').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('visit your site ');\n});\ncy.wait(7000);\ncy.title().should('eq', 'Insurance brokers/Agents Software|Free Demo - Trufla Technology').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('to be sure that title is appear ');\n});\ncy.wait(7000);\ncy.get('.t-header__logo > .lazyloaded').should('be.visible').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('to be sure that logo appear  ');\n});\ncy.wait(7000);\ncy.get('.t-content-column__inner > .lazyloaded').should('be.visible').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('to be sure that container  appear  ');\n});\ncy.wait(7000);\ncy.get('.t-footer > :nth-child(1)').should('be.visible').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('to be sure that footer  appear  ');\n});\ncy.wait(7000);\n/* ==== Generated with Cypress Studio ==== */\ncy.get('[href=\"#\"]').click();\ncy.get('#menu-primary-menu > .wp__menu-item-has-children > .sub-menu > :nth-child(1) > a').click().then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('visit firstlink in product ');\n});\ncy.wait(7000);\ncy.get('[href=\"#\"]').click();\ncy.wait(7000);\ncy.get('#menu-primary-menu > .wp__current-menu-parent > .sub-menu > :nth-child(2) > a').click().then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('visit secondlink in product ');\n});\ncy.wait(7000);\ncy.get('[href=\"#\"]').click();\ncy.wait(7000);\ncy.get('#menu-primary-menu > .wp__current-menu-parent > .sub-menu > :nth-child(3) > a').click().then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('visit thirdlink in product ');\n});\ncy.wait(7000);\ncy.get('[href=\"#\"]').click();\ncy.wait(7000);\ncy.get('#menu-primary-menu > .wp__current-menu-parent > .sub-menu > :nth-child(4) > a').click().then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('visit fourthlink in product ');\n});\ncy.wait(7000);\ncy.get('[href=\"#\"]').click();\ncy.wait(7000);\ncy.get('#menu-primary-menu > .wp__current-menu-parent > .sub-menu > :nth-child(5) > a').click().then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('visit fifthlink in product ');\n});\ncy.wait(7000);\ncy.get('[href=\"#\"]').click();\ncy.wait(7000);\ncy.get('#menu-primary-menu > .wp__current-menu-parent > .sub-menu > :nth-child(6) > a').click().then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('visit sixlink in product ');\n});\ncy.wait(7000);\n/* ==== End Cypress Studio ==== */",
+              "err": {
+                "message": "CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element is not visible:\n\n`<a href=\"https://www.trufla.com/products/truscore/\">truScore</a>`\n\nThis element `<a>` is not visible because its ancestor has `position: fixed` CSS property and it is overflowed by other elements. How about scrolling to the element with `cy.scrollIntoView()`?\n\nFix this problem, or use `{force: true}` to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with",
+                "estack": "CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element is not visible:\n\n`<a href=\"https://www.trufla.com/products/truscore/\">truScore</a>`\n\nThis element `<a>` is not visible because its ancestor has `position: fixed` CSS property and it is overflowed by other elements. How about scrolling to the element with `cy.scrollIntoView()`?\n\nFix this problem, or use `{force: true}` to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with\n    at $Cy.ensureVisibility (https://www.trufla.com/__cypress/runner/cypress_runner.js:148483:24)\n    at runAllChecks (https://www.trufla.com/__cypress/runner/cypress_runner.js:136155:14)\n    at retryActionability (https://www.trufla.com/__cypress/runner/cypress_runner.js:136209:16)\n    at tryCatcher (https://www.trufla.com/__cypress/runner/cypress_runner.js:13222:23)\n    at Function.Promise.attempt.Promise.try (https://www.trufla.com/__cypress/runner/cypress_runner.js:10496:29)\n    at tryFn (https://www.trufla.com/__cypress/runner/cypress_runner.js:153290:21)\n    at whenStable (https://www.trufla.com/__cypress/runner/cypress_runner.js:153328:12)\n    at https://www.trufla.com/__cypress/runner/cypress_runner.js:152820:16\n    at tryCatcher (https://www.trufla.com/__cypress/runner/cypress_runner.js:13222:23)\n    at Promise._settlePromiseFromHandler (https://www.trufla.com/__cypress/runner/cypress_runner.js:11157:31)\n    at Promise._settlePromise (https://www.trufla.com/__cypress/runner/cypress_runner.js:11214:18)\n    at Promise._settlePromise0 (https://www.trufla.com/__cypress/runner/cypress_runner.js:11259:10)\n    at Promise._settlePromises (https://www.trufla.com/__cypress/runner/cypress_runner.js:11339:18)\n    at Promise._fulfill (https://www.trufla.com/__cypress/runner/cypress_runner.js:11283:18)\n    at https://www.trufla.com/__cypress/runner/cypress_runner.js:12897:46\nFrom Your Spec Code:\n    at Context.eval (https://www.trufla.com/__cypress/tests?p=cypress\\integration\\truflla\\tasks.spec.js:140:96)",
+                "diff": null
+              },
+              "uuid": "39a77e56-a446-4eb4-bf5c-b1594bb32959",
+              "parentUUID": "c275ebe2-40fc-4569-be12-579bf10f3389",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "39a77e56-a446-4eb4-bf5c-b1594bb32959"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 66929,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

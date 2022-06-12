@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-08-17T04:46:15.187Z",
+    "end": "2021-08-17T04:52:40.312Z",
+    "duration": 385125,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "0ed13487-e5aa-486b-a7f6-711a4cdbd74b",
+      "title": "",
+      "fullFile": "cypress/integration/inventory/inventoryinsert12.spec.js",
+      "file": "cypress/integration/inventory/inventoryinsert12.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "882aea67-6f99-4253-affd-37d13946807e",
+          "title": "inventory",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "inventory",
+              "fullTitle": "inventory inventory",
+              "timedOut": null,
+              "duration": 382555,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.login();\ncy.wait(8000);\n/* ==== Generated with Cypress Studio ==== */\ncy.get(':nth-child(4) > :nth-child(1) > .fa-chevron-down').click();\ncy.wait(8000);\ncy.get('.active > .nav > :nth-child(1) > a').click();\ncy.wait(8000);\ncy.get('[trxtypeid=\"17\"] > :nth-child(2) > .btn-info > .fa').click();\ncy.wait(8000);\ncy.get('.chkAllowMultiStore > .switchery').click();\ncy.wait(8000);\ncy.get('.modal-footer > .btn-info').click();\ncy.wait(8000);\ncy.get('.confirm').click();\ncy.wait(8000);\ncy.get('.side-menu > :nth-child(4) > :nth-child(1)').click();\ncy.wait(8000);\ncy.get('.active > .nav > :nth-child(10) > a').click();\ncy.wait(8000);\ncy.get('thead > tr > :nth-child(3) > .btn').click();\ncy.wait(8000);\ncy.get('.divStoreId > #txtStoreId').clear();\ncy.get('.divStoreId > #txtStoreId').type('1 مخزن انتاج تام');\ncy.wait(8000);\ncy.get('.divSalesTypeName').click();\ncy.wait(8000);\ncy.get('#txtToStoreId').clear();\ncy.get('#txtToStoreId').type('2 مخزن مواد الخام ');\ncy.get('.divSalesTypeName').click();\ncy.wait(8000);\ncy.get('#txtTrxdate').click();\ncy.get(':nth-child(3) > .active').click();\ncy.wait(8000);\ncy.get('.divSalesTypeName').click();\ncy.wait(8000);\ncy.get('#txtPatchSerial').clear();\ncy.get('#txtPatchSerial').type('400');\ncy.wait(8000);\ncy.get('.divSalesTypeName').click();\ncy.wait(8000);\ncy.get('#txtTrxNote').clear();\ncy.get('#txtTrxNote').type('andrew');\ncy.wait(8000);\ncy.get('.divSalesTypeName').click();\ncy.wait(8000);\ncy.get(':nth-child(16) > .btn').click();\ncy.wait(8000);\ncy.get('.divSalesTypeName').click();\ncy.wait(8000);\ncy.get('tbody > tr > .tdStoreDetails > .col-md-12 > #txtStoreId').clear();\ncy.get('tbody > tr > .tdStoreDetails > .col-md-12 > #txtStoreId').type('مخزن انتاج تام');\ncy.wait(8000);\ncy.get('.divSalesTypeName').click();\ncy.wait(8000);\ncy.get('tbody > tr > :nth-child(2) > .col-md-12 > #txtItemId').clear();\ncy.get('tbody > tr > :nth-child(2) > .col-md-12 > #txtItemId').type('111001 premix phara ferro');\ncy.wait(8000);\ncy.get('.divSalesTypeName').click();\ncy.wait(8000);\ncy.get('tbody > tr > :nth-child(3) > .col-md-12 > #txtUnitId').clear();\ncy.get('tbody > tr > :nth-child(3) > .col-md-12 > #txtUnitId').type('عدد');\ncy.wait(8000);\ncy.get('.divSalesTypeName').click();\ncy.wait(8000);\ncy.get('tbody > tr > .tdPatchNumber > .col-md-12 > .form-control').clear();\ncy.get('tbody > tr > .tdPatchNumber > .col-md-12 > .form-control').type('400');\ncy.wait(8000);\ncy.get('.divSalesTypeName').click();\ncy.wait(8000);\ncy.get('tbody > tr > .tdExpireDate > .col-md-12 > .form-control').click();\ncy.get(':nth-child(3) > .active').click();\ncy.get('tbody > tr > .tdProductionDate > .col-md-12 > .form-control').click();\ncy.get('[data-day=\"08/16/2021\"]').click();\ncy.get('tbody > tr > .tdQty > .col-md-12 > .form-control').clear();\ncy.get('tbody > tr > .tdQty > .col-md-12 > .form-control').type('900');\ncy.wait(8000);\ncy.get('.divSalesTypeName').click();\ncy.wait(8000);\ncy.get('tbody > tr > .tdQty > .col-md-12 > .form-control').clear();\ncy.get('tbody > tr > .tdQty > .col-md-12 > .form-control').type('80');\ncy.wait(8000);\ncy.get('.divSalesTypeName').click();\ncy.wait(8000);\ncy.get(':nth-child(16) > .btn').click();\ncy.get(':nth-child(2) > .tdStoreDetails > .col-md-12 > #txtStoreId').clear();\ncy.get(':nth-child(2) > .tdStoreDetails > .col-md-12 > #txtStoreId').type('مخزن انتاج تام');\ncy.wait(8000);\ncy.get('.divSalesTypeName').click();\ncy.wait(8000);\ncy.get(':nth-child(2) > :nth-child(2) > .col-md-12 > #txtItemId').clear();\ncy.get(':nth-child(2) > :nth-child(2) > .col-md-12 > #txtItemId').type('111001 premix phara ferro');\ncy.wait(8000);\ncy.get('.divSalesTypeName').click();\ncy.wait(8000);\ncy.get(':nth-child(2) > :nth-child(3) > .col-md-12 > #txtUnitId').clear();\ncy.get(':nth-child(2) > :nth-child(3) > .col-md-12 > #txtUnitId').type('عدد');\ncy.wait(8000);\ncy.get('.divSalesTypeName').click();\ncy.wait(8000);\ncy.get(':nth-child(2) > .tdPatchNumber > .col-md-12 > .form-control').clear();\ncy.get(':nth-child(2) > .tdPatchNumber > .col-md-12 > .form-control').type('400');\ncy.wait(8000);\ncy.get('.divSalesTypeName').click();\ncy.wait(8000);\ncy.get(':nth-child(2) > .tdExpireDate > .col-md-12 > .form-control').click();\ncy.get(':nth-child(3) > .active').click();\ncy.get(':nth-child(2) > .tdProductionDate > .col-md-12 > .form-control').click();\ncy.get('[data-day=\"08/16/2021\"]').click();\ncy.get(':nth-child(2) > .tdQty > .col-md-12 > .form-control').clear();\ncy.get(':nth-child(2) > .tdQty > .col-md-12 > .form-control').type('80');\ncy.wait(8000);\ncy.get('.divSalesTypeName').click();\ncy.wait(8000);\ncy.get('.btnSend').click();\ncy.get('.confirm').click();\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "6f450b2f-8e0f-4f0c-91e0-b782f856a269",
+              "parentUUID": "882aea67-6f99-4253-affd-37d13946807e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "6f450b2f-8e0f-4f0c-91e0-b782f856a269"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 382555,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-04-03T01:03:01.445Z",
+    "end": "2022-04-03T01:04:11.265Z",
+    "duration": 69820,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "23ffec47-7ba9-49cf-9fbc-ea0ba1ec8784",
+      "title": "",
+      "fullFile": "cypress/integration/clientsearch.spec.js",
+      "file": "cypress/integration/clientsearch.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "55f0164d-3058-4ba7-98ed-e8565e69c4d9",
+          "title": "regression test ",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": " search",
+              "fullTitle": "regression test   search",
+              "timedOut": null,
+              "duration": 61197,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.log('search for client  ');\ncy.log('1-login 2-click on search bar  3- search for client  ');\ncy.log('see the steps executed below ');\ncy.wait(6000);\ncy.truflalogins();\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('.tru-search-bar > .false').clear();\ncy.get('.tru-search-bar > .false').type('clie');\ncy.wait(8000);\ncy.get(':nth-child(3) > .tru-contact > .info-container > .name > .highlight-wrapper > :nth-child(3)').click();\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "bc10dc31-1486-41b6-825f-5e4b627f0bb0",
+              "parentUUID": "55f0164d-3058-4ba7-98ed-e8565e69c4d9",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "bc10dc31-1486-41b6-825f-5e4b627f0bb0"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 61197,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

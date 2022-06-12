@@ -1,0 +1,123 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-12-09T05:02:17.914Z",
+    "end": "2021-12-09T05:04:30.293Z",
+    "duration": 132379,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "365d96b5-c750-4440-b33b-d0f9b174cc60",
+      "title": "",
+      "fullFile": "cypress/integration/clientbugs.spec.js",
+      "file": "cypress/integration/clientbugs.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "7a8ae61b-0d43-4459-bdd0-81a9824a7f7a",
+          "title": "clientnote",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": " login",
+              "fullTitle": "clientnote  login",
+              "timedOut": null,
+              "duration": 36481,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.truflalogins();\ncy.clearCookie('authId');\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "80fc677a-c9f2-4c46-b33b-adf8c2cb5aab",
+              "parentUUID": "7a8ae61b-0d43-4459-bdd0-81a9824a7f7a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": " attachement",
+              "fullTitle": "clientnote  attachement",
+              "timedOut": null,
+              "duration": 93772,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(' https://bestinsurance.trumarket.dev/').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('enter website ');\n});\ncy.wait(8000);\ncy.wait(8000);\nconst fileName = '20211113_092354.pdf';\n/* ==== Generated with Cypress Studio ==== */\ncy.get('[href=\"/clients\"]').click();\ncy.wait(5000);\ncy.get('.pagination > :nth-child(4)').click();\ncy.wait(5000);\ncy.get('.tru-list > :nth-child(5) > :nth-child(1)').click();\ncy.wait(5000);\ncy.get('#react-tabs-2').click();\ncy.wait(5000);\ncy.get('.right > .primary > span').click();\ncy.wait(5000);\ncy.get('.tru-text-input').clear();\ncy.wait(5000);\ncy.get('.tru-text-input').type('andrew');\ncy.wait(5000);\ncy.get('.upload').attachFile('20211113_092354.pdf', {\n  subjectType: 'drag-n-drop'\n});\ncy.wait(5000);\ncy.get('.ant-form-item-control-input-content > .primary').click();\ncy.wait(9000);\ncy.get('#react-tabs-0').click();\ncy.wait(5000);\ncy.get('.tru-client-details-wrapper > :nth-child(1) > .ghost').invoke(\"css\", \"background-color\", \"red\");\ncy.wait(5000);\ncy.get('.tru-client-details-wrapper > :nth-child(1) > .ghost').screenshot();\ncy.reload();\ncy.wait(5000);\ncy.get('#react-tabs-0').click();\ncy.wait(5000);\ncy.get('.tru-client-details-wrapper > :nth-child(1) > .ghost').invoke(\"css\", \"background-color\", \"red\");\ncy.wait(5000);\ncy.get('.tru-client-details-wrapper > :nth-child(1) > .ghost').screenshot();\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "4a3dd7a3-4719-4db4-97a5-7574e799aeb1",
+              "parentUUID": "7a8ae61b-0d43-4459-bdd0-81a9824a7f7a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "80fc677a-c9f2-4c46-b33b-adf8c2cb5aab",
+            "4a3dd7a3-4719-4db4-97a5-7574e799aeb1"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 130253,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

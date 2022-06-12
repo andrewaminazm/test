@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-10-26T14:18:43.576Z",
+    "end": "2021-10-26T14:20:26.659Z",
+    "duration": 103083,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "721fc75f-5879-4a60-9cc1-4148e56f4902",
+      "title": "",
+      "fullFile": "cypress/integration/mainsite.spec.js",
+      "file": "cypress/integration/mainsite.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "d1cc3af1-1b6e-4e31-ac7e-fa6e35937ef6",
+          "title": "mainsite",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "uimainsitebuttons",
+              "fullTitle": "mainsite uimainsitebuttons",
+              "timedOut": null,
+              "duration": 97409,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.login();\ncy.wait(8000);\ncy.get('.navbar-nav > .navbar-right > :nth-child(3) > a > .fa').click();\ncy.wait(8000);\ncy.get('#navbarDropdown1 > .fa').click();\ncy.wait(8000);\ncy.get('#navbarDropdown').click();\ncy.wait(8000);\ncy.get('#menu_toggle > .fa').click();\ncy.wait(8000);\ncy.get('#menu_toggle > .fa').click();\ncy.get('#navbarDropdown').click();\ncy.get('[onclick=\"Employee_PartialView()\"]').click();\ncy.wait(8000);\ncy.get('#navbarDropdown').click();\ncy.wait(5000);\ncy.get('.nav-item.show > .dropdown-menu > :nth-child(2)').click();\ncy.wait(8000);",
+              "err": {},
+              "uuid": "dd4b00dd-27a6-4a7a-aedf-8fc5c27ce50c",
+              "parentUUID": "d1cc3af1-1b6e-4e31-ac7e-fa6e35937ef6",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "dd4b00dd-27a6-4a7a-aedf-8fc5c27ce50c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 97409,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

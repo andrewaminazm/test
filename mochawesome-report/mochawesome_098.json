@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-12-04T23:39:32.496Z",
+    "end": "2021-12-04T23:39:45.678Z",
+    "duration": 13182,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "e25fd875-1abc-4e98-8250-60d466e986ff",
+      "title": "",
+      "fullFile": "cypress/integration/languagebug.spec.js",
+      "file": "cypress/integration/languagebug.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ec4df54e-84aa-402b-b995-953fb9fd368e",
+          "title": "validation on language",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": " language ",
+              "fullTitle": "validation on language  language ",
+              "timedOut": null,
+              "duration": 11166,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(' https://bestinsurance.trumarket.dev/').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('enter website ');\n});\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('#Français').click();\n/* ==== End Cypress Studio ==== */\ncy.get(':nth-child(1) > .control-label').invoke(\"css\", \"background-color\", \"red\");\ncy.wait(5000);\ncy.get('.card-pf').screenshot();",
+              "err": {},
+              "uuid": "bddc8899-8450-4713-98ee-f77bf7912530",
+              "parentUUID": "ec4df54e-84aa-402b-b995-953fb9fd368e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "bddc8899-8450-4713-98ee-f77bf7912530"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 11166,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-08-10T11:23:15.666Z",
+    "end": "2021-08-10T11:24:25.331Z",
+    "duration": 69665,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "76b335ca-4ddc-482c-99b2-6897481e946c",
+      "title": "",
+      "fullFile": "cypress/integration/inventory/inventoryinsert1.spec.js",
+      "file": "cypress/integration/inventory/inventoryinsert1.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "2920cec3-605e-4a36-8a04-0efc43e8a0ad",
+          "title": "inventory",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "inventoryeditupdate",
+              "fullTitle": "inventory inventoryeditupdate",
+              "timedOut": null,
+              "duration": 66905,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.login();\ncy.get('.side-menu > :nth-child(3) > :nth-child(1)').click();\ncy.wait(5000);\ncy.get('.active > .nav > :nth-child(7) > a').click();\ncy.wait(8000);\ncy.contains('add').scrollIntoView();\ncy.wait(8000);\ncy.get('tr[trxid=\"1183\"] > :nth-child(3) > .btn-info').click();\ncy.wait(8000);\n/* ==== Generated with Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get(':nth-child(16) > .btn').click();\ncy.get('tbody > tr > :nth-child(1) > .col-md-12 > #txtStoreId').clear();\ncy.get('tbody > tr > :nth-child(1) > .col-md-12 > #txtStoreId').type('مخزن الدلتا تحت التشغيل');\ncy.get('tbody > tr > :nth-child(2) > .col-md-12 > #txtItemId').clear();\ncy.get('tbody > tr > :nth-child(2) > .col-md-12 > #txtItemId').type('100007 مكينة اندكشن سيلد ');\ncy.get('tbody > tr > :nth-child(3) > .col-md-12 > #txtUnitId').clear();\ncy.get('tbody > tr > :nth-child(3) > .col-md-12 > #txtUnitId').type('عدد');\ncy.get('tbody > tr > .tdQty > .col-md-12 > .form-control').clear();\ncy.get('tbody > tr > .tdQty > .col-md-12 > .form-control').type('2');\ncy.get('.btnSend').click();\ncy.get('.confirm').click();\ncy.wait(8000);\ncy.get('tr[trxid=\"1183\"] > :nth-child(3) > .btn-info').click();\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */",
+              "err": {
+                "message": "CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element:\n\n`<a data-toggle=\"tooltip\" data-placement=\"top\" title=\"Update\" href=\"javascript:;\" class=\"btn btn-info btn-xs btnRemove\" onclick=\"InventoryTrxWarehouseTransAction_GetById($(this).closest('tr').attr('TrxId'))\">...</a>`\n\nis being covered by another element:\n\n`<div class=\"col-md-12 divBtnCostCenter\" style=\"text-align:end;\">...</div>`\n\nFix this problem, or use {force: true} to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with",
+                "estack": "CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element:\n\n`<a data-toggle=\"tooltip\" data-placement=\"top\" title=\"Update\" href=\"javascript:;\" class=\"btn btn-info btn-xs btnRemove\" onclick=\"InventoryTrxWarehouseTransAction_GetById($(this).closest('tr').attr('TrxId'))\">...</a>`\n\nis being covered by another element:\n\n`<div class=\"col-md-12 divBtnCostCenter\" style=\"text-align:end;\">...</div>`\n\nFix this problem, or use {force: true} to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with\n    at $Cy.ensureDescendents (http://printcheq.devartlabcrm.com/__cypress/runner/cypress_runner.js:148556:26)\n    at ensureDescendents (http://printcheq.devartlabcrm.com/__cypress/runner/cypress_runner.js:135786:8)\n    at ensureDescendentsAndScroll (http://printcheq.devartlabcrm.com/__cypress/runner/cypress_runner.js:135793:14)\n    at ensureElIsNotCovered (http://printcheq.devartlabcrm.com/__cypress/runner/cypress_runner.js:135927:5)\n    at runAllChecks (http://printcheq.devartlabcrm.com/__cypress/runner/cypress_runner.js:136114:52)\n    at retryActionability (http://printcheq.devartlabcrm.com/__cypress/runner/cypress_runner.js:136137:16)\n    at tryCatcher (http://printcheq.devartlabcrm.com/__cypress/runner/cypress_runner.js:13212:23)\n    at Function.Promise.attempt.Promise.try (http://printcheq.devartlabcrm.com/__cypress/runner/cypress_runner.js:10486:29)\n    at tryFn (http://printcheq.devartlabcrm.com/__cypress/runner/cypress_runner.js:153198:21)\n    at whenStable (http://printcheq.devartlabcrm.com/__cypress/runner/cypress_runner.js:153236:12)\n    at http://printcheq.devartlabcrm.com/__cypress/runner/cypress_runner.js:152728:16\n    at tryCatcher (http://printcheq.devartlabcrm.com/__cypress/runner/cypress_runner.js:13212:23)\n    at Promise._settlePromiseFromHandler (http://printcheq.devartlabcrm.com/__cypress/runner/cypress_runner.js:11147:31)\n    at Promise._settlePromise (http://printcheq.devartlabcrm.com/__cypress/runner/cypress_runner.js:11204:18)\n    at Promise._settlePromise0 (http://printcheq.devartlabcrm.com/__cypress/runner/cypress_runner.js:11249:10)\n    at Promise._settlePromises (http://printcheq.devartlabcrm.com/__cypress/runner/cypress_runner.js:11329:18)\nFrom Your Spec Code:\n    at Context.eval (http://printcheq.devartlabcrm.com/__cypress/tests?p=cypress\\integration\\inventory\\inventoryinsert1.spec.js:190:60)",
+                "diff": null
+              },
+              "uuid": "f14452fe-2783-4427-89df-54366ca05119",
+              "parentUUID": "2920cec3-605e-4a36-8a04-0efc43e8a0ad",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "f14452fe-2783-4427-89df-54366ca05119"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 66905,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

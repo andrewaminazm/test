@@ -1,0 +1,177 @@
+{
+	"id": "58a0934b-d814-4911-9f08-b0108c8babe0",
+	"name": "New Collection",
+	"timestamp": "2022-06-11T02:11:41.305Z",
+	"collection_id": "15902864-8076662c-2c3b-446f-8d2f-62fd45cea954",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 14,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "ae0a69bd-f3b7-4c26-932c-82d9de64d75d",
+			"name": "Cheer yourself up with random dog images",
+			"url": "https://dog.ceo/api/breeds/image/random",
+			"time": 394,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"the endpoint does not return unexpected status code": true,
+				"API responds within the expected treshhold": true,
+				"Body matches string": true,
+				"API response contains the expected fields": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"the endpoint does not return unexpected status code": {
+					"pass": 1,
+					"fail": 0
+				},
+				"API responds within the expected treshhold": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"API response contains the expected fields": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				394
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"the endpoint does not return unexpected status code": true,
+					"API responds within the expected treshhold": true,
+					"Body matches string": true,
+					"API response contains the expected fields": true
+				}
+			]
+		},
+		{
+			"id": "4ec23383-d2aa-4e17-8c22-c25d9e643aa2",
+			"name": "get your current IP address.",
+			"url": "https://api.ipify.org/?format=json",
+			"time": 789,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"the endpoint does not return unexpected status code": true,
+				"API responds within the expected treshhold": true,
+				"Body matches string": true,
+				"API response contains the expected fields": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"the endpoint does not return unexpected status code": {
+					"pass": 1,
+					"fail": 0
+				},
+				"API responds within the expected treshhold": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"API response contains the expected fields": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				789
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"the endpoint does not return unexpected status code": true,
+					"API responds within the expected treshhold": true,
+					"Body matches string": true,
+					"API response contains the expected fields": true
+				}
+			]
+		},
+		{
+			"id": "82ad2688-666f-4d71-91e8-10f748efbc58",
+			"name": "Get information about a random fake user",
+			"url": "https://randomuser.me/api/",
+			"time": 254,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"the endpoint does not return unexpected status code": true,
+				"API response contians the expected header": true,
+				"API responds within the expected treshhold": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"the endpoint does not return unexpected status code": {
+					"pass": 1,
+					"fail": 0
+				},
+				"API response contians the expected header": {
+					"pass": 1,
+					"fail": 0
+				},
+				"API responds within the expected treshhold": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				254
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"the endpoint does not return unexpected status code": true,
+					"API response contians the expected header": true,
+					"API responds within the expected treshhold": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1437,
+	"collection": {
+		"requests": [
+			{
+				"id": "ae0a69bd-f3b7-4c26-932c-82d9de64d75d",
+				"method": "GET"
+			},
+			{
+				"id": "4ec23383-d2aa-4e17-8c22-c25d9e643aa2",
+				"method": "GET"
+			},
+			{
+				"id": "82ad2688-666f-4d71-91e8-10f748efbc58",
+				"method": "GET"
+			}
+		]
+	}
+}

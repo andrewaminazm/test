@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-08-19T08:45:07.193Z",
+    "end": "2021-08-19T08:48:51.310Z",
+    "duration": 224117,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ac9e4dfd-31d1-4146-bf40-f0b1dd1aea22",
+      "title": "",
+      "fullFile": "cypress/integration/inventory/sarfmontagtam.spec.js",
+      "file": "cypress/integration/inventory/sarfmontagtam.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "eee2e67f-5c1b-4426-bcab-87771c8ffb4e",
+          "title": "inventory",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "inventoryeditupdate",
+              "fullTitle": "inventory inventoryeditupdate",
+              "timedOut": null,
+              "duration": 221572,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.login();\ncy.get('.side-menu > :nth-child(4) > :nth-child(1)').click();\ncy.wait(8000);\ncy.get('.active > .nav > :nth-child(15) > a').click();\ncy.wait(8000);\ncy.wait(8000);\ncy.wait(8000);\ncy.get('thead > tr > :nth-child(3) > .btn').click();\ncy.wait(8000);\ncy.get('#txtSupplierId').clear();\ncy.wait(8000);\ncy.get('#txtSupplierId').type('شركة يونيتد بيونات');\ncy.wait(8000);\ncy.get('.divSalesTypeName').click();\ncy.wait(8000);\ncy.get('.divStoreId > #txtStoreId').clear();\ncy.wait(8000);\ncy.get('.divStoreId > #txtStoreId').type('1 مخزن انتاج تام');\ncy.wait(8000);\ncy.get('.divSalesTypeName').click();\ncy.wait(8000);\ncy.get('#txtProductId').clear();\ncy.wait(8000);\ncy.get('#txtProductId').type('111001 premix phara ferro');\ncy.wait(8000);\ncy.get('.divSupplier').click();\ncy.wait(8000);\ncy.get('#txtTrxdate').click();\ncy.wait(8000);\ncy.get(':nth-child(3) > .active').click();\ncy.wait(8000);\ncy.get('.divSalesTypeName').click();\ncy.wait(8000);\ncy.get('.divPatchSerial > .form__label').click();\ncy.wait(8000);\ncy.get('#txtPatchSerial').clear();\ncy.get('#txtPatchSerial').type('404');\ncy.wait(8000);\ncy.get('.divSalesTypeName').click();\ncy.wait(8000);\ncy.get('#txtTrxNote').clear();\ncy.get('#txtTrxNote').type('andrew');\ncy.get('.divTrxNote').click();\ncy.wait(8000);\ncy.get('.divSalesTypeName').click();\ncy.wait(8000);\ncy.get(':nth-child(16) > .btn').click();\ncy.get('tbody > tr > :nth-child(2) > .col-md-12 > #txtItemId').clear();\ncy.get('tbody > tr > :nth-child(2) > .col-md-12 > #txtItemId').type('111001 premix phara ferro');\ncy.get('.divSupplier').click();\ncy.get('tbody > tr > :nth-child(3) > .col-md-12 > #txtUnitId').clear();\ncy.get('tbody > tr > :nth-child(3) > .col-md-12 > #txtUnitId').type('عدد');\ncy.get('.divSupplier').click();\ncy.get('tbody > tr > .tdQty > .col-md-12 > .form-control').clear();\ncy.get('tbody > tr > .tdQty > .col-md-12 > .form-control').type('300');\ncy.get('.divSupplier').click();\ncy.get('.divSupplier').click();\n/* ==== Generated with Cypress Studio ==== */\ncy.get('tbody > tr > .tdPatchNumber > .col-md-12 > .form-control').clear();\ncy.get('tbody > tr > .tdPatchNumber > .col-md-12 > .form-control').type('300');\ncy.get('.divSupplier').click();\ncy.get('tbody > tr > .tdExpireDate > .col-md-12 > .form-control').click();\ncy.get(':nth-child(3) > .active').click();\ncy.get('tbody > tr > .tdProductionDate > .col-md-12 > .form-control').click();\ncy.get('[data-day=\"08/18/2021\"]').click();\ncy.get('.divSupplier').click();\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('.btnSend').click();\ncy.wait(8000);\ncy.get('.confirm').click();\ncy.wait(8000);",
+              "err": {},
+              "uuid": "402fbd1f-32df-4cd9-b8aa-9b9109554095",
+              "parentUUID": "eee2e67f-5c1b-4426-bcab-87771c8ffb4e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "402fbd1f-32df-4cd9-b8aa-9b9109554095"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 221572,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

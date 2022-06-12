@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-09-15T14:14:20.025Z",
+    "end": "2021-09-15T14:16:42.050Z",
+    "duration": 142025,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c84cc197-682e-49cc-b1b7-ef62b69a5812",
+      "title": "",
+      "fullFile": "cypress/integration/truflla/tasks.spec.js",
+      "file": "cypress/integration/truflla/tasks.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "3b98198f-bbbc-4d3e-b25e-a57b8f01d9b3",
+          "title": "truflla",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "tasks",
+              "fullTitle": "truflla tasks",
+              "timedOut": null,
+              "duration": 138353,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://www.trufla.com/').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('visit your site ');\n});\ncy.wait(7000);\ncy.title().should('eq', 'Insurance brokers/Agents Software|Free Demo - Trufla Technology').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('to be sure that title is appear ');\n});\ncy.wait(7000);\ncy.get('.t-header__logo > .lazyloaded').should('be.visible').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('to be sure that logo appear  ');\n});\ncy.wait(7000);\ncy.get('.t-content-column__inner > .lazyloaded').should('be.visible').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('to be sure that container  appear  ');\n});\ncy.wait(7000);\ncy.get('.t-footer > :nth-child(1)').should('be.visible').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('to be sure that footer  appear  ');\n});\ncy.wait(7000);\n/* ==== Generated with Cypress Studio ==== */\ncy.get('[href=\"#\"]').click();\ncy.wait(7000);\ncy.get('#menu-primary-menu > .wp__menu-item-has-children > .sub-menu > :nth-child(1) > a').click().then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('visit firstlink in product ');\n});\ncy.wait(7000);\ncy.get('[href=\"#\"]').click();\ncy.wait(7000);\ncy.get('#menu-primary-menu > .wp__current-menu-parent > .sub-menu > :nth-child(2) > a').click().then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('visit secondlink in product ');\n});\ncy.wait(7000);\ncy.get('[href=\"#\"]').click();\ncy.wait(7000);\ncy.get('#menu-primary-menu > .wp__current-menu-parent > .sub-menu > :nth-child(3) > a').click().then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('visit thirdlink in product ');\n});\ncy.wait(7000);\ncy.get('[href=\"#\"]').click();\ncy.wait(7000);\ncy.get('#menu-primary-menu > .wp__current-menu-parent > .sub-menu > :nth-child(4) > a').click().then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('visit fourthlink in product ');\n});\ncy.wait(7000);\ncy.get('[href=\"#\"]').click();\ncy.wait(7000);\ncy.get('#menu-primary-menu > .wp__current-menu-parent > .sub-menu > :nth-child(5) > a').click().then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('visit fifthlink in product ');\n});\ncy.wait(7000);\ncy.get('[href=\"#\"]').click();\ncy.wait(7000);\ncy.get('#menu-primary-menu > .wp__current-menu-parent > .sub-menu > :nth-child(6) > a').click().then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('visit sixlink in product ');\n});\ncy.wait(7000);\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "a929407b-578b-47b5-89ee-cc2a40ae7be0",
+              "parentUUID": "3b98198f-bbbc-4d3e-b25e-a57b8f01d9b3",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "a929407b-578b-47b5-89ee-cc2a40ae7be0"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 138353,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

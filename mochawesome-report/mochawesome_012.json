@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-08-10T16:50:27.959Z",
+    "end": "2021-08-10T16:51:25.063Z",
+    "duration": 57104,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "042fdd7e-e2b0-4664-bb4d-fd910473bfd3",
+      "title": "",
+      "fullFile": "cypress/integration/inventory/businesslogicscenario.spec.js",
+      "file": "cypress/integration/inventory/businesslogicscenario.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "c52fba9b-c5ab-433d-b174-0b91c0bd9927",
+          "title": "inventory",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "requestamany",
+              "fullTitle": "inventory requestamany",
+              "timedOut": null,
+              "duration": 54591,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.login();\ncy.wait(5000);\ncy.get('.side-menu > :nth-child(2) > :nth-child(1)').click();\ncy.wait(5000);\ncy.get('.active > .nav > :nth-child(2) > a').click();\ncy.wait(8000);\ncy.get('[style=\"cursor:pointer\"][invoiceid=\"1119\"] > :nth-child(9) > .btn').click();\ncy.wait(8000);\ncy.get('.activeTab > :nth-child(3) > :nth-child(1) > .divApproveBtn').click();\ncy.wait(8000);",
+              "err": {},
+              "uuid": "f4741644-bcde-4ba9-bc0a-073a5773f6ec",
+              "parentUUID": "c52fba9b-c5ab-433d-b174-0b91c0bd9927",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f4741644-bcde-4ba9-bc0a-073a5773f6ec"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 54591,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

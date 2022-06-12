@@ -1,0 +1,108 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-10-26T13:34:39.010Z",
+    "end": "2021-10-26T13:35:28.121Z",
+    "duration": 49111,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "0c36be63-70bf-4a84-87c0-eeaa1dc96e9e",
+      "title": "",
+      "fullFile": "cypress/integration/admindashboard/adv/medicineadv.spec.js",
+      "file": "cypress/integration/admindashboard/adv/medicineadv.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "8ac53daf-af36-4469-ae8f-6ee20e43372c",
+          "title": "mobadv",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "add search",
+              "fullTitle": "mobadv add search",
+              "timedOut": null,
+              "duration": 46887,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.logins();\ncy.get(':nth-child(8) > [href=\"\"]').click();\ncy.get(':nth-child(8) > ul > :nth-child(3) > a').click();\ncy.wait(7000);\n/* ==== Generated with Cypress Studio ==== */\ncy.get('#Title').clear();\ncy.get('#Title').type('andrew');\ncy.get('.needs-validation > .btn').click();\ncy.get('#Title').clear();\ncy.get('.needs-validation > .btn').click();\ncy.get('#Link').clear();\ncy.get('#Link').type('https://www.google.com/');\ncy.get('.needs-validation > .btn').click();\ncy.get('.needs-validation > :nth-child(1) > :nth-child(2) > .col-xs-6 > div.col-md-12').click();\ncy.get('.needs-validation > .btn').click();\ncy.get('#FromDate').click();\ncy.get('tbody > :nth-child(3) > :nth-child(2)').click();\ncy.get('.needs-validation').click();\ncy.get('.needs-validation > .btn').click();\ncy.get('.needs-validation > .btn').click();\ncy.get('#FromDate').click();\ncy.get('#FromDate').click();\ncy.get('.needs-validation > :nth-child(2) > :nth-child(1)').click();\n/* ==== End Cypress Studio ==== */",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `:nth-child(8) > [href=\"\"]`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `:nth-child(8) > [href=\"\"]`, but never found it.\n    at Context.eval (http://23.250.115.98:2078/__cypress/tests?p=cypress\\integration\\admindashboard\\adv\\medicineadv.spec.js:161:8)",
+                "diff": null
+              },
+              "uuid": "726926f7-2b81-4095-9a91-ed0d086dbc74",
+              "parentUUID": "8ac53daf-af36-4469-ae8f-6ee20e43372c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "726926f7-2b81-4095-9a91-ed0d086dbc74"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 46887,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

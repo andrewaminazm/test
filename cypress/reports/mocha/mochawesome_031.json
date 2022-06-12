@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-04-03T00:55:06.652Z",
+    "end": "2022-04-03T00:57:05.410Z",
+    "duration": 118758,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "11fd16d6-5fe8-434a-8fab-1b0204b286c0",
+      "title": "",
+      "fullFile": "cypress/integration/changedetailsclient.spec.js",
+      "file": "cypress/integration/changedetailsclient.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "77e9572f-9b21-4232-8b96-6db06caf6f0d",
+          "title": "regression test ",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": " change client details ",
+              "fullTitle": "regression test   change client details ",
+              "timedOut": null,
+              "duration": 110088,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.log('change details ');\ncy.log('1-login 2-click on any client  3- enter dashboard and change details ');\ncy.log('see the steps executed below ');\ncy.wait(6000);\ncy.truflalogins();\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('.tru-search-bar > .false').clear();\ncy.get('.tru-search-bar > .false').type('clie');\ncy.wait(8000);\ncy.get(':nth-child(3) > .tru-contact > .info-container > .name > .highlight-wrapper > :nth-child(3)').click();\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get(':nth-child(5) > .tru-editable-field > :nth-child(1) > .edit-icon-wrapper > .tru-icon > use').click({\n  force: true\n});\ncy.wait(8000);\ncy.get('.tru-text-input').clear({\n  force: true\n});\ncy.wait(8000);\ncy.get('.tru-text-input').type('w2wwww{enter}', {\n  force: true\n});\ncy.wait(8000);\ncy.get('.label-icon-wrapper > .edit-icon-wrapper > .tru-icon > use').click({\n  force: true\n});\ncy.wait(8000);\ncy.get('.tru-select').select('Facebook', {\n  force: true\n});\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "21802399-671e-4f3a-bdb2-50f3b09d0558",
+              "parentUUID": "77e9572f-9b21-4232-8b96-6db06caf6f0d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "21802399-671e-4f3a-bdb2-50f3b09d0558"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 110088,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-08-11T09:00:46.883Z",
+    "end": "2021-08-11T09:07:56.487Z",
+    "duration": 429604,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "fe3c5f4b-1133-4b1d-8cab-e235c7063a6a",
+      "title": "",
+      "fullFile": "cypress/integration/task/task1.spec.js",
+      "file": "cypress/integration/task/task1.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b747699f-40ec-4fca-a395-ac427d60274d",
+          "title": "tsk",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "task1",
+              "fullTitle": "tsk task1",
+              "timedOut": null,
+              "duration": 425140,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://iso.digitaltransformationinstitute.org:8101/pages/context/list');\ncy.wait(8000);\ncy.get('#LoginInput_UserNameOrEmailAddress').type('awahbah');\ncy.wait(5000);\ncy.get('#LoginInput_Password').type('P@ssw0rdRMG');\ncy.wait(5000);\ncy.get('.btn-primary').click();\ncy.wait(8000);\n/* ==== Generated with Cypress Studio ==== */\ncy.get('.slider').click();\ncy.wait(8000);\ncy.get('[y=\"6\"]').click();\ncy.wait(8000);\ncy.get('a.ng-tns-c178-3 > .menu-title').click();\ncy.wait(8000);\ncy.get('[y=\"6\"]').click();\ncy.wait(8000);\ncy.get('#ContextListAdd').click();\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.xpath('/html/body/app-root/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div/div/nb-layout-column/ngx-components/ngx-add-context/nb-card/nb-card-body/form/div[1]/div[2]/div/ng-select/div').click();\ncy.wait(8000);\ncy.xpath('/html/body/app-root/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div/div/nb-layout-column/ngx-components/ngx-add-context/nb-card/nb-card-body/form/div[1]/div[2]/div/ng-select/ng-dropdown-panel/div/div[2]/div[1]/span').click();\ncy.wait(8000);\ncy.xpath('/html/body/app-root/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div/div/nb-layout-column/ngx-components/ngx-add-context/nb-card/nb-card-body/form/div[2]/div[2]/div/ng-select/div').click();\ncy.wait(8000);\ncy.xpath('/html/body/app-root/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div/div/nb-layout-column/ngx-components/ngx-add-context/nb-card/nb-card-body/form/div[2]/div[2]/div/ng-select/ng-dropdown-panel/div/div[2]/div[2]/span').click();\ncy.wait(8000);\ncy.get('#addContextTitle').click();\ncy.wait(8000);\ncy.get('#addContextTitle').type('لللللللللللللعدم وجود ادارة للجودة');\ncy.wait(8000);\ncy.get('#addContextFactoryDescription').click();\ncy.wait(8000);\ncy.get('#addContextFactoryDescription').type('{backspace}');\ncy.wait(8000);\ncy.get('#addContextFactoryDescription').type('dddddddddddddddddddddddddffffffffffffff');\ncy.wait(8000);\ncy.get('#addContextIssueDescription').click();\ncy.wait(8000);\ncy.get('#addContextIssueDescription').type('ddddddddddddddddddddddddddddddffffffffffff');\ncy.wait(8000);\ncy.get('.row:nth-child(4)').click();\ncy.wait(8000);\ncy.get('#main').type('{downarrow}');\ncy.wait(8000);\ncy.get('#main').type('{downarrow}');\ncy.wait(8000);\ncy.get('#main').type('{downarrow}');\ncy.wait(8000);\ncy.get('#main').type('{downarrow}');\ncy.wait(8000);\ncy.get('#main').type('{downarrow}');\ncy.wait(8000);\ncy.get('#main').type('{downarrow}');\ncy.wait(8000);\ncy.get('#main').type('{downarrow}');\ncy.wait(8000);\ncy.get('#addContextMonitoringDescription').click();\ncy.wait(8000);\ncy.get('#addContextMonitoringDescription').type('dddddddddddddddddddddddddddddddddffffffffffffff');\ncy.wait(8000);\ncy.get('.row:nth-child(7)').click();\ncy.wait(8000);\ncy.get('#addContextRevisionDate').click();\ncy.wait(8000);\ncy.get('.ng-star-inserted:nth-child(2) > .day-cell:nth-child(6) > .cell-content').click();\ncy.wait(8000);\ncy.get('.col-md-5').click();\ncy.wait(8000);\ncy.get('.row:nth-child(7)').click();\ncy.wait(8000);\ncy.get('#main').type('{uparrow}');\ncy.wait(8000);\ncy.get('#main').type('{uparrow}');\ncy.wait(8000);\ncy.get('#main').type('{uparrow}');\ncy.wait(8000);\ncy.get('#main').type('{uparrow}');\ncy.wait(8000);\ncy.get('#main').type('{uparrow}');\ncy.wait(8000);\ncy.xpath('/html/body/app-root/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div/div/nb-layout-column/ngx-components/ngx-add-context/nb-card/nb-card-body/form/div[4]/div[2]/div/nb-radio-group/nb-radio[2]/label/span[3]').click();\ncy.wait(8000);\ncy.get('#main').type('{downarrow}');\ncy.wait(8000);\ncy.get('#main').type('{downarrow}');\ncy.wait(8000);\ncy.get('#main').type('{downarrow}');\ncy.wait(8000);\ncy.get('#main').type('{downarrow}');\ncy.wait(8000);\ncy.get('#main').type('{downarrow}');\ncy.wait(8000);\ncy.get('#main').type('{downarrow}');\ncy.wait(8000);\ncy.get('#addContextCreate').trigger('mouseover');\ncy.wait(8000);\ncy.get('#addContextCreate').click();\ncy.wait(8000);\ncy.get('nb-card-body > .ng-dirty').submit();\ncy.wait(8000);",
+              "err": {},
+              "uuid": "4689f634-4046-466e-9299-f27835c9bf03",
+              "parentUUID": "b747699f-40ec-4fca-a395-ac427d60274d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "4689f634-4046-466e-9299-f27835c9bf03"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 425140,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

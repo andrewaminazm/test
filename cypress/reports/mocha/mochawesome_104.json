@@ -1,0 +1,111 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-04-07T05:55:05.037Z",
+    "end": "2022-04-07T06:00:44.938Z",
+    "duration": 339901,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "821a369a-a399-4ea9-824d-687610aebb71",
+      "title": "",
+      "fullFile": "cypress/integration/datalock.spec.js",
+      "file": "cypress/integration/datalock.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "7b77e58a-82ed-4f65-bd00-792c62e860be",
+          "title": "clientsearch",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "TR0002 - search for client",
+              "fullTitle": "clientsearch TR0002 - search for client",
+              "timedOut": null,
+              "duration": 335433,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.truflalogins();\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\n/* ==== End Cypress Studio ==== */\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('.header-right > :nth-child(2) > .tru-button > :nth-child(1)').click();\ncy.wait(5000);\ncy.get('[href=\"/?new=request\"]').click();\ncy.wait(5000);\ncy.get('.client-name-and-add-user-icon > .ant-row > .ant-form-item-control > .ant-form-item-control-input > .ant-form-item-control-input-content > .search-input > .tru-search-bar > .without-search-icon-input').clear();\ncy.wait(5000);\ncy.get('.client-name-and-add-user-icon > .ant-row > .ant-form-item-control > .ant-form-item-control-input > .ant-form-item-control-input-content > .search-input > .tru-search-bar > .without-search-icon-input').type('a');\ncy.wait(5000);\ncy.get('[value=\"4ab1c81a-018e-4a56-912f-2e8927c54295\"]').click({\n  force: true\n});\ncy.get('.outline-primary > span').click();\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.wait(9000);\ncy.get('.multi-values > :nth-child(2) > .tru-button').click();\ncy.get('.multi-values > :nth-child(2) > .tru-button > :nth-child(1) > span').click();\ncy.get('.multi-values > :nth-child(2) > .tru-button').click();\ncy.get('.multi-values > :nth-child(2) > .tru-button > :nth-child(1) > span').click();\ncy.get(':nth-child(2) > :nth-child(2) > .tru-layout-vertical-sections > .content > :nth-child(1) > .tru-layout-Section > :nth-child(2) > :nth-child(1) > .tru-form-item').click();\ncy.wait(9000);\ncy.get('.location-search-input').clear();\ncy.wait(9000);\ncy.get('.location-search-input').type('123', {\n  force: true\n});\ncy.get('.autocomplete-dropdown-container > :nth-child(1) > span').click({\n  force: true\n});\ncy.get(':nth-child(2) > :nth-child(2) > .tru-layout-vertical-sections > .content > :nth-child(1) > .tru-layout-Section > :nth-child(2)').click({\n  force: true\n});\ncy.get(':nth-child(8) > .tru-form-item > .tru-column > .tru-text-input').click({\n  force: true\n});\ncy.wait(5000);\ncy.get(':nth-child(8) > .tru-form-item > .tru-column > .tru-text-input').clear({\n  force: true\n});\ncy.get(':nth-child(8) > .tru-form-item > .tru-column > .tru-text-input').type('www.google.com', {\n  force: true\n});\ncy.get('.tru-currency-input > .tru-text-input').clear({\n  force: true\n});\ncy.get('.tru-currency-input > .tru-text-input').type('10,000,000', {\n  force: true\n});\ncy.get(':nth-child(1) > .tru-layout-Section > :nth-child(2) > :nth-child(8)').click({\n  force: true\n});\ncy.wait(5000);\ncy.get('.ant-select-selection-item').click({\n  force: true\n});\ncy.wait(5000);\ncy.get('#rc_select_0').clear({\n  force: true\n});\ncy.get('#rc_select_0').type('agri{enter}', {\n  force: true\n});\ncy.get(':nth-child(2) > :nth-child(2) > .tru-layout-vertical-sections > .content > :nth-child(2) > .tru-layout-Section > :nth-child(2)').click({\n  force: true\n});\ncy.wait(5000);\ncy.get('div > .rc-virtual-list-holder-inner > .ant-select-item-option-active > .ant-select-item-option-content > span').click({\n  force: true\n});\ncy.wait(5000);\ncy.get(':nth-child(2) > .tru-layout-Section > :nth-child(2) > :nth-child(3) > .tru-form-item > .tru-column > .tru-radio-select > :nth-child(2) > input').check({\n  force: true\n});\ncy.wait(5000);\ncy.get(':nth-child(2) > .tru-layout-Section > :nth-child(2) > :nth-child(5) > .tru-form-item > .tru-column > .tru-radio-select > :nth-child(2) > input').check({\n  force: true\n});\ncy.wait(5000);\ncy.get(':nth-child(2) > :nth-child(2) > .tru-layout-vertical-sections > .content > :nth-child(2) > .tru-layout-Section > :nth-child(2) > :nth-child(4)').click({\n  force: true\n});\ncy.wait(5000);\ncy.get(':nth-child(3) > :nth-child(2) > .tru-layout-vertical-sections > .content > :nth-child(1) > .tru-layout-Section > :nth-child(2) > :nth-child(4) > .tru-form-item > .tru-column > .tru-radio-select > :nth-child(1) > input').check({\n  force: true\n});\ncy.wait(5000);\ncy.get(':nth-child(2) > :nth-child(2) > .tru-layout-vertical-sections > .content > :nth-child(1) > .tru-layout-Section > :nth-child(2) > :nth-child(1) > .tru-form-item').click({\n  force: true\n});\ncy.wait(5000);\ncy.get(':nth-child(5) > .tru-form-item > .tru-column > :nth-child(1) > .tru-single-select-arrow-wrapper > .tru-select').select('30 Days', {\n  force: true\n});\ncy.wait(5000);\ncy.get(':nth-child(3) > :nth-child(2) > .tru-layout-vertical-sections > .content > :nth-child(1) > .tru-layout-Section > :nth-child(2) > :nth-child(5) > .tru-form-item').click({\n  force: true\n});\ncy.wait(5000);\ncy.get(':nth-child(7) > .tru-form-item > .tru-column > :nth-child(1) > .tru-single-select-arrow-wrapper > .tru-select').select('Less than 5000', {\n  force: true\n});\ncy.wait(5000);\ncy.get(':nth-child(3) > :nth-child(2) > .tru-layout-vertical-sections > .content > :nth-child(1) > .tru-layout-Section > :nth-child(2) > :nth-child(4) > .tru-form-item').click({\n  force: true\n});\ncy.wait(5000);\ncy.get(':nth-child(1) > .tru-form-item > .tru-column > :nth-child(1) > .tru-single-select-arrow-wrapper > .tru-select').select('100000', {\n  force: true\n});\ncy.wait(5000);\ncy.get(':nth-child(2) > .tru-form-item > .tru-column > :nth-child(1) > .tru-single-select-arrow-wrapper > .tru-select').select('500', {\n  force: true\n});\ncy.wait(5000);\ncy.get(':nth-child(2) > :nth-child(2) > .tru-layout-vertical-sections > .content > :nth-child(2) > .tru-layout-Section > :nth-child(2)').click({\n  force: true\n});\ncy.wait(5000);\ncy.get(':nth-child(4) > .tru-form-item > .tru-column > .tru-single-select-arrow-wrapper > .tru-select').select('25000', {\n  force: true\n});\ncy.wait(5000);\ncy.get(':nth-child(5) > :nth-child(2) > .tru-layout-vertical-sections > .content > :nth-child(2) > .tru-layout-Section > :nth-child(2) > :nth-child(4) > .tru-form-item').click({\n  force: true\n});\ncy.wait(5000);\ncy.get(':nth-child(7) > .tru-form-item > .tru-column > .tru-single-select-arrow-wrapper > .tru-select').select('0', {\n  force: true\n});\ncy.wait(5000);\ncy.get(':nth-child(2) > .tru-layout-Section > :nth-child(2) > :nth-child(7) > .tru-form-item').click({\n  force: true\n});\ncy.wait(5000);\ncy.get(':nth-child(6) > div > .tru-button').click({\n  force: true\n});\ncy.wait(8000);\ncy.wait(8000);\ncy.wait(8000);\ncy.wait(8000);\ncy.wait(8000);\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('.tru-layout-quote-actions > .primary > span').click({\n  force: true\n});\ncy.get('.purchase-controls > .primary > span').click({\n  force: true\n});\ncy.wait(8000);\ncy.wait(8000);\ncy.get('.active').click({\n  force: true\n});\ncy.wait(8000);\ncy.get(':nth-child(2) > .sort-arrows > .tru-icon').click({\n  force: true\n});\ncy.wait(5000);\ncy.get(':nth-child(2) > .sort-arrows').click({\n  force: true\n});\ncy.wait(5000);\ncy.get(':nth-child(5) > .sort-arrows > .tru-icon').click({\n  force: true\n});\ncy.wait(5000);\ncy.get(':nth-child(5) > .sort-arrows > .tru-icon').click({\n  force: true\n});\ncy.wait(5000);\ncy.wait(8000);\ncy.get(':nth-child(2) > :nth-child(1) > span > a').click();\ncy.wait(8000);\ncy.get(':nth-child(1) > :nth-child(2) > .tru-layout-vertical-sections > .content > :nth-child(1) > .tru-layout-Section > :nth-child(2) > :nth-child(2) > .tru-form-item').click({\n  force: true\n});\ncy.get(':nth-child(1) > .ant-checkbox > .ant-checkbox-inner').click({\n  force: true\n});\ncy.get(':nth-child(1) > .ant-checkbox > .ant-checkbox-input').check({\n  force: true\n});\ncy.get(':nth-child(2) > .ant-checkbox > .ant-checkbox-inner').click({\n  force: true\n});\ncy.get(':nth-child(2) > .ant-checkbox > .ant-checkbox-input').check({\n  force: true\n});\ncy.get('.tru-layout-vertical-steps > :nth-child(6) > div > :nth-child(1) > span').click({\n  force: true\n});\ncy.wait(8000);\ncy.wait(8000);\ncy.get(':nth-child(3) > :nth-child(1) > span > a').click();\ncy.wait(8000);\ncy.get('.tru-layout-quote-actions > .primary > span').click({\n  force: true\n});\ncy.get(':nth-child(4) > .tru-form-item > .tru-column > .tru-date-picker-new > .ant-picker > .ant-picker-input > input').click({\n  force: true\n});\ncy.get('.ant-picker-cell-today > .ant-picker-cell-inner').click({\n  force: true\n});\ncy.get('.purchase-controls > .primary > span').click({\n  force: true\n});\ncy.wait(8000);\ncy.wait(8000);\ncy.wait(8000);\ncy.wait(8000);\ncy.get('.tru-layout-quote-actions > .primary > span').click({\n  force: true\n});\ncy.wait(8000);\ncy.get('.active').click();\ncy.wait(8000);\ncy.wait(8000);\ncy.get(':nth-child(2) > :nth-child(1) > span > a').click();\ncy.wait(8000);\ncy.wait(8000);\ncy.get('.tru-layout-quote-actions > .tru-button > span').click();\ncy.wait(8000);\ncy.wait(8000);\ncy.get('.active').click();\ncy.wait(8000);\ncy.wait(8000);\ncy.get(':nth-child(4) > :nth-child(1) > span > a').click();\ncy.wait(8000);\ncy.wait(8000);\ncy.get('[cy=\"7\"]').click({\n  force: true\n});\ncy.wait(8000);\ncy.get('.dropdown-actions > .tru-dropdown-menu > .animate__animated > .tru-button').click({\n  force: true\n});\ncy.wait(8000);\ncy.get('.quote-actions > div > .primary > span').click({\n  force: true\n});\ncy.wait(8000);\ncy.wait(8000);\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\n/* ==== End Cypress Studio ==== */",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `:nth-child(1) > :nth-child(2) > .tru-layout-vertical-sections > .content > :nth-child(1) > .tru-layout-Section > :nth-child(2) > :nth-child(2) > .tru-form-item`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `:nth-child(1) > :nth-child(2) > .tru-layout-vertical-sections > .content > :nth-child(1) > .tru-layout-Section > :nth-child(2) > :nth-child(2) > .tru-form-item`, but never found it.\n    at Context.eval (https://bestinsurance.trumarket.dev/__cypress/tests?p=cypress\\integration\\datalock.spec.js:302:8)",
+                "diff": null
+              },
+              "uuid": "e7fd4670-a164-4e44-af57-aaa896445dbb",
+              "parentUUID": "7b77e58a-82ed-4f65-bd00-792c62e860be",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "e7fd4670-a164-4e44-af57-aaa896445dbb"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 335433,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

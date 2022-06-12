@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-12-04T23:53:46.995Z",
+    "end": "2021-12-04T23:54:38.767Z",
+    "duration": 51772,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "52eb7028-eaaa-4b6f-a115-c8d273f19724",
+      "title": "",
+      "fullFile": "cypress/integration/notification.spec.js",
+      "file": "cypress/integration/notification.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "c2a33c18-2be7-4e13-aafd-42411d3f94c3",
+          "title": "notification",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": " notification",
+              "fullTitle": "notification  notification",
+              "timedOut": null,
+              "duration": 49783,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.truflalogins();\ncy.clearCookie('authId');\ncy.wait(8000);\ncy.get('.tru-notification').invoke(\"css\", \"background-color\", \"red\");\ncy.wait(5000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('.tru-notification').click();\n/* ==== End Cypress Studio ==== */\ncy.get('.tru-app-header').screenshot();\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "af193cb9-d5a1-4d53-960b-2d4e6f0f1f1a",
+              "parentUUID": "c2a33c18-2be7-4e13-aafd-42411d3f94c3",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "af193cb9-d5a1-4d53-960b-2d4e6f0f1f1a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 49783,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

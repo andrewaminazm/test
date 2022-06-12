@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-04-03T01:27:10.641Z",
+    "end": "2022-04-03T01:28:39.818Z",
+    "duration": 89177,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "d0861a4e-0dc3-4368-a84e-113d7b5cba90",
+      "title": "",
+      "fullFile": "cypress/integration/addconsent.spec.js",
+      "file": "cypress/integration/addconsent.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "c9cd17a4-7ce2-40d4-9ef6-5216d3ada91f",
+          "title": "regression",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": " add  consent to client ",
+              "fullTitle": "regression  add  consent to client ",
+              "timedOut": null,
+              "duration": 80449,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.log('creat a new consent to client ');\ncy.log('1-login 2-open client dashboard  3-  click on consent  4-fill menu ');\ncy.log('see the steps executed below ');\ncy.wait(6000);\ncy.truflalogins();\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('.tru-search-bar > .false').clear();\ncy.get('.tru-search-bar > .false').type('clie');\ncy.wait(8000);\ncy.get(':nth-child(3) > .tru-contact > .info-container > .name > .highlight-wrapper > :nth-child(3)').click();\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('#react-tabs-6').click({\n  force: true\n});\ncy.wait(4000);\ncy.get('.tru-column > .default > span').click({\n  force: true\n});\ncy.wait(4000);\ncy.get(':nth-child(1) > .ant-form-item-control > .ant-form-item-control-input > .ant-form-item-control-input-content > .tru-text-input').clear();\ncy.get(':nth-child(1) > .ant-form-item-control > .ant-form-item-control-input > .ant-form-item-control-input-content > .tru-text-input').type('qqwqqw');\ncy.get(':nth-child(2) > .ant-col > .ant-form-item-control-input > .ant-form-item-control-input-content > .tru-text-input').clear();\ncy.get(':nth-child(2) > .ant-col > .ant-form-item-control-input > .ant-form-item-control-input-content > .tru-text-input').type('11111111');\ncy.get(':nth-child(3) > .ant-form-item-control > .ant-form-item-control-input > .ant-form-item-control-input-content > .tru-text-input').clear();\ncy.get(':nth-child(3) > .ant-form-item-control > .ant-form-item-control-input > .ant-form-item-control-input-content > .tru-text-input').type('aswwwwwwqqqqqqqwwwdasda@gmail.com');\ncy.get(':nth-child(1) > .radio-button').click({\n  force: true\n});\ncy.get('.ant-form-item-control-input-content > .primary').click({\n  force: true\n});\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "2b928fc5-ef7c-49cc-af95-fa7e448748e7",
+              "parentUUID": "c9cd17a4-7ce2-40d4-9ef6-5216d3ada91f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "2b928fc5-ef7c-49cc-af95-fa7e448748e7"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 80449,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

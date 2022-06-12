@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-09-01T11:04:21.026Z",
+    "end": "2021-09-01T11:05:25.539Z",
+    "duration": 64513,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "01eba30a-7ca0-47c5-9a57-c275aa85d32b",
+      "title": "",
+      "fullFile": "cypress/integration/inventory/setting/setting1.spec.js",
+      "file": "cypress/integration/inventory/setting/setting1.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "da6613c9-7462-4097-88e6-bbba8e78e180",
+          "title": "inventorysetting",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "setting1allowstore",
+              "fullTitle": "inventorysetting setting1allowstore",
+              "timedOut": null,
+              "duration": 61912,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.login();\ncy.get('.side-menu > :nth-child(4) > :nth-child(1)').click().then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('open inventory tab ');\n});\ncy.wait(8000);\ncy.get('.active > .nav > :nth-child(1) > a').click().then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('open inventory settings ');\n});\ncy.wait(8000);\ncy.get('thead > tr > :nth-child(2) > .btn').click().then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('add new setting  ');\n});\n/* ==== Generated with Cypress Studio ==== */\ncy.get('#txtDescription').clear().then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.get('#txtDescription').type('اذن اضافة خامات ');\n  cy.log('add description ');\n  cy.get('.modal-header').click();\n});\ncy.get('.chkAllowStoreId > .switchery').click().then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('allow store ');\n});\ncy.wait(8000);\ncy.get('.modal-header').click();\ncy.get('.modal-footer > .btn-info').click();\ncy.wait(8000);\ncy.get('.confirm').click();\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "01bfc60c-7aca-4459-93d4-6366048c545b",
+              "parentUUID": "da6613c9-7462-4097-88e6-bbba8e78e180",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "01bfc60c-7aca-4459-93d4-6366048c545b"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 61912,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-10-26T13:38:09.029Z",
+    "end": "2021-10-26T13:39:14.820Z",
+    "duration": 65791,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "5fa4a2b8-5f7e-41b0-a6b0-283b99dd37a7",
+      "title": "",
+      "fullFile": "cypress/integration/admindashboard/blog/newarticle.spec.js",
+      "file": "cypress/integration/admindashboard/blog/newarticle.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "2f4c675e-8c07-474e-b847-9149c15d7706",
+          "title": "blog",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "addnew",
+              "fullTitle": "blog addnew",
+              "timedOut": null,
+              "duration": 63891,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const fileName = 'imageser.png';\ncy.logins();\ncy.get('#sidebar-menu > ul > .submenu:nth-child(9) > a > span:nth-child(2)').click();\ncy.wait(7000);\ncy.get(':nth-child(9) > ul > #slider > a').click();\ncy.wait(7000);\ncy.get('.card-body > .needs-validation > .form-group > .col-md-9 > #BlogTitle').click();\ncy.get('.card-body > .needs-validation > .form-group > .col-md-9 > #BlogTitle').type('andrew');\ncy.get('.card-body > .needs-validation > .form-group > .col-md-9 > #BlogTitleEn').click();\ncy.get('.card-body > .needs-validation > .form-group > .col-md-9 > #BlogTitleEn').type('andrew');\ncy.get('#cke_2_contents > .cke_wysiwyg_frame').type('dddddddddddddd');\ncy.wait(7000);\ncy.get('.needs-validation > .form-group > .col-md-9 > .col-md-10 > #fileinpt').attachFile(fileName);\ncy.wait(7000);\ncy.get('.needs-validation > .btn').click();\ncy.wait(7000);",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.card-body > .needs-validation > .form-group > .col-md-9 > #BlogTitle`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.card-body > .needs-validation > .form-group > .col-md-9 > #BlogTitle`, but never found it.\n    at Context.eval (http://23.250.115.98:2078/__cypress/tests?p=cypress\\integration\\admindashboard\\blog\\newarticle.spec.js:144:8)",
+                "diff": null
+              },
+              "uuid": "455128b3-c0e8-400b-ab6b-82d607f7d702",
+              "parentUUID": "2f4c675e-8c07-474e-b847-9149c15d7706",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "455128b3-c0e8-400b-ab6b-82d607f7d702"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 63891,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

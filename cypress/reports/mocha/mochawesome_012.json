@@ -1,0 +1,127 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 1,
+    "pending": 1,
+    "failures": 0,
+    "start": "2022-03-24T08:38:41.180Z",
+    "end": "2022-03-24T08:40:58.587Z",
+    "duration": 137407,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 50,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "2c1a83f7-e34c-4d66-aab8-44c5ac006461",
+      "title": "",
+      "fullFile": "cypress/integration/ssqmarket.spec.js",
+      "file": "cypress/integration/ssqmarket.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f285e24d-e124-4f54-bc24-e9753d268a02",
+          "title": "textvalidation",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "marketssq",
+              "fullTitle": "textvalidation marketssq",
+              "timedOut": null,
+              "duration": 133110,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://yamlifeinsstg.wpengine.com/ssq-insurance-company-inc-online-application/?code=SSQA&im325age=https%3A%2F%2Fwww.compulifeapi.com%2Fimages%2Flogosapicanada%2FSSQA-small.png&coverage_amount=%24150%2C000&monthly_premium=%2414.45&term_coverage=10+Years&ep_token=73b282d1b92fbf9cc95c637f02dd3');\n/* ==== Generated with Cypress Studio ==== */\ncy.get('#choice_23_604_0').check();\ncy.get('#input_23_14').clear();\ncy.get('#input_23_14').type('aaaa');\ncy.get('#input_23_15').clear();\ncy.get('#input_23_15').type('a');\ncy.get('#input_23_15').clear();\ncy.get('#input_23_15').type('aaaa');\ncy.get('#input_23_16').clear();\ncy.get('#input_23_16').type('a');\ncy.get('#input_23_16').clear();\ncy.get('#input_23_16').type('aaaa');\ncy.get('#input_23_18').click();\ncy.get('.ui-datepicker-year').select('2004');\ncy.get(':nth-child(4) > :nth-child(4) > .ui-state-default').click();\ncy.get('#input_23_19').clear();\ncy.get('#input_23_19').type('22');\ncy.get('#input_23_596').clear();\ncy.get('#input_23_596').type('(111) 111-1111');\ncy.get('#input_23_597').clear();\ncy.get('#input_23_597').type('and@gmail.com');\ncy.get('#input_23_22').select('Argentina');\ncy.get('#input_23_23').clear();\ncy.get('#input_23_23').type('wwww');\ncy.get('#input_23_24').click();\ncy.get(':nth-child(2) > :nth-child(4) > .ui-state-default').click();\ncy.get('#input_23_27').clear();\ncy.get('#input_23_27').type('111-11-1111');\ncy.get('#input_23_28').clear();\ncy.get('#input_23_28').type('ssss');\ncy.get('#input_23_29').clear();\ncy.get('#input_23_29').type('ssss');\ncy.get('#input_23_30').clear();\ncy.get('#input_23_30').type('sssss');\ncy.get('#input_23_31').select('Saskatchewan');\ncy.get('#input_23_12_5').clear();\ncy.get('#input_23_12_5').type('A1A 1A1');\ncy.get('#input_23_32').select('Driver’s license');\ncy.get('#input_23_33').clear();\ncy.get('#input_23_33').type('aaaaa');\ncy.get('#input_23_35').clear();\ncy.get('#input_23_35').type('11111');\ncy.get('#input_23_603').select('Armenia');\ncy.get('#input_23_37').click();\ncy.get(':nth-child(3) > :nth-child(3) > .ui-state-default').click();\ncy.get('#gform_next_button_23_38').click();\ncy.wait(5000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('#input_23_39').clear();\ncy.get('#input_23_39').type('aaaa');\ncy.get('#input_23_40').clear();\ncy.get('#input_23_40').type('a');\ncy.get('#input_23_40').clear();\ncy.get('#input_23_40').type('aaaa');\ncy.get('#input_23_41').clear();\ncy.get('#input_23_41').type('aaaaaa');\ncy.get('#input_23_42').clear();\ncy.get('#input_23_42').type('aaa');\ncy.get('#input_23_43').clear();\ncy.get('#input_23_43').type('1');\ncy.get('#input_23_43').clear();\ncy.get('#input_23_43').type('11');\ncy.get('#input_23_44').clear();\ncy.get('#input_23_44').type('1');\ncy.get('#input_23_44').clear();\ncy.get('#input_23_44').type('111');\ncy.get('#input_23_45').clear();\ncy.get('#input_23_45').type('1111');\ncy.get('#input_23_46').clear();\ncy.get('#input_23_46').type('aaa');\ncy.get('#input_23_47').clear();\ncy.get('#input_23_47').type('aaaa');\ncy.get('#input_23_48').clear();\ncy.get('#input_23_48').type('a');\ncy.get('#input_23_48').clear();\ncy.get('#input_23_48').type('aaaa');\ncy.get('#input_23_49').clear();\ncy.get('#input_23_49').type('a');\ncy.get('#input_23_49').clear();\ncy.get('#input_23_49').type('aaaa');\ncy.get('#input_23_50').clear();\ncy.get('#input_23_50').type('aaaa');\ncy.get('#input_23_51').select('Prince Edward Island');\ncy.get('#input_23_601_5').clear();\ncy.get('#input_23_601_5').type('A1A 1A1');\ncy.get('#input_23_598').clear();\ncy.get('#input_23_598').type('(111) 111-1111');\ncy.get('#gform_next_button_23_608').click();\ncy.wait(5000);\ncy.get('#input_23_40').clear();\ncy.get('#input_23_40').type('2002');\ncy.get('#gform_next_button_23_608').click();\ncy.wait(5000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('#choice_23_54_0').check();\ncy.get('#input_23_73').clear();\ncy.get('#input_23_73').type('aaaaaaaaaa');\ncy.get('#input_23_74').clear();\ncy.get('#input_23_74').type('aaaaaaaa');\ncy.get('#input_23_75').click();\ncy.get(':nth-child(1) > :nth-child(4) > .ui-state-default').click();\ncy.get('#gform_next_button_23_76').click();\ncy.wait(5000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('#choice_23_570_0').check();\ncy.get('#choice_23_571_0').check();\ncy.get('#gform_next_button_23_611').click();\ncy.wait(5000);\ncy.get('#choice_23_79_0').check();\ncy.get('#choice_23_80_0').check();\ncy.get('#choice_23_81_0').check();\ncy.get('#choice_23_82_0').check();\ncy.get('#choice_23_83_0').check();\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('#choice_23_84_0').check();\ncy.get('#choice_23_85_0').check();\ncy.get('#input_23_86').clear();\ncy.get('#input_23_86').type('aaaaa');\ncy.get('#choice_23_87_1').check();\ncy.get('#choice_23_89_1').check();\ncy.get('#choice_23_91_1').check();\ncy.get('#choice_23_93_1').check();\ncy.get('#choice_23_95_1').check();\ncy.get('#choice_23_97_1').check();\ncy.get('#choice_23_99_1').check();\ncy.get('#choice_23_101_0').check();\ncy.get('#input_23_102').clear();\ncy.get('#input_23_102').type('aaaa');\ncy.get('#choice_23_103_1').check();\ncy.get('#choice_23_122_1').check();\ncy.get('#choice_23_124_1').check();\ncy.get('#choice_23_126_1').check();\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('#choice_23_128_0').check();\ncy.get('#choice_23_129_0').check();\ncy.get('#choice_23_590_1').check();\ncy.get('#choice_23_591_1').check();\ncy.get('#input_23_136').clear();\ncy.get('#input_23_136').type('11');\ncy.get('#input_23_138').clear();\ncy.get('#input_23_138').type('221');\ncy.get('#choice_23_140_1').check();\ncy.get('#input_23_143').clear();\ncy.get('#input_23_143').type('aaa');\ncy.get('#input_23_144').clear();\ncy.get('#input_23_144').type('aaa');\ncy.get('#input_23_145').clear();\ncy.get('#input_23_145').type('aaa');\ncy.get('#input_23_146').clear();\ncy.get('#input_23_146').type('aaaa');\ncy.get('#input_23_147').clear();\ncy.get('#input_23_147').type('aaaa');\ncy.get('#input_23_148').clear();\ncy.get('#input_23_148').type('aaa');\ncy.get('#input_23_149').clear();\ncy.get('#input_23_149').type('aaa');\ncy.get('#input_23_150').clear();\ncy.get('#input_23_150').type('aaaa');\ncy.get('#choice_23_151_0').check();\ncy.get('#choice_23_152_0').check();\ncy.get('#choice_23_153_0').check();\ncy.get('#choice_23_154_0').check();\ncy.get('#choice_23_155_0').check();\ncy.get('#choice_23_156_0').check();\ncy.get('#choice_23_157_0').check();\ncy.get('#choice_23_158_0').check();\ncy.get('#choice_23_159_0').check();\ncy.get('#choice_23_160_0').check();\ncy.get('#choice_23_161_0').check();\ncy.get('#choice_23_162_0').check();\ncy.get('#choice_23_163_0').check();\ncy.get('#choice_23_164_0').check();\ncy.get('#input_23_165').clear();\ncy.get('#input_23_165').type('aaaa');\ncy.get('#choice_23_166_0').check();\ncy.get('#input_23_167').clear();\ncy.get('#input_23_167').type('aaaa');\ncy.get('#choice_23_168_0').check();\ncy.get('#choice_23_169_1').check();\ncy.get('#choice_23_171_1').check();\ncy.get('#choice_23_173_1').check();\ncy.get('#choice_23_175_1').check();\ncy.get('#choice_23_176_1').check();\ncy.get('#choice_23_198_1').check();\ncy.get('#choice_23_227_1').check();\ncy.get('#choice_23_248_1').check();\ncy.get('#choice_23_250_1').check();\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "d28581fa-2058-4295-85e9-4945f6307e7b",
+              "parentUUID": "f285e24d-e124-4f54-bc24-e9753d268a02",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "marketssq",
+              "fullTitle": "textvalidation marketssq",
+              "timedOut": null,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "ca25c846-0e91-4339-b0f4-28c0309d0668",
+              "parentUUID": "f285e24d-e124-4f54-bc24-e9753d268a02",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d28581fa-2058-4295-85e9-4945f6307e7b"
+          ],
+          "failures": [],
+          "pending": [
+            "ca25c846-0e91-4339-b0f4-28c0309d0668"
+          ],
+          "skipped": [],
+          "duration": 133110,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-08-17T02:24:53.123Z",
+    "end": "2021-08-17T02:29:29.142Z",
+    "duration": 276019,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "272437e3-7ef4-4588-b999-281016a3800d",
+      "title": "",
+      "fullFile": "cypress/integration/inventory/inventoryinsert9.spec.js",
+      "file": "cypress/integration/inventory/inventoryinsert9.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "547c9b42-f8c5-4dc8-9660-30a95607643d",
+          "title": "inventory",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "inventoryinsertd",
+              "fullTitle": "inventory inventoryinsertd",
+              "timedOut": null,
+              "duration": 273272,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.login();\n/* ==== Generated with Cypress Studio ==== */\ncy.get('.side-menu > :nth-child(4) > :nth-child(1)').click();\ncy.wait(8000);\ncy.wait(8000);\ncy.get('.active > .nav > :nth-child(1) > a').click();\ncy.wait(8000);\ncy.wait(8000);\ncy.get('[trxtypeid=\"22\"] > :nth-child(2) > .btn-info > .fa').click();\ncy.wait(8000);\ncy.wait(8000);\ncy.get('.chkAllowDealersAccounts > .switchery').click();\ncy.wait(8000);\ncy.wait(8000);\ncy.get('.chkAllowProduct > .switchery').click();\ncy.wait(8000);\ncy.wait(8000);\ncy.get('.modal-footer > .btn-info').click();\ncy.wait(8000);\ncy.wait(8000);\ncy.get('.confirm').click();\ncy.wait(8000);\ncy.wait(8000);\ncy.get('.side-menu > :nth-child(4) > :nth-child(1)').click();\ncy.wait(8000);\ncy.wait(8000);\ncy.get('.active > .nav > :nth-child(15) > a').click();\ncy.wait(8000);\ncy.wait(8000);\ncy.get('thead > tr > :nth-child(3) > .btn').click();\ncy.wait(8000);\ncy.wait(8000);\ncy.get('#txtProductId').clear();\ncy.wait(8000);\ncy.get('#txtProductId').type('111001 premix phara ferro');\ncy.wait(8000);\ncy.get('.divSupplier > .form__label').click();\ncy.wait(8000);\ncy.get('#txtSupplierId').click();\ncy.wait(8000);\ncy.get('#txtSupplierId').clear();\ncy.wait(8000);\ncy.get('#txtSupplierId').type('شركة نات باك');\ncy.wait(8000);\ncy.get('.divSalesTypeName').click();\ncy.wait(8000);\ncy.get('.confirm').click();\ncy.wait(8000);\ncy.get('#txtSupplierId').clear();\ncy.wait(8000);\ncy.get('#txtSupplierId').type('شركة يونيتد بيونات');\ncy.wait(8000);\ncy.get(':nth-child(16) > .btn').click();\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "51dd6b21-339a-4299-9d65-50b6d71ca963",
+              "parentUUID": "547c9b42-f8c5-4dc8-9660-30a95607643d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "51dd6b21-339a-4299-9d65-50b6d71ca963"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 273272,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

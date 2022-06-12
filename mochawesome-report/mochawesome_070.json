@@ -1,0 +1,108 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-10-26T13:40:53.766Z",
+    "end": "2021-10-26T13:42:46.139Z",
+    "duration": 112373,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "e47b02d7-0241-468e-a68d-d0ad3d30f21b",
+      "title": "",
+      "fullFile": "cypress/integration/admindashboard/e4clinicdata/ClientTestimonials.spec.js",
+      "file": "cypress/integration/admindashboard/e4clinicdata/ClientTestimonials.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "2906849d-5b83-4787-9fce-1b65283bed9c",
+          "title": "e4clinic data",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "clinictestimonials",
+              "fullTitle": "e4clinic data clinictestimonials",
+              "timedOut": null,
+              "duration": 103238,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const fileName = 'imageser.png';\ncy.logins();\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get(':nth-child(7) > [href=\"/#\"]').click();\ncy.get('[style=\"display: block;\"] > :nth-child(3) > a').click();\ncy.get('#DataTables_Table_0_filter > label > .form-control').clear();\ncy.get('#DataTables_Table_0_filter > label > .form-control').type('اندرو');\ncy.wait(7000);\ncy.get('[href=\"/cms/CommonData/ClientTestimonialUpdate/1\"]').click();\ncy.wait(7000);\ncy.get('.needs-validation > .btn').click();\ncy.wait(7000);\ncy.get('[href=\"/cms/CommonData/ClientTestimonialDetails/1\"]').click();\ncy.wait(7000);\ncy.get(':nth-child(4) > [href=\"/cms/CommonData/ClientTestimonialIndex\"]').click();\ncy.wait(7000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('.col-sm-5 > .btn').click();\ncy.get('#ClientNameAR').clear();\ncy.get('#ClientNameAR').type('اااااااا');\ncy.get('.needs-validation > .btn').click();\ncy.get('#fileinpt').attachFile(fileName);\ncy.wait(7000);\ncy.get('.needs-validation > .btn').click();\n/* ==== End Cypress Studio ==== */",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[href=\"/cms/CommonData/ClientTestimonialUpdate/1\"]`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[href=\"/cms/CommonData/ClientTestimonialUpdate/1\"]`, but never found it.\n    at Context.eval (http://23.250.115.98:2078/__cypress/tests?p=cypress\\integration\\admindashboard\\e4clinicdata\\ClientTestimonials.spec.js:113:8)",
+                "diff": null
+              },
+              "uuid": "c423101a-9305-46a4-90c5-9ca282cd3f50",
+              "parentUUID": "2906849d-5b83-4787-9fce-1b65283bed9c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "c423101a-9305-46a4-90c5-9ca282cd3f50"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 103238,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

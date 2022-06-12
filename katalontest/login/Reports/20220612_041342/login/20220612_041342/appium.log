@@ -1,0 +1,259 @@
+[35m[Appium][39m Welcome to Appium v1.22.3
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 56756
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: C:\Users\test\AppData\Local\Temp\\Katalon\Appium\Temp1655000049693
+[35m[Appium][39m   chromedriverPort: 56757
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 56757
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:56756
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m13 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\test\\Downloads\\Facebook Lite_v306.0.0.13.107_apkpure.com.apk","noReset":false,"deviceName":"OPPO CPH2235 (Android 12)","fullReset":true,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"12","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"226d06e2","systemPort":56755},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\test\\Downloads\\Facebook Lite_v306.0.0.13.107_apkpure.com.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"OPPO CPH2235 (Android 12)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"platform":"ANDROID","platformName":"android","appium:platformVersion":"12","appium:systemPort":56755,"appium:udid":"226d06e2"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 46158f8e-8f1c-4e41-b1a9-4119a35cc6a3
+[35m[BaseDriver][39m Using local app 'C:\Users\test\Downloads\Facebook Lite_v306.0.0.13.107_apkpure.com.apk'
+[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\test\.katalon\tools\android_sdk' (newest first):
+[35m[ADB][39m     C:/Users/test/.katalon/tools/android_sdk/build-tools/29.0.3
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\test\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: 226d06e2
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\test\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Package name: 'com.facebook.lite'
+[35m[ADB][39m Main activity name: 'com.facebook.lite.MainActivity'
+[35m[ADB][39m Using 'apksigner.jar' from 'C:\Users\test\.katalon\tools\android_sdk\build-tools\29.0.3\lib\apksigner.jar'
+[35m[ADB][39m 'C:\Users\test\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
+[35m[ADB][39m 'C:\Users\test\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[ADB][39m 'C:\Users\test\Downloads\Facebook Lite_v306.0.0.13.107_apkpure.com.apk' is signed with a non-default certificate
+[35m[ADB][39m com.facebook.lite was successfully uninstalled
+[35m[ADB][39m The application at 'C:\Users\test\Downloads\Facebook Lite_v306.0.0.13.107_apkpure.com.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[ADB][39m The installation of 'Facebook Lite_v306.0.0.13.107_apkpure.com.apk' took 2187ms
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\test\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\test\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.facebook.lite/com.facebook.lite.MainActivity and waiting for 'com.facebook.lite/com.facebook.lite.MainActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 46158f8e-8f1c-4e41-b1a9-4119a35cc6a3 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m16197 ms - 1277[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/46158f8e-8f1c-4e41-b1a9-4119a35cc6a3[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/46158f8e-8f1c-4e41-b1a9-4119a35cc6a3 [39m[32m200[39m [90m26 ms - 1231[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/46158f8e-8f1c-4e41-b1a9-4119a35cc6a3[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/46158f8e-8f1c-4e41-b1a9-4119a35cc6a3 [39m[32m200[39m [90m15 ms - 1231[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/46158f8e-8f1c-4e41-b1a9-4119a35cc6a3/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/46158f8e-8f1c-4e41-b1a9-4119a35cc6a3/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/46158f8e-8f1c-4e41-b1a9-4119a35cc6a3/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/46158f8e-8f1c-4e41-b1a9-4119a35cc6a3/screenshot [39m[32m200[39m [90m413 ms - 56436[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/46158f8e-8f1c-4e41-b1a9-4119a35cc6a3/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/46158f8e-8f1c-4e41-b1a9-4119a35cc6a3/window/rect [39m[32m200[39m [90m30 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/46158f8e-8f1c-4e41-b1a9-4119a35cc6a3/appium/device/system_bars[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/46158f8e-8f1c-4e41-b1a9-4119a35cc6a3/appium/device/system_bars [39m[32m200[39m [90m181 ms - 145[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\test\\Downloads\\Facebook Lite_v306.0.0.13.107_apkpure.com.apk","noReset":false,"deviceName":"OPPO CPH2235 (Android 12)","fullReset":true,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"12","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"226d06e2","systemPort":56935},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\test\\Downloads\\Facebook Lite_v306.0.0.13.107_apkpure.com.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"OPPO CPH2235 (Android 12)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"platform":"ANDROID","platformName":"android","appium:platformVersion":"12","appium:systemPort":56935,"appium:udid":"226d06e2"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 07b65593-20f2-48e4-a551-6dea9ff3e833
+[35m[BaseDriver][39m Using local app 'C:\Users\test\Downloads\Facebook Lite_v306.0.0.13.107_apkpure.com.apk'
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\test\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: 226d06e2
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\test\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Package name: 'com.facebook.lite'
+[35m[ADB][39m Main activity name: 'com.facebook.lite.MainActivity'
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[ADB][39m com.facebook.lite was successfully uninstalled
+[35m[ADB][39m The application at 'C:\Users\test\Downloads\Facebook Lite_v306.0.0.13.107_apkpure.com.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[ADB][39m The installation of 'Facebook Lite_v306.0.0.13.107_apkpure.com.apk' took 1811ms
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\test\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\test\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.facebook.lite/com.facebook.lite.MainActivity and waiting for 'com.facebook.lite/com.facebook.lite.MainActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 07b65593-20f2-48e4-a551-6dea9ff3e833 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m14044 ms - 1277[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/07b65593-20f2-48e4-a551-6dea9ff3e833[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/07b65593-20f2-48e4-a551-6dea9ff3e833 [39m[32m200[39m [90m42 ms - 1231[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/07b65593-20f2-48e4-a551-6dea9ff3e833[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/07b65593-20f2-48e4-a551-6dea9ff3e833 [39m[32m200[39m [90m27 ms - 1231[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/07b65593-20f2-48e4-a551-6dea9ff3e833/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/07b65593-20f2-48e4-a551-6dea9ff3e833/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/07b65593-20f2-48e4-a551-6dea9ff3e833/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/07b65593-20f2-48e4-a551-6dea9ff3e833/screenshot [39m[32m200[39m [90m458 ms - 56402[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/07b65593-20f2-48e4-a551-6dea9ff3e833/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/07b65593-20f2-48e4-a551-6dea9ff3e833/window/rect [39m[32m200[39m [90m18 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/07b65593-20f2-48e4-a551-6dea9ff3e833/appium/device/system_bars[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/07b65593-20f2-48e4-a551-6dea9ff3e833/appium/device/system_bars [39m[32m200[39m [90m198 ms - 145[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m3 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\test\\Downloads\\Facebook Lite_v306.0.0.13.107_apkpure.com.apk","noReset":false,"deviceName":"OPPO CPH2235 (Android 12)","fullReset":true,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"12","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"226d06e2","systemPort":57111},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\test\\Downloads\\Facebook Lite_v306.0.0.13.107_apkpure.com.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"OPPO CPH2235 (Android 12)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"platform":"ANDROID","platformName":"android","appium:platformVersion":"12","appium:systemPort":57111,"appium:udid":"226d06e2"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 5e99f0c8-14a4-454f-bb2b-628065d2f4ee
+[35m[BaseDriver][39m Using local app 'C:\Users\test\Downloads\Facebook Lite_v306.0.0.13.107_apkpure.com.apk'
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\test\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: 226d06e2
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\test\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Package name: 'com.facebook.lite'
+[35m[ADB][39m Main activity name: 'com.facebook.lite.MainActivity'
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[ADB][39m com.facebook.lite was successfully uninstalled
+[35m[ADB][39m The application at 'C:\Users\test\Downloads\Facebook Lite_v306.0.0.13.107_apkpure.com.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[ADB][39m The installation of 'Facebook Lite_v306.0.0.13.107_apkpure.com.apk' took 2461ms
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\test\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\test\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.facebook.lite/com.facebook.lite.MainActivity and waiting for 'com.facebook.lite/com.facebook.lite.MainActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 5e99f0c8-14a4-454f-bb2b-628065d2f4ee added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m15098 ms - 1277[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5e99f0c8-14a4-454f-bb2b-628065d2f4ee[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5e99f0c8-14a4-454f-bb2b-628065d2f4ee [39m[32m200[39m [90m22 ms - 1231[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5e99f0c8-14a4-454f-bb2b-628065d2f4ee[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5e99f0c8-14a4-454f-bb2b-628065d2f4ee [39m[32m200[39m [90m45 ms - 1231[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5e99f0c8-14a4-454f-bb2b-628065d2f4ee/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5e99f0c8-14a4-454f-bb2b-628065d2f4ee/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5e99f0c8-14a4-454f-bb2b-628065d2f4ee/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5e99f0c8-14a4-454f-bb2b-628065d2f4ee/screenshot [39m[32m200[39m [90m382 ms - 44038[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5e99f0c8-14a4-454f-bb2b-628065d2f4ee/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5e99f0c8-14a4-454f-bb2b-628065d2f4ee/window/rect [39m[32m200[39m [90m29 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5e99f0c8-14a4-454f-bb2b-628065d2f4ee/appium/device/system_bars[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5e99f0c8-14a4-454f-bb2b-628065d2f4ee/appium/device/system_bars [39m[32m200[39m [90m182 ms - 145[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\test\\Downloads\\Facebook Lite_v306.0.0.13.107_apkpure.com.apk","noReset":false,"deviceName":"OPPO CPH2235 (Android 12)","fullReset":true,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"12","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"226d06e2","systemPort":57286},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\test\\Downloads\\Facebook Lite_v306.0.0.13.107_apkpure.com.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"OPPO CPH2235 (Android 12)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"platform":"ANDROID","platformName":"android","appium:platformVersion":"12","appium:systemPort":57286,"appium:udid":"226d06e2"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 204a0bcc-63c3-4f9a-a35c-2163cd926d87
+[35m[BaseDriver][39m Using local app 'C:\Users\test\Downloads\Facebook Lite_v306.0.0.13.107_apkpure.com.apk'
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\test\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: 226d06e2
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\test\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Package name: 'com.facebook.lite'
+[35m[ADB][39m Main activity name: 'com.facebook.lite.MainActivity'
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[ADB][39m com.facebook.lite was successfully uninstalled
+[35m[ADB][39m The application at 'C:\Users\test\Downloads\Facebook Lite_v306.0.0.13.107_apkpure.com.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m-[39m [90m- ms - -[39m
+[35m[HTTP][39m [90m[39m
+[35m[ADB][39m The installation of 'Facebook Lite_v306.0.0.13.107_apkpure.com.apk' took 1989ms
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\test\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\test\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.facebook.lite/com.facebook.lite.MainActivity and waiting for 'com.facebook.lite/com.facebook.lite.MainActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 204a0bcc-63c3-4f9a-a35c-2163cd926d87 added to master session list

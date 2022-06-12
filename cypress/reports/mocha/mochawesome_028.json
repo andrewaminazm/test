@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-04-03T00:48:43.764Z",
+    "end": "2022-04-03T00:50:22.444Z",
+    "duration": 98680,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "6183860e-332f-48b6-9157-388962bb721d",
+      "title": "",
+      "fullFile": "cypress/integration/cancelnewreqeust.spec.js",
+      "file": "cypress/integration/cancelnewreqeust.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "78ebe172-57e0-4765-9f47-b04fafe8a550",
+          "title": "regression trumarket",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "cancel new request  ",
+              "fullTitle": "regression trumarket cancel new request  ",
+              "timedOut": null,
+              "duration": 89833,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.log('cancel request ');\ncy.log('1-login 2-add a new reqeust 3- fill pop-over menu and click cancel ');\ncy.log('see the steps executed below ');\ncy.wait(6000);\ncy.truflalogins();\ncy.wait(6000);\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('.header-right > :nth-child(2) > .tru-button > :nth-child(1)').click();\ncy.wait(5000);\ncy.get('[href=\"/?new=request\"]').click();\ncy.wait(5000);\ncy.get('.client-name-and-add-user-icon > .ant-row > .ant-form-item-control > .ant-form-item-control-input > .ant-form-item-control-input-content > .search-input > .tru-search-bar > .without-search-icon-input').clear();\ncy.wait(5000);\ncy.get('.client-name-and-add-user-icon > .ant-row > .ant-form-item-control > .ant-form-item-control-input > .ant-form-item-control-input-content > .search-input > .tru-search-bar > .without-search-icon-input').type('a');\ncy.wait(5000);\ncy.get('[value=\"4ab1c81a-018e-4a56-912f-2e8927c54295\"]').click({\n  force: true\n});\ncy.wait(5000);\ncy.get('.btn-actions-container > div > .default').click({\n  force: true\n});\ncy.wait(5000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "baf87c93-b6ff-44ac-b1ba-2250a74eb2b6",
+              "parentUUID": "78ebe172-57e0-4765-9f47-b04fafe8a550",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "baf87c93-b6ff-44ac-b1ba-2250a74eb2b6"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 89833,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

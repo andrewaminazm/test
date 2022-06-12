@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-04-12T03:26:24.442Z",
+    "end": "2022-04-12T03:28:43.546Z",
+    "duration": 139104,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f43b1b21-4590-46de-a6bb-ff334540b160",
+      "title": "",
+      "fullFile": "cypress/integration/newrequestfornewclient.spec.js",
+      "file": "cypress/integration/newrequestfornewclient.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "06232d21-ddca-4d93-99f6-ec03ff65d713",
+          "title": "regression trumarket",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "new request  ",
+              "fullTitle": "regression trumarket new request  ",
+              "timedOut": null,
+              "duration": 127625,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.log('creat a new request for new client ');\ncy.log('1-login 2-add a new reqeust 3- add a new client 4-change market ');\ncy.log('see the steps executed below ');\ncy.wait(6000);\ncy.truflalogins();\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('.header-right > :nth-child(2) > .tru-button > :nth-child(1)').click();\ncy.wait(5000);\ncy.get('[href=\"/?new=request\"]').click();\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('.tru-button > span > div').click({\n  force: true\n});\ncy.wait(4000);\ncy.get(':nth-child(1) > .ant-form-item-control > .ant-form-item-control-input > .ant-form-item-control-input-content > .tru-text-input').click({\n  force: true\n});\ncy.wait(4000);\ncy.get(':nth-child(1) > .ant-form-item-control > .ant-form-item-control-input > .ant-form-item-control-input-content > .tru-text-input').clear({\n  force: true\n});\ncy.wait(4000);\ncy.get(':nth-child(1) > .ant-form-item-control > .ant-form-item-control-input > .ant-form-item-control-input-content > .tru-text-input').type('1111111111', {\n  force: true\n});\ncy.wait(4000);\ncy.get(':nth-child(2) > .ant-form-item-control > .ant-form-item-control-input > .ant-form-item-control-input-content > .tru-text-input').click({\n  force: true\n});\ncy.wait(4000);\ncy.get(':nth-child(2) > .ant-form-item-control > .ant-form-item-control-input > .ant-form-item-control-input-content > .tru-text-input').clear({\n  force: true\n});\ncy.wait(4000);\ncy.get(':nth-child(2) > .ant-form-item-control > .ant-form-item-control-input > .ant-form-item-control-input-content > .tru-text-input').type('annwawasseswasdqw@gmail.com', {\n  force: true\n});\ncy.wait(4000);\ncy.get(':nth-child(3) > .ant-form-item-control > .ant-form-item-control-input > .ant-form-item-control-input-content > .tru-text-input').click({\n  force: true\n});\ncy.wait(4000);\ncy.get(':nth-child(3) > .ant-form-item-control > .ant-form-item-control-input > .ant-form-item-control-input-content > .tru-text-input').clear({\n  force: true\n});\ncy.wait(4000);\ncy.get(':nth-child(3) > .ant-form-item-control > .ant-form-item-control-input > .ant-form-item-control-input-content > .tru-text-input').type('asssassssssssqwassssssssssssss', {\n  force: true\n});\ncy.wait(4000);\ncy.get(':nth-child(4) > .ant-form-item-control > .ant-form-item-control-input > .ant-form-item-control-input-content > .tru-text-input').clear({\n  force: true\n});\ncy.wait(4000);\ncy.get(':nth-child(4) > .ant-form-item-control > .ant-form-item-control-input > .ant-form-item-control-input-content > .tru-text-input').type('aaaaaaaaaaaba', {\n  force: true\n});\ncy.wait(4000);\ncy.get('.ant-form-item-control-input-content > .primary > span').click({\n  force: true\n});\ncy.wait(4000); // cy.get('.outline-primary').click({force:true});\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get(':nth-child(2) > .ant-form-item-control > .ant-form-item-control-input > .ant-form-item-control-input-content > .tru-single-select-arrow-wrapper > .tru-select').select('df831a64-1429-4014-8750-2921906dbc43', {\n  force: true\n}).then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log(' i have changed to uk  but it not change ');\n});\ncy.log('on changing return back to old market bu when i change it again it changed ');\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "d3222716-3da1-4466-8a22-1d6b677e8e0f",
+              "parentUUID": "06232d21-ddca-4d93-99f6-ec03ff65d713",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d3222716-3da1-4466-8a22-1d6b677e8e0f"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 127625,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

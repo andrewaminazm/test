@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-08-10T13:45:44.545Z",
+    "end": "2021-08-10T13:47:27.860Z",
+    "duration": 103315,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "2219c012-4197-4362-b9f6-ccff78c0ee64",
+      "title": "",
+      "fullFile": "cypress/integration/inventory/businesslogicscenario.spec.js",
+      "file": "cypress/integration/inventory/businesslogicscenario.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "c015f089-26d3-4fbf-8065-1042fffe63ac",
+          "title": "inventory",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "requestamany",
+              "fullTitle": "inventory requestamany",
+              "timedOut": null,
+              "duration": 99412,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.login();\ncy.wait(5000);\ncy.get('.side-menu > :nth-child(1) > :nth-child(1)').click();\ncy.wait(5000);\ncy.get('.active > .nav > :nth-child(4) > a').click();\ncy.wait(8000);\ncy.wait(8000);\ncy.wait(8000);\ncy.wait(8000);\ncy.get('#row_8722 > td.chkCheckRow > div.col-md-12 > .col-form-label > .chkCheckRow > .switchery').click();\ncy.wait(8000);\ncy.get('#dropdownMenu1').click();\ncy.wait(8000);\ncy.get('.aPurchase > a > span').click();\ncy.wait(8000);\ncy.screenshot();\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "65876bc1-489e-45f1-a403-94310cd4240e",
+              "parentUUID": "c015f089-26d3-4fbf-8065-1042fffe63ac",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "65876bc1-489e-45f1-a403-94310cd4240e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 99412,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

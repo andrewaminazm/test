@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-04-03T00:39:41.707Z",
+    "end": "2022-04-03T00:41:19.871Z",
+    "duration": 98164,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ccd0d942-d201-4444-8a0a-5471ce5abac4",
+      "title": "",
+      "fullFile": "cypress/integration/addattachemnt.spec.js",
+      "file": "cypress/integration/addattachemnt.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "09506f7e-58b1-40a9-895b-0a07a23292f4",
+          "title": "regression",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": " attachment",
+              "fullTitle": "regression  attachment",
+              "timedOut": null,
+              "duration": 88449,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.log('add attachment for client ');\ncy.log('1-login 2-open client  3- click on attachment tab and click continue ');\ncy.log('see the steps executed below ');\ncy.wait(6000);\ncy.truflalogins();\nconst fileName = 'SampleFile.pdf';\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('.tru-search-bar > .false').clear();\ncy.get('.tru-search-bar > .false').type('andrew');\ncy.wait(8000);\ncy.get(':nth-child(3) > .tru-contact > .info-container > .name > .highlight-wrapper > :nth-child(3)').click();\ncy.wait(8000);\ncy.get('#react-tabs-2').click();\ncy.wait(8000);\ncy.get('.right > .primary').click();\ncy.get('.tru-text-input').clear();\ncy.get('.tru-text-input').type('assa');\ncy.get('.upload').attachFile(fileName, {\n  subjectType: 'drag-n-drop'\n});\ncy.get('.ant-form-item-control-input-content > .primary').click();\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "76e090c1-6245-41fc-8ac5-ec2d1926d252",
+              "parentUUID": "09506f7e-58b1-40a9-895b-0a07a23292f4",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "76e090c1-6245-41fc-8ac5-ec2d1926d252"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 88449,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

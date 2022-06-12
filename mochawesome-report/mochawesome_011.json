@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-08-10T16:40:11.681Z",
+    "end": "2021-08-10T16:42:42.071Z",
+    "duration": 150390,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "a1ba1cfc-0784-4f28-9fa1-2a1635c53c60",
+      "title": "",
+      "fullFile": "cypress/integration/inventory/businesslogicscenario.spec.js",
+      "file": "cypress/integration/inventory/businesslogicscenario.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "09dab726-6109-4ef1-92ee-a2a693d39126",
+          "title": "inventory",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "requestamany",
+              "fullTitle": "inventory requestamany",
+              "timedOut": null,
+              "duration": 147620,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.login();\ncy.wait(5000);\ncy.get('.side-menu > :nth-child(1) > :nth-child(1)').click();\ncy.wait(5000);\ncy.get('.active > .nav > :nth-child(4) > a').click();\ncy.wait(8000);\ncy.wait(8000);\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('#row_8721 > td.chkCheckRow > div.col-md-12 > .col-form-label > .chkCheckRow > .switchery').click();\ncy.wait(5000);\ncy.get('.icon-popout-center').click();\ncy.wait(5000);\ncy.get('.aPurchase > a > span').click();\ncy.wait(8000);\ncy.get('.divInvoiceDueDate > .form__label').click();\ncy.wait(8000);\ncy.get('#txtInvoiceDueDate').click();\ncy.wait(8000);\ncy.get(':nth-child(2) > .active').click();\ncy.wait(8000);\ncy.get('.divExpireDate > #txtExpireDate').click();\ncy.wait(8000);\ncy.get(':nth-child(2) > .active').click();\ncy.wait(8000);\ncy.get('.divInvoiceDescription > .form__label').click();\ncy.wait(8000);\ncy.get('#txtInvoiceDescription').clear();\ncy.wait(8000);\ncy.get('#txtInvoiceDescription').type('and');\ncy.wait(8000);\ncy.get('.activeTab > :nth-child(3) > :nth-child(2) > .btnSendApproval').click();\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "42ed9238-6a7e-430e-a985-315b97093c2e",
+              "parentUUID": "09dab726-6109-4ef1-92ee-a2a693d39126",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "42ed9238-6a7e-430e-a985-315b97093c2e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 147620,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

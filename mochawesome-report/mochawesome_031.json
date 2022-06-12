@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-08-17T02:44:06.102Z",
+    "end": "2021-08-17T02:45:26.787Z",
+    "duration": 80685,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "84cbfe30-07a2-4870-8f68-f9877bf4a569",
+      "title": "",
+      "fullFile": "cypress/integration/inventory/inventoryinsert9.spec.js",
+      "file": "cypress/integration/inventory/inventoryinsert9.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "7ebe4d40-79be-4670-8bd4-f4f721bd33b1",
+          "title": "inventory",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "inventoryinsertd",
+              "fullTitle": "inventory inventoryinsertd",
+              "timedOut": null,
+              "duration": 78232,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.login();\ncy.wait(8000);\ncy.get('.side-menu > :nth-child(4) > :nth-child(1)').click();\ncy.wait(8000);\ncy.wait(8000);\ncy.get('.active > .nav > :nth-child(15) > a').click();\ncy.wait(8000);\ncy.wait(8000);\ncy.get('thead > tr > :nth-child(3) > .btn').click();\ncy.wait(8000);\ncy.wait(8000);\n/* ==== Generated with Cypress Studio ==== */\ncy.get('.divStoreId > .form__label').click();\ncy.get('.divStoreId > #txtStoreId').click();\ncy.get('.divStoreId > #txtStoreId').clear();\ncy.get('.divStoreId > #txtStoreId').type('1 مخزن انتاج تام');\ncy.get(':nth-child(16) > .btn').click();\ncy.get('tbody > tr > :nth-child(2) > .col-md-12 > #txtItemId').clear();\ncy.get('tbody > tr > :nth-child(2) > .col-md-12 > #txtItemId').type('111001 premix phara ferro');\ncy.get('.divPatchSerial').click();\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "09e4e939-1717-442c-a182-d858c1df96a1",
+              "parentUUID": "7ebe4d40-79be-4670-8bd4-f4f721bd33b1",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "09e4e939-1717-442c-a182-d858c1df96a1"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 78232,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

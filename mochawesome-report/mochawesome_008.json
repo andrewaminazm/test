@@ -1,0 +1,108 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-08-10T13:40:21.082Z",
+    "end": "2021-08-10T13:41:41.011Z",
+    "duration": 79929,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "17927c21-7592-4d36-b066-43ad8551dc54",
+      "title": "",
+      "fullFile": "cypress/integration/inventory/businesslogicscenario.spec.js",
+      "file": "cypress/integration/inventory/businesslogicscenario.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "477c2339-5528-480b-a526-ec873d85b954",
+          "title": "inventory",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "requestamany",
+              "fullTitle": "inventory requestamany",
+              "timedOut": null,
+              "duration": 75267,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.login();\ncy.wait(5000);\ncy.get('.side-menu > :nth-child(1) > :nth-child(1)').click();\ncy.wait(5000);\ncy.get('.active > .nav > :nth-child(4) > a').click();\ncy.wait(8000);\ncy.wait(8000);\ncy.wait(8000);\ncy.get('#row_8722 > td.chkCheckRow > div.col-md-12 > .col-form-label > .chkCheckRow > .switchery').click();\ncy.wait(8000);\ncy.get('#dropdownMenu1').click();\ncy.wait(8000);\ncy.get('.aPurchase > a > span').click();\ncy.wait(8000);\ncy.screenshot();\n/* ==== End Cypress Studio ==== */",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#row_8722 > td.chkCheckRow > div.col-md-12 > .col-form-label > .chkCheckRow > .switchery`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#row_8722 > td.chkCheckRow > div.col-md-12 > .col-form-label > .chkCheckRow > .switchery`, but never found it.\n    at Context.eval (http://printcheq.devartlabcrm.com/__cypress/tests?p=cypress\\integration\\inventory\\businesslogicscenario.spec.js:147:8)",
+                "diff": null
+              },
+              "uuid": "cc691f35-ca56-4bda-a071-e9212775767e",
+              "parentUUID": "477c2339-5528-480b-a526-ec873d85b954",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "cc691f35-ca56-4bda-a071-e9212775767e"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 75267,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

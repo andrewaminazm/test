@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-11-10T06:50:45.758Z",
+    "end": "2021-11-10T06:51:35.100Z",
+    "duration": 49342,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "719fac45-48b9-476e-8fd8-4cad494208c5",
+      "title": "",
+      "fullFile": "cypress/integration/logintest.spec.js",
+      "file": "cypress/integration/logintest.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "701acb81-8efe-4ec3-81dc-cfb3af1bf9c4",
+          "title": "logintotruemarket",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "validlogin",
+              "fullTitle": "logintotruemarket validlogin",
+              "timedOut": null,
+              "duration": 47276,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.clearCookies();\ncy.visit(' https://bestinsurance.trumarket.dev/').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('enter website ');\n});\ncy.wait(8000);\ncy.get('#username').type('andrew.a@trufla.com').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('enter user name ');\n  /* ==== Generated with Cypress Studio ==== */\n  /* ==== End Cypress Studio ==== */\n});\ncy.wait(8000);\ncy.get('#password').type('01211782855A@a').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('enter password ');\n});\ncy.wait(8000);\ncy.get('#kc-login').click().then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('press login ');\n});\ncy.wait(8000);\n/* ==== Generated with Cypress Studio ==== */\ncy.get('.data > :nth-child(1) > a').click();\ncy.wait(8000);\ncy.get('.header-form-and-hints-container').screenshot();\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "75da4f93-6373-4791-9a74-bb0869074b0b",
+              "parentUUID": "701acb81-8efe-4ec3-81dc-cfb3af1bf9c4",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "75da4f93-6373-4791-9a74-bb0869074b0b"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 47276,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

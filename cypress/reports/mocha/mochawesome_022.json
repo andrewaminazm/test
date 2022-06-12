@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-03-26T23:28:10.481Z",
+    "end": "2022-03-26T23:29:48.493Z",
+    "duration": 98012,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "169b3e40-7548-4a34-a233-baca3164256b",
+      "title": "",
+      "fullFile": "cypress/integration/yamquote.spec.js",
+      "file": "cypress/integration/yamquote.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "c78d8f1d-f86c-43be-9253-a4545b88d4f5",
+          "title": "clientsearch",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "getquote",
+              "fullTitle": "clientsearch getquote",
+              "timedOut": null,
+              "duration": 92242,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://yamlifeinsdev.wpengine.com/');\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('.t-header__quote-button').click();\ncy.get('#gform_next_button_7_60').click();\ncy.wait(6000);\ncy.wait(6000);\ncy.get('#field_7_11').invoke(\"css\", \"background-color\", \"red\");\ncy.wait(5000);\ncy.get('#choice_7_11_0').check();\ncy.wait(5000);\ncy.get('#field_7_12 > .gfield_label').invoke(\"css\", \"background-color\", \"red\");\ncy.get('#input_7_12').click();\ncy.get('.ui-datepicker-year').select('2003');\ncy.get(':nth-child(2) > :nth-child(5) > .ui-state-default').click();\ncy.wait(5000);\ncy.get('#field_7_13').scrollIntoView();\ncy.scrollTo('center');\ncy.wait(5000);\ncy.get('#field_7_13').invoke(\"css\", \"background-color\", \"red\");\ncy.wait(5000);\ncy.get('#input_7_13_5').clear();\ncy.get('#input_7_13_5').type('A1A 1A1');\ncy.wait(5000);\ncy.get('#field_7_26').scrollIntoView();\ncy.scrollTo('center');\ncy.wait(5000);\ncy.get('#field_7_26').invoke(\"css\", \"background-color\", \"red\");\ncy.get('#choice_7_26_0').check();\ncy.wait(5000);\ncy.get('#gform_next_button_7_9').click();\ncy.wait(5000);\ncy.wait(6000);\n/* ==== Generated with Cypress Studio ==== */\ncy.get('#input_7_15').select('3');\ncy.get('#input_7_16').select('50000');\n/* ==== End Cypress Studio ==== */\ncy.wait(6000);\ncy.wait(6000);",
+              "err": {},
+              "uuid": "0ed1cf47-4a3c-412f-b6f1-529d88283d43",
+              "parentUUID": "c78d8f1d-f86c-43be-9253-a4545b88d4f5",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "0ed1cf47-4a3c-412f-b6f1-529d88283d43"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 92242,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-08-10T11:14:09.265Z",
+    "end": "2021-08-10T11:15:51.097Z",
+    "duration": 101832,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "bb7231ce-b070-4054-86e2-545deab4a4d2",
+      "title": "",
+      "fullFile": "cypress/integration/inventory/inventoryinsert1.spec.js",
+      "file": "cypress/integration/inventory/inventoryinsert1.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "c28c440b-047d-4afd-a0cd-79e15c206534",
+          "title": "inventory",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "inventoryinserta",
+              "fullTitle": "inventory inventoryinserta",
+              "timedOut": null,
+              "duration": 47216,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.login();\ncy.get('.side-menu > :nth-child(3) > :nth-child(1)').click();\ncy.wait(5000);\ncy.get('.active > .nav > :nth-child(7) > a').click();\ncy.wait(8000);\ncy.contains('add').scrollIntoView();\ncy.xpath('/html/body/div[2]/div/div[3]/div/div/div[1]/div/div/div[2]/table/thead/tr/th[3]/a').click();\ncy.wait(8000);\n/* ==== Generated with Cypress Studio ==== */\ncy.get('#txtSupplierId').click();\ncy.get('#txtSupplierId').click();\ncy.get('#txtSupplierId').clear();\ncy.get('#txtSupplierId').type('3');\ncy.get('#txtSupplierId').click();\ncy.get('#txtSupplierId').click();\ncy.get('#txtSupplierId').click();\ncy.get('#txtSupplierId').click();\ncy.get('#txtSupplierId').click();\ncy.get('.divStoreId > #txtStoreId').click();\ncy.get('.divStoreId > #txtStoreId').click();\ncy.get('.divStoreId > #txtStoreId').clear();\ncy.get('.divStoreId > #txtStoreId').type('3');\ncy.get('.divSupplier > .form__label').click();\ncy.get('#txtSupplierId').clear();\ncy.get('#txtSupplierId').type('3');\ncy.get('.divTrxdate > .form__label').click();\ncy.get('#txtTrxdate').click();\ncy.get(':nth-child(2) > .active').click();\ncy.get('#txtPatchSerial').clear();\ncy.get('#txtPatchSerial').type('2');\ncy.get('.divTrxNote > .form__label').click();\ncy.get('#txtTrxNote').clear();\ncy.get('#txtTrxNote').type('andrew');\ncy.get('.btnSend').click();\ncy.get('.confirm').click();\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "423e01d3-5023-43fc-b10a-49e81ec22dc7",
+              "parentUUID": "c28c440b-047d-4afd-a0cd-79e15c206534",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "inventoryedit",
+              "fullTitle": "inventory inventoryedit",
+              "timedOut": null,
+              "duration": 51894,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.login();\ncy.get('.side-menu > :nth-child(3) > :nth-child(1)').click();\ncy.wait(5000);\ncy.get('.active > .nav > :nth-child(7) > a').click();\ncy.wait(8000);\ncy.contains('add').scrollIntoView();\ncy.wait(8000);\ncy.get('tr[trxid=\"1184\"] > :nth-child(3) > .btn-info').click();\ncy.wait(8000);\n/* ==== Generated with Cypress Studio ==== */\ncy.get('#txtSupplierId').clear();\ncy.get('#txtSupplierId').type('شركة نات باك');\ncy.get('.divStoreId > #txtStoreId').clear();\ncy.get('.divStoreId > #txtStoreId').type('1 مخزن انتاج تام');\ncy.get('.btnSend').click();\ncy.get('.confirm').click();\ncy.get('tr[trxid=\"1184\"] > :nth-child(3) > .btn-info > .fa').click();\ncy.get('.btnHideSlider > .fa').click();\n/* ==== End Cypress Studio ==== */\ncy.screenshot();",
+              "err": {},
+              "uuid": "f1595d64-6c96-4dc5-a5d5-6756dffddfab",
+              "parentUUID": "c28c440b-047d-4afd-a0cd-79e15c206534",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "423e01d3-5023-43fc-b10a-49e81ec22dc7",
+            "f1595d64-6c96-4dc5-a5d5-6756dffddfab"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 99110,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

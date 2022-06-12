@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-08-19T13:36:03.449Z",
+    "end": "2021-08-19T13:36:51.685Z",
+    "duration": 48236,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "15d4f773-7576-4ee8-882c-9a16349c9289",
+      "title": "",
+      "fullFile": "cypress/integration/inventory/inventorypanel.spec.js",
+      "file": "cypress/integration/inventory/inventorypanel.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "3cdfc903-e529-4db5-9464-dca6f6548486",
+          "title": "inventorysetting",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "setting1allowstore",
+              "fullTitle": "inventorysetting setting1allowstore",
+              "timedOut": null,
+              "duration": 44759,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.login();\ncy.get('.side-menu > :nth-child(4) > :nth-child(1)').click().then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('open inventory tab ');\n});\ncy.wait(8000);\ncy.get('.active > .nav > :nth-child(4) > a').click().then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('open inventory panel ');\n});\ncy.wait(8000);\ncy.get('.col-md-2 > .btn').scrollIntoView().then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('show only اذونات اضافة  خامات  ');\n});\ncy.wait(8000); //cy.get('.modal-footer > .btn-info').scrollIntoView()\n//cy.get('.modal-footer > .btn-info').click()\n//cy.wait(5000)",
+              "err": {},
+              "uuid": "d4c9a9e8-6a9c-4e2f-a086-6e0a703192a1",
+              "parentUUID": "3cdfc903-e529-4db5-9464-dca6f6548486",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d4c9a9e8-6a9c-4e2f-a086-6e0a703192a1"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 44759,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

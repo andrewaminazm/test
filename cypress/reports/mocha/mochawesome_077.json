@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-04-07T02:44:27.275Z",
+    "end": "2022-04-07T02:46:50.007Z",
+    "duration": 142732,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "6c4cb3ac-9b06-496b-a281-ba1ad7f19771",
+      "title": "",
+      "fullFile": "cypress/integration/newrequestfornewclient.spec.js",
+      "file": "cypress/integration/newrequestfornewclient.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "cee5e9d5-4d74-44e6-affa-fe494593e07b",
+          "title": "regression trumarket",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "new request  ",
+              "fullTitle": "regression trumarket new request  ",
+              "timedOut": null,
+              "duration": 132774,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.log('creat a new request for new client ');\ncy.log('1-login 2-add a new reqeust 3- add a new client 4-fill pop-over menu and click continue ');\ncy.log('see the steps executed below ');\ncy.wait(6000);\ncy.truflalogins();\ncy.wait(6000);\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('.header-right > :nth-child(2) > .tru-button > :nth-child(1)').click();\ncy.wait(5000);\ncy.get('[href=\"/?new=request\"]').click();\ncy.wait(8000);\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get('.tru-button > span > div').click({\n  force: true\n});\ncy.wait(4000);\ncy.get(':nth-child(1) > .ant-form-item-control > .ant-form-item-control-input > .ant-form-item-control-input-content > .tru-text-input').click({\n  force: true\n});\ncy.wait(4000);\ncy.get(':nth-child(1) > .ant-form-item-control > .ant-form-item-control-input > .ant-form-item-control-input-content > .tru-text-input').clear({\n  force: true\n});\ncy.wait(4000);\ncy.get(':nth-child(1) > .ant-form-item-control > .ant-form-item-control-input > .ant-form-item-control-input-content > .tru-text-input').type('1111111111', {\n  force: true\n});\ncy.wait(4000);\ncy.get(':nth-child(2) > .ant-form-item-control > .ant-form-item-control-input > .ant-form-item-control-input-content > .tru-text-input').click({\n  force: true\n});\ncy.wait(4000);\ncy.get(':nth-child(2) > .ant-form-item-control > .ant-form-item-control-input > .ant-form-item-control-input-content > .tru-text-input').clear({\n  force: true\n});\ncy.wait(4000);\ncy.get(':nth-child(2) > .ant-form-item-control > .ant-form-item-control-input > .ant-form-item-control-input-content > .tru-text-input').type('annaminazmyandrewqw@gmail.com', {\n  force: true\n});\ncy.wait(4000);\ncy.get(':nth-child(3) > .ant-form-item-control > .ant-form-item-control-input > .ant-form-item-control-input-content > .tru-text-input').click({\n  force: true\n});\ncy.wait(4000);\ncy.get(':nth-child(3) > .ant-form-item-control > .ant-form-item-control-input > .ant-form-item-control-input-content > .tru-text-input').clear({\n  force: true\n});\ncy.wait(4000);\ncy.get(':nth-child(3) > .ant-form-item-control > .ant-form-item-control-input > .ant-form-item-control-input-content > .tru-text-input').type('asssasssssssssssssssshas', {\n  force: true\n});\ncy.wait(4000);\ncy.get(':nth-child(4) > .ant-form-item-control > .ant-form-item-control-input > .ant-form-item-control-input-content > .tru-text-input').clear({\n  force: true\n});\ncy.wait(4000);\ncy.get(':nth-child(4) > .ant-form-item-control > .ant-form-item-control-input > .ant-form-item-control-input-content > .tru-text-input').type('aaaaaaaaaaabababa', {\n  force: true\n});\ncy.wait(4000);\ncy.get('.ant-form-item-control-input-content > .primary > span').click({\n  force: true\n});\ncy.wait(4000);\ncy.get('.outline-primary').click({\n  force: true\n});\ncy.wait(4000);\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "7cf999d7-80a7-4139-aa15-4f185357cab1",
+              "parentUUID": "cee5e9d5-4d74-44e6-affa-fe494593e07b",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7cf999d7-80a7-4139-aa15-4f185357cab1"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 132774,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

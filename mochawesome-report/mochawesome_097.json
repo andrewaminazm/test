@@ -1,0 +1,123 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-12-01T13:18:26.050Z",
+    "end": "2021-12-01T13:19:31.495Z",
+    "duration": 65445,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f3b04c4f-983f-4490-9db7-7a535539d0ba",
+      "title": "",
+      "fullFile": "cypress/integration/uicompatability.spec.js",
+      "file": "cypress/integration/uicompatability.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "38b3f85e-e4ce-490a-9de7-774ab1ad8df9",
+          "title": "login",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": " login",
+              "fullTitle": "login  login",
+              "timedOut": null,
+              "duration": 36985,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.truflalogins();\ncy.clearCookie('authId');\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "dc629d15-865a-439f-8dce-5bc41dfe4d58",
+              "parentUUID": "38b3f85e-e4ce-490a-9de7-774ab1ad8df9",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "iosissue",
+              "fullTitle": "login iosissue",
+              "timedOut": null,
+              "duration": 26271,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.viewport('iphone-8');\ncy.visit(' https://bestinsurance.trumarket.dev/').then(() => {\n  // we are trying to return something\n  // from the .within callback,\n  // but it won't have any effect\n  cy.log('enter website ');\n});\ncy.wait(5000);\ncy.get('.tru-app-content').swipe('right');\ncy.get('.header > :nth-child(3)').scrollIntoView({\n  force: true\n});\ncy.wait(5000);\ncy.get('.tru-content').screenshot();\ncy.wait(5000);\ncy.get('.tru-list > :nth-child(2) > :nth-child(5)').scrollIntoView({\n  force: true\n});\ncy.wait(5000);\ncy.get('.tru-content').screenshot();\ncy.wait(5000);\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "1e201fca-f63e-489d-ae4f-4a1787b1dee6",
+              "parentUUID": "38b3f85e-e4ce-490a-9de7-774ab1ad8df9",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "dc629d15-865a-439f-8dce-5bc41dfe4d58",
+            "1e201fca-f63e-489d-ae4f-4a1787b1dee6"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 63256,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

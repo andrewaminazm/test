@@ -1,0 +1,2132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+        <link rel="stylesheet" href="/frontassets/css/bootstrap.min.css">
+        <!-- Admin Styles -->
+        <link rel="stylesheet" href="/assets/css/feathericon.min.css">
+        <link rel="stylesheet" href="/assets/plugins/morris/morris.css">
+        <!-- Main CSS -->
+        <link rel="stylesheet" href="/assets/css/style.css">
+        <!-- Fontawesome CSS -->
+        <link rel="stylesheet" href="/frontassets/plugins/fontawesome/css/fontawesome.min.css">
+        <link rel="stylesheet" href="/frontassets/plugins/fontawesome/css/all.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <!-- Select Plugin -->
+        <link rel="stylesheet" href="/frontassets/plugins/select2/css/select2.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+              rel="stylesheet">
+        <!-- Main CSS -->
+        <link rel="stylesheet" href="/frontassets/css/style.css">
+        <!--[if lt IE 9]>
+            <script src="/assets/js/html5shiv.min.js"></script>
+            <script src="/assets/js/respond.min.js"></script>
+        <![endif]-->
+        <link rel="stylesheet" href="/frontassets/styles.css">
+        <link rel="stylesheet" href="/frontassets/rangeslider.css">
+        <link rel="stylesheet" href="/frontassets/enhancement.css">
+        <style>
+            .help-block-error {
+                color: #e7505a !important;
+            }
+
+            .error {
+                color: #e7505a !important;
+            }
+
+            .arinput {
+                direction: rtl;
+            }
+
+            .main-menu-wrapper {
+                margin-left: 26%;
+            }
+
+            .container {
+                padding-top: 50px;
+                margin: auto;
+            }
+        </style>
+    <link href="/frontassets/global/plugins/bootstrap-toastr/toastr-rtl.min.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <meta name="google-signin-client_id">
+
+    <title>Home Page </title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.png">
+
+
+</head>
+<body>
+    <!-- Main Wrapper -->
+    <!-- Main Wrapper -->
+    <div class="main-wrapper">
+
+        <!-- Header -->
+        <header class="header">
+            <nav class="navbar navbar-expand-lg header-nav">
+                <div class="navbar-header">
+                    <a id="mobile_btn" href="javascript:void(0);">
+                        <span class="bar-icon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </a>
+                    <a href="/" class="navbar-brand logo">
+                        <img src="/frontassets/img/logo.svg" class="img-fluid" alt="Logo">
+                    </a>
+                </div>
+                <div class="main-menu-wrapper">
+                    <div class="menu-header">
+                        <a href="/" class="menu-logo">
+                            <img href="/frontassets/img/logo.png" class="img-fluid" alt="Logo">
+                        </a>
+                        <a id="menu_close" class="menu-close" href="javascript:void(0);">
+                            <i class="fas fa-times"></i>
+                        </a>
+                    </div>
+                    <ul class="main-nav">
+                        <li class="active">
+                            <a href="/">Home</a>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="#">
+                                <span class="e-clinic">e</span> 4Clinic providers
+                                <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <ul class="submenu careplus-dropdown-menu">
+                                    <li>
+                                        <a href="/doctor/login">Doctors</a>
+                                    </li>
+                                    <li>
+                                        <a href="/Pharmaceutical/login">Rep</a>
+                                    </li>
+
+
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="/home/BlogList">
+                                <span class="e-clinic">e</span> 4Clinic Blog
+                            </a>
+                        </li>
+
+
+
+                    </ul>
+                </div>
+                <div class="">
+
+                    <ul class="nav user-menu doc-layout">
+                        <li class="nav-item" style="margin-top:15px;">
+                            <select class="selectpicker" data-width="fit" style="display:inline-block;float:left;" onchange="LangChange(this);">
+                                    <option value="en" selected="selected" data-content='<span class="flag-icon flag-icon-us"></span> En'>En </option>
+                                    <option value="ar-EG" data-content='<span class="flag-icon flag-icon-eg"></span> Ar'>Ar</option>
+
+                            </select>
+                        </li>
+
+
+                        <!-- /Notifications -->
+                        <!-- User Menu -->
+                                <li class="nav-item dropdown has-arrow">
+                                    <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                                        Login
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <div class="user-header">
+                                            <div class="login login-sm">
+                                                <a href="/patient/Login" class="btn btn-login">
+                                                    Login
+                                                </a>
+                                                <p>
+                                                    Don&#x27;t have an account ?
+                                                    <br />
+
+                                                    <a href="/patient/register" class="signup"> Sign up</a>
+                                                </p>
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </li>
+                        <!-- /User Menu -->
+
+                    </ul>
+
+
+
+                </div>
+
+
+
+
+            </nav>
+        </header>
+        <!-- /Header -->
+        <style>
+    .select2-container .select2-selection--single .select2-selection__rendered {
+        padding-top: 9px;
+    }
+
+    .main-menu-wrapper {
+        margin-left: 26%;
+    }
+</style>
+
+<!-- Home Banner -->
+<section class="section section-search">
+
+
+    <ul class="slideshow">
+        <li>
+            <span style="background:url('/frontassets/img/img-06.jpg');"></span>
+        </li>
+        <li>
+            <span style="background:url('/frontassets/img/img-03.jpg');">2</span>
+        </li>
+        <li>
+            <span style="background:url('/frontassets/img/img-02.jpg');"></span>
+        </li>
+        <li>
+            <span style="background:url('/frontassets/img/img-031.jpg');"></span>
+        </li>
+        <li>
+            <span style="background:url('/frontassets/img/img-05.jpg');"></span>
+        </li>
+    </ul>
+    <div class="container">
+        <div class="banner-wrapper col-md-12">
+            <div class="banner-header text-center">
+                <h1>We provide the largest and most inclusive medical platform in the Middle East.</h1>
+                <p>Search Medical Services, Make an appointment. </p>
+            </div>
+            <div class="row">
+                <div class="col-dec">
+
+
+
+                    <div class="speicality-img unite-search">
+                        <a href="#">
+                            <img src="/frontassets/img/specialities/specialities-02.png" class="img-fluid" alt="Speciality">
+
+                        </a>
+                    </div>
+
+
+                </div>
+                <!-- <div class="col-md-1 col-sm-1 col-xs-2"></div> -->
+                <div class="col-dec">
+                    <div class="unite-search">
+
+                        <img src="/frontassets/img/specialities/specialities-03.png" class="img-fluid" alt="Speciality">
+
+                    </div>
+                </div>
+                <div class="col-dec">
+                    <div class="unite-search">
+
+                        <img src="/frontassets/img/specialities/hospital.png" class="img-fluid" alt="Speciality">
+
+                    </div>
+                </div>
+                <div class="col-dec">
+                    <div class="unite-search">
+
+                        <img src="/frontassets/img/specialities/microscope.png" class="img-fluid" alt="Speciality">
+
+                    </div>
+                </div>
+                <div class="col-dec">
+                    <div class="unite-search">
+
+                        <img src="/frontassets/img/specialities/skeleton-view.png" class="img-fluid" alt="Speciality">
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Search -->
+            <div class="search-box">
+                <form action="/patient/search">
+
+                    <input type="hidden" id="ConsultationServiceId" name="ConsultationServiceId" value="4" />
+                    <div class="col-md-12 col-lg-12 col-xl-12 dct-appoinment">
+                        <div class="">
+                            <div class=" pt-0">
+                                <div class="user-tabs">
+                                    <ul class="nav nav-tabs nav-tabs-bottom nav-justified flex-wrap">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" href="#pat_appointments" data-toggle="tab" id="4">
+                                                <!-- <img src="assets/img/icons/vedio-calll-active.svg" /> -->
+                                                <!-- Immediate Video call -->
+                                                <i>
+                                                    <img class="img-active" src="/frontassets/img/icons/vedio-calll-active.svg" />
+                                                    <img class="img-deactive" src="/frontassets/img/icons/vedio-calll.svg" />
+
+                                                </i>Immediate Video call
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#pat_appointments" data-toggle="tab" id="1">
+                                                <i>
+                                                    <img class="img-active" src="/frontassets/img/icons/ic-clinic.png" />
+                                                    <img class="img-deactive" src="/frontassets/img/icons/clinic-gray.png" />
+
+                                                </i> Clinic consultation
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#pat_appointments" data-toggle="tab" id="2">
+                                                <i>
+                                                    <img class="img-active" src="/frontassets/img/icons/video-call-active.svg" />
+                                                    <img class="img-deactive" src="/frontassets/img/icons/video-call.svg" />
+                                                </i> Video consultation
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#pat_appointments" data-toggle="tab" id="3">
+                                                <i>
+                                                    <img class="img-active" src="/frontassets/img/icons/home-visit-active.svg" />
+                                                    <img class="img-deactive" src="/frontassets/img/icons/home-visit.svg" />
+                                                </i> Home Visiting
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tab-content">
+
+                                    <!-- Appointment Tab -->
+                                    <div id="pat_appointments" class="tab-pane fade show active">
+                                        <div class="card card-table mb-0">
+                                            <div class="card-body">
+                                                <div class="row">
+                                                    <div class="col-form-group">
+
+                                                        <select class="form-control select2" id="MainSpecialityID" name="MainSpecialityID" onchange="SpecialityChange();">
+                                                            <option value="0" selected>Select Speciality</option>
+                                                                    <option value="2">
+                                                                        <i class="fas fa-stethoscope"></i> Cardiology
+                                                                    </option>
+                                                                    <option value="4">
+                                                                        <i class="fas fa-stethoscope"></i> Endocrinology
+                                                                    </option>
+                                                                    <option value="5">
+                                                                        <i class="fas fa-stethoscope"></i> Gastroenterology
+                                                                    </option>
+                                                                    <option value="6">
+                                                                        <i class="fas fa-stethoscope"></i> General surgery
+                                                                    </option>
+                                                                    <option value="7">
+                                                                        <i class="fas fa-stethoscope"></i> Physical therapy 
+                                                                    </option>
+                                                                    <option value="29">
+                                                                        <i class="fas fa-stethoscope"></i> Orthopedic specialty
+                                                                    </option>
+                                                                    <option value="33">
+                                                                        <i class="fas fa-stethoscope"></i> Obstetrics and Gynecology 
+                                                                    </option>
+                                                                    <option value="43">
+                                                                        <i class="fas fa-stethoscope"></i> Derma
+                                                                    </option>
+                                                                    <option value="44">
+                                                                        <i class="fas fa-stethoscope"></i> Neurology 
+                                                                    </option>
+                                                                    <option value="45">
+                                                                        <i class="fas fa-stethoscope"></i> Immunity and blood diseases 
+                                                                    </option>
+                                                                    <option value="49">
+                                                                        <i class="fas fa-stethoscope"></i> Obesity and thinness
+                                                                    </option>
+                                                                    <option value="51">
+                                                                        <i class="fas fa-stethoscope"></i> pediatrics and neonates
+                                                                    </option>
+                                                                    <option value="56">
+                                                                        <i class="fas fa-stethoscope"></i> dentistry 
+                                                                    </option>
+                                                                    <option value="60">
+                                                                        <i class="fas fa-stethoscope"></i> E.N.T
+                                                                    </option>
+                                                                    <option value="61">
+                                                                        <i class="fas fa-stethoscope"></i> internal medicine
+                                                                    </option>
+
+                                                        </select>
+
+                                                        <!-- <input type="text" class="form-control" placeholder="Search Location"> -->
+
+                                                    </div>
+                                                    <div class="col-form-group location-a">
+                                                        <select class="form-control select2 " id="CityId" name="CityId" onchange="CityChange();">
+                                                            <option value="0" selected>Select City</option>
+                                                                    <option value="1">
+                                                                        <i class="fas fa-stethoscope"></i> Mansoura
+                                                                    </option>
+                                                                    <option value="2">
+                                                                        <i class="fas fa-stethoscope"></i> Tanta
+                                                                    </option>
+                                                                    <option value="4">
+                                                                        <i class="fas fa-stethoscope"></i> Cairo
+                                                                    </option>
+                                                                    <option value="7">
+                                                                        <i class="fas fa-stethoscope"></i> Kafr Elshiekh
+                                                                    </option>
+                                                                    <option value="8">
+                                                                        <i class="fas fa-stethoscope"></i> Giza
+                                                                    </option>
+                                                                    <option value="9">
+                                                                        <i class="fas fa-stethoscope"></i> Alexanderia
+                                                                    </option>
+                                                                    <option value="10">
+                                                                        <i class="fas fa-stethoscope"></i> Ismailia 
+                                                                    </option>
+                                                                    <option value="11">
+                                                                        <i class="fas fa-stethoscope"></i> Upper Egypt 
+                                                                    </option>
+                                                                    <option value="12">
+                                                                        <i class="fas fa-stethoscope"></i> Port said
+                                                                    </option>
+                                                                    <option value="14">
+                                                                        <i class="fas fa-stethoscope"></i> Shark El shiekh
+                                                                    </option>
+                                                                    <option value="15">
+                                                                        <i class="fas fa-stethoscope"></i> Hurgada 
+                                                                    </option>
+                                                                    <option value="16">
+                                                                        <i class="fas fa-stethoscope"></i> bani suef 
+                                                                    </option>
+                                                                    <option value="17">
+                                                                        <i class="fas fa-stethoscope"></i> andrew
+                                                                    </option>
+                                                                    <option value="18">
+                                                                        <i class="fas fa-stethoscope"></i> suez
+                                                                    </option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-form-group location-a">
+
+                                                        <select class="form-control select2" id="AreaId" name="AreaId">
+                                                            <option value="0" selected>Select Area</option>
+
+                                                        </select>
+
+
+                                                    </div>
+                                                    <div class="col-form-group doc-name">
+                                                        <input type="text" class="form-control" placeholder="Doctor Name" id="DoctorName" name="DoctorName">
+                                                    </div>
+
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4"></div>
+                                            <div class="col-md-8">
+                                                <button class="btn btn-primary btn-block btn-lg login-btn btn-search" type="submit">Search</button>
+                                                <a class="btn btn-primary btn-block btn-lg login-btn btn-search" onclick="redirectTomapsearch();"
+                                                   href="javascript:;">Get On Map</a>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <!-- /Appointment Tab -->
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </form>
+            </div>
+            <!-- /Search -->
+
+        </div>
+    </div>
+</section>
+<!-- /Home Banner -->
+<!-- Start Slider features -->
+<section class="section section-specialities main-action py-5">
+    <div class="container">
+        <div class="section-header text-center">
+            <h2>Get Well soon</h2>
+            <p class="sub-title">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua.
+            </p>
+        </div>
+        <div class="row no-gutters mt-3 slider-row">
+            <div class="col-12 col-lg-1"></div>
+            <div class="col-12 col-lg-5">
+                <div class="action-slider">
+                    
+                </div>
+            </div>
+            <div class="col-12 col-lg-5">
+                <div class="action-content-slider">
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- End Slider features -->
+<!-- start setion Video -->
+<section class="section-video">
+
+    <div class="container-fluid no-padding">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 col-no-padding bg-theme">
+                <div class="inner-padding ">
+                    <h2 class="heading__title">E4Clinic Features: Docotrs, Pharmacies&amp; Mobile Application</h2>
+
+                    <ul class="list-items list-items-white list-unstyled mb-50">
+                        <li>Quality Control System</li>
+                        <li>Unrivalled workmanship</li>
+                        <li>100% Satisfaction Guarantee</li>
+                        <li>Professional and Qualified</li>
+                        <li>Highly Professional Staff</li>
+                        <li> Environmental Sensitivity</li>
+                        <li>Accurate Testing Processes</li>
+                        <li>Personalised solutions</li>
+                    </ul>
+                    <div class="flex social-btns">
+
+
+                        <a class="app-btn blu flex vert" href="http:google.com">
+                            <i class="fab fa-google-play"></i>
+                            <p>
+                                Get it on
+                                <br />
+                                <span class="big-txt">Google Play</span>
+                            </p>
+                        </a>
+
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+            <div class="col-md-6 col-sm-12 col-no-padding" style="min-height: 500px; background-image: url('/frontassets/img/img-05.jpg'); background-size: cover; background-position: center center;">
+                <div class="vertical-align-center">
+                    <div class="video__btn video__btn-white">
+                        <a class="popup-video" href="https://www.youtube.com/watch?4=&amp;v=TKnufs85hXk">
+                            <span class="video__player-animation"></span>
+                            <span class="video__player-animation video__player-animation-2"></span>
+                            <div class="video__player">
+                                <i class="fa fa-play"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- /.video -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<!-- end setion Video -->
+<!-- Popular Section -->
+<section class="section section-doctor">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="section-header ">
+                    <h2>Top Doctors</h2>
+                </div>
+                <div class="about-content">
+                    <p>
+                        Finding the best doctor that fits you or the needs of your family is important things you can do for your health. 
+                    </p>
+                    <p>
+                      E4Clinic Top Doctors are Considered the best doctors in thier area of specialty and expertise.here you can find the best doctors by specialty.  
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="doctor-slider slider">
+
+                                <!-- Doctor Widget -->
+                                <div class="profile-widget">
+                                    <div class="doc-img">
+                                        <a href="/Home/DoctorProfile/147">
+                                            <img class="img-fluid" alt="User Image" src="https://e4clinicpilotapi.ekadsoft.org/Upload/20210728113115664964IMG20210519225624.jpg">
+                                        </a>
+
+                                    </div>
+                                    <div class="pro-content">
+                                        <h3 class="title">
+                                            <a href="/Home/DoctorProfile/147">Dr gamal foda awad</a>
+                                            <i class="fas fa-circle" style="color:#1cd815;"></i>Online
+                                        </h3>
+                                        <p class="speciality">Obstetrics and Gynecology </p>
+                                        <p class="doc-speciality">doctor in Ain Shams university ...</p>
+                                        <p class="doc-department">physicion</p>
+                                        <div class="rating">
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star filled"></i>
+                                                                                            <i class="fas fa-star p-t-2"></i>
+
+
+                                            <span class="d-inline-block average-rating">(1 Visitors)</span>
+                                        </div>
+                                        <ul class="available-info">
+                                            <li>
+                                                <i class="fas fa-map-marker-alt"></i> Helwan , Cairo
+                                            </li>
+                                        </ul>
+                                        <div class="row row-sm">
+                                            <div class="col-6">
+                                                <a href="/Home/DoctorProfile/147" class="btn view-btn">View Profile</a>
+                                            </div>
+                                            <div class="col-6">
+                                                <a href="/Patient/Booking?Id=147&Type=1" class="btn book-btn">Book Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Doctor Widget -->
+                                <div class="profile-widget">
+                                    <div class="doc-img">
+                                        <a href="/Home/DoctorProfile/164">
+                                            <img class="img-fluid" alt="User Image" src="https://e4clinicpilotapi.ekadsoft.org/Upload/20210908171942408961Screenshot_2021-08-30-11-39-30-09_f9ee0578fe1cc94de7482bd41accb329.jpg">
+                                        </a>
+
+                                    </div>
+                                    <div class="pro-content">
+                                        <h3 class="title">
+                                            <a href="/Home/DoctorProfile/164">Assistant gamal abdelnasser</a>
+                                            <i class="fas fa-circle" style="color:#ffbe43;"></i>Offline
+                                        </h3>
+                                        <p class="speciality">dentistry </p>
+                                        <p class="doc-speciality">                               ...</p>
+                                        <p class="doc-department">Assistant lectuere</p>
+                                        <div class="rating">
+                                                <i class="fas fa-star filled"></i>
+                                                <i class="fas fa-star filled"></i>
+                                                                                            <i class="fas fa-star p-t-2"></i>
+                                                <i class="fas fa-star p-t-2"></i>
+                                                <i class="fas fa-star p-t-2"></i>
+
+
+                                            <span class="d-inline-block average-rating">(1 Visitors)</span>
+                                        </div>
+                                        <ul class="available-info">
+                                            <li>
+                                                <i class="fas fa-map-marker-alt"></i> 3 15 , street 9 , Helwan , Cairo
+                                            </li>
+                                        </ul>
+                                        <div class="row row-sm">
+                                            <div class="col-6">
+                                                <a href="/Home/DoctorProfile/164" class="btn view-btn">View Profile</a>
+                                            </div>
+                                            <div class="col-6">
+                                                <a href="/Patient/Booking?Id=164&Type=1" class="btn book-btn">Book Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Doctor Widget -->
+                                <div class="profile-widget">
+                                    <div class="doc-img">
+                                        <a href="/Home/DoctorProfile/157">
+                                            <img class="img-fluid" alt="User Image" src="https://e4clinicpilotapi.ekadsoft.org/Upload/202108161110720961IMG-20210713-WA0018.jpg">
+                                        </a>
+
+                                    </div>
+                                    <div class="pro-content">
+                                        <h3 class="title">
+                                            <a href="/Home/DoctorProfile/157">Prof Ahmed Wagih</a>
+                                            <i class="fas fa-circle" style="color:#ffbe43;"></i>Offline
+                                        </h3>
+                                        <p class="speciality">Obstetrics and Gynecology </p>
+                                        <p class="doc-speciality">teacher in american colleague</p>
+                                        <p class="doc-department">Assistant proffesor</p>
+                                        <div class="rating">
+                                                                                            <i class="fas fa-star p-t-2"></i>
+                                                <i class="fas fa-star p-t-2"></i>
+                                                <i class="fas fa-star p-t-2"></i>
+                                                <i class="fas fa-star p-t-2"></i>
+                                                <i class="fas fa-star p-t-2"></i>
+
+
+                                            <span class="d-inline-block average-rating">(0 Visitors)</span>
+                                        </div>
+                                        <ul class="available-info">
+                                            <li>
+                                                <i class="fas fa-map-marker-alt"></i> Helwan , Cairo
+                                            </li>
+                                        </ul>
+                                        <div class="row row-sm">
+                                            <div class="col-6">
+                                                <a href="/Home/DoctorProfile/157" class="btn view-btn">View Profile</a>
+                                            </div>
+                                            <div class="col-6">
+                                                <a href="/Patient/Booking?Id=157&Type=1" class="btn book-btn">Book Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Doctor Widget -->
+                                <div class="profile-widget">
+                                    <div class="doc-img">
+                                        <a href="/Home/DoctorProfile/150">
+                                            <img class="img-fluid" alt="User Image" src="https://e4clinicpilotapi.ekadsoft.org/Upload/2021080515842137962IMG-20210713-WA0013.jpg">
+                                        </a>
+
+                                    </div>
+                                    <div class="pro-content">
+                                        <h3 class="title">
+                                            <a href="/Home/DoctorProfile/150">Dr moamen mahmoud</a>
+                                            <i class="fas fa-circle" style="color:#1cd815;"></i>Online
+                                        </h3>
+                                        <p class="speciality">General surgery</p>
+                                        <p class="doc-speciality">assistant prof and physition</p>
+                                        <p class="doc-department">Assistant proffesor</p>
+                                        <div class="rating">
+                                                                                            <i class="fas fa-star p-t-2"></i>
+                                                <i class="fas fa-star p-t-2"></i>
+                                                <i class="fas fa-star p-t-2"></i>
+                                                <i class="fas fa-star p-t-2"></i>
+                                                <i class="fas fa-star p-t-2"></i>
+
+
+                                            <span class="d-inline-block average-rating">(0 Visitors)</span>
+                                        </div>
+                                        <ul class="available-info">
+                                            <li>
+                                                <i class="fas fa-map-marker-alt"></i> &#x646; h , g , &#x62A;&#x648;&#x631;&#x64A;&#x644; , Mansoura
+                                            </li>
+                                        </ul>
+                                        <div class="row row-sm">
+                                            <div class="col-6">
+                                                <a href="/Home/DoctorProfile/150" class="btn view-btn">View Profile</a>
+                                            </div>
+                                            <div class="col-6">
+                                                <a href="/Patient/Booking?Id=150&Type=1" class="btn book-btn">Book Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Doctor Widget -->
+                                <div class="profile-widget">
+                                    <div class="doc-img">
+                                        <a href="/Home/DoctorProfile/153">
+                                            <img class="img-fluid" alt="User Image" src="https://e4clinicpilotapi.ekadsoft.org/Upload/20210809222414249619pjtiy.jpg">
+                                        </a>
+
+                                    </div>
+                                    <div class="pro-content">
+                                        <h3 class="title">
+                                            <a href="/Home/DoctorProfile/153">Dr shady elzaher</a>
+                                            <i class="fas fa-circle" style="color:#1cd815;"></i>Online
+                                        </h3>
+                                        <p class="speciality">Cardiology</p>
+                                        <p class="doc-speciality">doctor</p>
+                                        <p class="doc-department">physicion</p>
+                                        <div class="rating">
+                                                                                            <i class="fas fa-star p-t-2"></i>
+                                                <i class="fas fa-star p-t-2"></i>
+                                                <i class="fas fa-star p-t-2"></i>
+                                                <i class="fas fa-star p-t-2"></i>
+                                                <i class="fas fa-star p-t-2"></i>
+
+
+                                            <span class="d-inline-block average-rating">(0 Visitors)</span>
+                                        </div>
+                                        <ul class="available-info">
+                                            <li>
+                                                <i class="fas fa-map-marker-alt"></i> &#x661; &#x661;&#x668;&#x667; , 8 , Elshrouq city , Cairo
+                                            </li>
+                                        </ul>
+                                        <div class="row row-sm">
+                                            <div class="col-6">
+                                                <a href="/Home/DoctorProfile/153" class="btn view-btn">View Profile</a>
+                                            </div>
+                                            <div class="col-6">
+                                                <a href="/Patient/Booking?Id=153&Type=1" class="btn book-btn">Book Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Doctor Widget -->
+                                <div class="profile-widget">
+                                    <div class="doc-img">
+                                        <a href="/Home/DoctorProfile/163">
+                                            <img class="img-fluid" alt="User Image" src="https://e4clinicpilotapi.ekadsoft.org/Upload/20210831184744390961IMG20210704183349.jpg">
+                                        </a>
+
+                                    </div>
+                                    <div class="pro-content">
+                                        <h3 class="title">
+                                            <a href="/Home/DoctorProfile/163">Dr andrew amin</a>
+                                            <i class="fas fa-circle" style="color:#1cd815;"></i>Online
+                                        </h3>
+                                        <p class="speciality">General surgery</p>
+                                        <p class="doc-speciality">andrew amin</p>
+                                        <p class="doc-department">Profesoor</p>
+                                        <div class="rating">
+                                                                                            <i class="fas fa-star p-t-2"></i>
+                                                <i class="fas fa-star p-t-2"></i>
+                                                <i class="fas fa-star p-t-2"></i>
+                                                <i class="fas fa-star p-t-2"></i>
+                                                <i class="fas fa-star p-t-2"></i>
+
+
+                                            <span class="d-inline-block average-rating">(0 Visitors)</span>
+                                        </div>
+                                        <ul class="available-info">
+                                            <li>
+                                                <i class="fas fa-map-marker-alt"></i> Helwan , Cairo
+                                            </li>
+                                        </ul>
+                                        <div class="row row-sm">
+                                            <div class="col-6">
+                                                <a href="/Home/DoctorProfile/163" class="btn view-btn">View Profile</a>
+                                            </div>
+                                            <div class="col-6">
+                                                <a href="/Patient/Booking?Id=163&Type=1" class="btn book-btn">Book Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Doctor Widget -->
+                                <div class="profile-widget">
+                                    <div class="doc-img">
+                                        <a href="/Home/DoctorProfile/156">
+                                            <img class="img-fluid" alt="User Image" src="https://e4clinicpilotapi.ekadsoft.org/Upload/20210815131420798961IMG_20200220_234341.jpg">
+                                        </a>
+
+                                    </div>
+                                    <div class="pro-content">
+                                        <h3 class="title">
+                                            <a href="/Home/DoctorProfile/156">Dr Ahmed Hamid</a>
+                                            <i class="fas fa-circle" style="color:#1cd815;"></i>Online
+                                        </h3>
+                                        <p class="speciality">Cardiology</p>
+                                        <p class="doc-speciality">Cardiology</p>
+                                        <p class="doc-department">Lectuere</p>
+                                        <div class="rating">
+                                                                                            <i class="fas fa-star p-t-2"></i>
+                                                <i class="fas fa-star p-t-2"></i>
+                                                <i class="fas fa-star p-t-2"></i>
+                                                <i class="fas fa-star p-t-2"></i>
+                                                <i class="fas fa-star p-t-2"></i>
+
+
+                                            <span class="d-inline-block average-rating">(0 Visitors)</span>
+                                        </div>
+                                        <ul class="available-info">
+                                            <li>
+                                                <i class="fas fa-map-marker-alt"></i> Maadi , Cairo
+                                            </li>
+                                        </ul>
+                                        <div class="row row-sm">
+                                            <div class="col-6">
+                                                <a href="/Home/DoctorProfile/156" class="btn view-btn">View Profile</a>
+                                            </div>
+                                            <div class="col-6">
+                                                <a href="/Patient/Booking?Id=156&Type=1" class="btn book-btn">Book Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Doctor Widget -->
+                                <div class="profile-widget">
+                                    <div class="doc-img">
+                                        <a href="/Home/DoctorProfile/162">
+                                            <img class="img-fluid" alt="User Image" src="https://e4clinicpilotapi.ekadsoft.org/Upload/2021081991525784961Screenshot_20210331-140439.jpg">
+                                        </a>
+
+                                    </div>
+                                    <div class="pro-content">
+                                        <h3 class="title">
+                                            <a href="/Home/DoctorProfile/162">Youness Mohamed</a>
+                                            <i class="fas fa-circle" style="color:#1cd815;"></i>Online
+                                        </h3>
+                                        <p class="speciality">Obstetrics and Gynecology </p>
+                                        <p class="doc-speciality">No   professional title</p>
+                                        <p class="doc-department">No  professional details</p>
+                                        <div class="rating">
+                                                                                            <i class="fas fa-star p-t-2"></i>
+                                                <i class="fas fa-star p-t-2"></i>
+                                                <i class="fas fa-star p-t-2"></i>
+                                                <i class="fas fa-star p-t-2"></i>
+                                                <i class="fas fa-star p-t-2"></i>
+
+
+                                            <span class="d-inline-block average-rating">(0 Visitors)</span>
+                                        </div>
+                                        <ul class="available-info">
+                                            <li>
+                                                <i class="fas fa-map-marker-alt"></i> 2 10 , Elhorya Square Beside Alfa Lab , Maadi , Cairo
+                                            </li>
+                                        </ul>
+                                        <div class="row row-sm">
+                                            <div class="col-6">
+                                                <a href="/Home/DoctorProfile/162" class="btn view-btn">View Profile</a>
+                                            </div>
+                                            <div class="col-6">
+                                                <a href="/Patient/Booking?Id=162&Type=1" class="btn book-btn">Book Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    <!-- /Doctor Widget -->
+                    <!-- Doctor Widget -->
+                    <!--<div class="profile-widget">
+                        <div class="doc-img">
+                            <a href="doctor-profile.html">
+                                <img class="img-fluid" alt="User Image" src="/frontassets/img/doctors/doctor-02.jpg">
+                            </a>
+
+                        </div>
+                        <div class="pro-content">
+                            <h3 class="title">
+                                <a href="doctor-profile.html">Darren Elder</a>
+                                <i class="fas fa-check-circle verified"></i>
+                            </h3>
+                            <p class="speciality">BDS, MDS - Oral & Maxillofacial Surgery</p>
+                            <div class="rating">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star"></i>
+                                <span class="d-inline-block average-rating">(35)</span>
+                            </div>
+                            <ul class="available-info">
+                                <li>
+                                    <i class="fas fa-map-marker-alt"></i> Newyork, USA
+                                </li>
+                                <li>
+                                    <i class="far fa-clock"></i> Available on Fri, 22 Mar
+                                </li>
+                                <li>
+                                    <i class="far fa-money-bill-alt"></i> $50 - $300
+                                    <i class="fas fa-info-circle" data-toggle="tooltip" title="Lorem Ipsum"></i>
+                                </li>
+                            </ul>
+                            <div class="row row-sm">
+                                <div class="col-6">
+                                    <a href="doctor-profile.html" class="btn view-btn">View Profile</a>
+                                </div>
+                                <div class="col-6">
+                                    <a href="booking.html" class="btn book-btn">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>-->
+                    <!-- /Doctor Widget -->
+                    <!-- Doctor Widget -->
+                    <!--<div class="profile-widget">
+                        <div class="doc-img">
+                            <a href="doctor-profile.html">
+                                <img class="img-fluid" alt="User Image" src="/frontassets/img/doctors/doctor-03.jpg">
+                            </a>
+
+                        </div>
+                        <div class="pro-content">
+                            <h3 class="title">
+                                <a href="doctor-profile.html">Deborah Angel</a>
+                                <i class="fas fa-check-circle verified"></i>
+                            </h3>
+                            <p class="speciality">MBBS, MD - General Medicine, DNB - Cardiology</p>
+                            <div class="rating">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star"></i>
+                                <span class="d-inline-block average-rating">(27)</span>
+                            </div>
+                            <ul class="available-info">
+                                <li>
+                                    <i class="fas fa-map-marker-alt"></i> Georgia, USA
+                                </li>
+                                <li>
+                                    <i class="far fa-clock"></i> Available on Fri, 22 Mar
+                                </li>
+                                <li>
+                                    <i class="far fa-money-bill-alt"></i> $100 - $400
+                                    <i class="fas fa-info-circle" data-toggle="tooltip" title="Lorem Ipsum"></i>
+                                </li>
+                            </ul>
+                            <div class="row row-sm">
+                                <div class="col-6">
+                                    <a href="doctor-profile.html" class="btn view-btn">View Profile</a>
+                                </div>
+                                <div class="col-6">
+                                    <a href="booking.html" class="btn book-btn">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>-->
+                    <!-- /Doctor Widget -->
+                    <!-- Doctor Widget -->
+                    <!--<div class="profile-widget">
+                        <div class="doc-img">
+                            <a href="doctor-profile.html">
+                                <img class="img-fluid" alt="User Image" src="/frontassets/img/doctors/doctor-04.jpg">
+                            </a>
+
+                        </div>
+                        <div class="pro-content">
+                            <h3 class="title">
+                                <a href="doctor-profile.html">Sofia Brient</a>
+                                <i class="fas fa-check-circle verified"></i>
+                            </h3>
+                            <p class="speciality">MBBS, MS - General Surgery, MCh - Urology</p>
+                            <div class="rating">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star"></i>
+                                <span class="d-inline-block average-rating">(4)</span>
+                            </div>
+                            <ul class="available-info">
+                                <li>
+                                    <i class="fas fa-map-marker-alt"></i> Louisiana, USA
+                                </li>
+                                <li>
+                                    <i class="far fa-clock"></i> Available on Fri, 22 Mar
+                                </li>
+                                <li>
+                                    <i class="far fa-money-bill-alt"></i> $150 - $250
+                                    <i class="fas fa-info-circle" data-toggle="tooltip" title="Lorem Ipsum"></i>
+                                </li>
+                            </ul>
+                            <div class="row row-sm">
+                                <div class="col-6">
+                                    <a href="doctor-profile.html" class="btn view-btn">View Profile</a>
+                                </div>
+                                <div class="col-6">
+                                    <a href="booking.html" class="btn book-btn">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>-->
+                    <!-- /Doctor Widget -->
+                    <!-- Doctor Widget -->
+                    <!--<div class="profile-widget">
+                        <div class="doc-img">
+                            <a href="doctor-profile.html">
+                                <img class="img-fluid" alt="User Image" src="/frontassets/img/doctors/doctor-05.jpg">
+                            </a>
+
+                        </div>
+                        <div class="pro-content">
+                            <h3 class="title">
+                                <a href="doctor-profile.html">Marvin Campbell</a>
+                                <i class="fas fa-check-circle verified"></i>
+                            </h3>
+                            <p class="speciality">MBBS, MD - Ophthalmology, DNB - Ophthalmology</p>
+                            <div class="rating">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star"></i>
+                                <span class="d-inline-block average-rating">(66)</span>
+                            </div>
+                            <ul class="available-info">
+                                <li>
+                                    <i class="fas fa-map-marker-alt"></i> Michigan, USA
+                                </li>
+                                <li>
+                                    <i class="far fa-clock"></i> Available on Fri, 22 Mar
+                                </li>
+                                <li>
+                                    <i class="far fa-money-bill-alt"></i> $50 - $700
+                                    <i class="fas fa-info-circle" data-toggle="tooltip" title="Lorem Ipsum"></i>
+                                </li>
+                            </ul>
+                            <div class="row row-sm">
+                                <div class="col-6">
+                                    <a href="doctor-profile.html" class="btn view-btn">View Profile</a>
+                                </div>
+                                <div class="col-6">
+                                    <a href="booking.html" class="btn book-btn">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>-->
+                    <!-- /Doctor Widget -->
+                    <!-- Doctor Widget -->
+                    <!--<div class="profile-widget">
+                        <div class="doc-img">
+                            <a href="doctor-profile.html">
+                                <img class="img-fluid" alt="User Image" src="/frontassets/img/doctors/doctor-06.jpg">
+                            </a>
+
+                        </div>
+                        <div class="pro-content">
+                            <h3 class="title">
+                                <a href="doctor-profile.html">Katharine Berthold</a>
+                                <i class="fas fa-check-circle verified"></i>
+                            </h3>
+                            <p class="speciality">MS - Orthopaedics, MBBS, M.Ch - Orthopaedics</p>
+                            <div class="rating">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star"></i>
+                                <span class="d-inline-block average-rating">(52)</span>
+                            </div>
+                            <ul class="available-info">
+                                <li>
+                                    <i class="fas fa-map-marker-alt"></i> Texas, USA
+                                </li>
+                                <li>
+                                    <i class="far fa-clock"></i> Available on Fri, 22 Mar
+                                </li>
+                                <li>
+                                    <i class="far fa-money-bill-alt"></i> $100 - $500
+                                    <i class="fas fa-info-circle" data-toggle="tooltip" title="Lorem Ipsum"></i>
+                                </li>
+                            </ul>
+                            <div class="row row-sm">
+                                <div class="col-6">
+                                    <a href="doctor-profile.html" class="btn view-btn">View Profile</a>
+                                </div>
+                                <div class="col-6">
+                                    <a href="booking.html" class="btn book-btn">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>-->
+                    <!-- /Doctor Widget -->
+                    <!-- Doctor Widget -->
+                    <!--<div class="profile-widget">
+                        <div class="doc-img">
+                            <a href="doctor-profile.html">
+                                <img class="img-fluid" alt="User Image" src="/frontassets/img/doctors/doctor-07.jpg">
+                            </a>
+
+                        </div>
+                        <div class="pro-content">
+                            <h3 class="title">
+                                <a href="doctor-profile.html">Linda Tobin</a>
+                                <i class="fas fa-check-circle verified"></i>
+                            </h3>
+                            <p class="speciality">MBBS, MD - General Medicine, DM - Neurology</p>
+                            <div class="rating">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star"></i>
+                                <span class="d-inline-block average-rating">(43)</span>
+                            </div>
+                            <ul class="available-info">
+                                <li>
+                                    <i class="fas fa-map-marker-alt"></i> Kansas, USA
+                                </li>
+                                <li>
+                                    <i class="far fa-clock"></i> Available on Fri, 22 Mar
+                                </li>
+                                <li>
+                                    <i class="far fa-money-bill-alt"></i> $100 - $1000
+                                    <i class="fas fa-info-circle" data-toggle="tooltip" title="Lorem Ipsum"></i>
+                                </li>
+                            </ul>
+                            <div class="row row-sm">
+                                <div class="col-6">
+                                    <a href="doctor-profile.html" class="btn view-btn">View Profile</a>
+                                </div>
+                                <div class="col-6">
+                                    <a href="booking.html" class="btn book-btn">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>-->
+                    <!-- /Doctor Widget -->
+                    <!-- Doctor Widget -->
+                    <!--<div class="profile-widget">
+                        <div class="doc-img">
+                            <a href="doctor-profile.html">
+                                <img class="img-fluid" alt="User Image" src="/frontassets/img/doctors/doctor-08.jpg">
+                            </a>
+
+                        </div>
+                        <div class="pro-content">
+                            <h3 class="title">
+                                <a href="doctor-profile.html">Paul Richard</a>
+                                <i class="fas fa-check-circle verified"></i>
+                            </h3>
+                            <p class="speciality">MBBS, MD - Dermatology , Venereology & Lepros</p>
+                            <div class="rating">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star"></i>
+                                <span class="d-inline-block average-rating">(49)</span>
+                            </div>
+                            <ul class="available-info">
+                                <li>
+                                    <i class="fas fa-map-marker-alt"></i> California, USA
+                                </li>
+                                <li>
+                                    <i class="far fa-clock"></i> Available on Fri, 22 Mar
+                                </li>
+                                <li>
+                                    <i class="far fa-money-bill-alt"></i> $100 - $400
+                                    <i class="fas fa-info-circle" data-toggle="tooltip" title="Lorem Ipsum"></i>
+                                </li>
+                            </ul>
+                            <div class="row row-sm">
+                                <div class="col-6">
+                                    <a href="doctor-profile.html" class="btn view-btn">View Profile</a>
+                                </div>
+                                <div class="col-6">
+                                    <a href="booking.html" class="btn book-btn">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>-->
+                    <!-- Doctor Widget -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /Popular Section -->
+<!-- Availabe Features -->
+<!-- <section class="section section-features">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-5 features-img">
+                <img src="/frontassets/img/features/feature.png" class="img-fluid" alt="Feature">
+            </div>
+            <div class="col-md-7">
+                <div class="section-header">
+                    <h2 class="mt-2">Availabe Features in Our Clinic</h2>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its
+                        layout. </p>
+                </div>
+                <div class="features-slider slider">
+                    <div class="feature-item text-center">
+                        <img src="/frontassets/img/features/feature-01.jpg" class="img-fluid" alt="Feature">
+                        <h3>Health Records</h3>
+                        <p>Lorem Ipsum is simply dummy text </p>
+                    </div>
+
+                    <div class="feature-item text-center">
+                        <img src="/frontassets/img/features/feature-02.jpg" class="img-fluid" alt="Feature">
+                        <h3>Health Records</h3>
+                        <p>Lorem Ipsum is simply dummy text </p>
+                    </div>
+
+                    <div class="feature-item text-center">
+                        <img src="/frontassets/img/features/feature-03.jpg" class="img-fluid" alt="Feature">
+                        <h3>Health Records</h3>
+                        <p>Lorem Ipsum is simply dummy text </p>
+                    </div>
+
+                    <div class="feature-item text-center">
+                        <img src="/frontassets/img/features/feature-04.jpg" class="img-fluid" alt="Feature">
+                        <h3>Health Records</h3>
+                        <p>Lorem Ipsum is simply dummy text </p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+<!-- /Availabe Features -->
+<!-- Section medias -->
+<!--ads-->
+<section class="section section-specialities main-action sec-medias">
+    <div class="container">
+
+        <div class="row no-gutters mt-3 slider-row">
+            
+        </div>
+
+    </div>
+</section>
+
+<!-- Blog Section -->
+<section class="section section-blogs">
+    <div class="container-fluid">
+
+        <!-- Section Header -->
+        <div class="section-header text-center">
+            <h2>Blogs and News</h2>
+            <p class="sub-title">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua.
+            </p>
+        </div>
+        <!-- /Section Header -->
+
+        <div class="row blog-grid-row">
+            <div class="col-md-6 col-lg-2 col-sm-12">
+                <!-- Blog Post -->
+                <div class="blog grid-blog">
+                    <div class="blog-image">
+                        <a href="/Home/BlogDetails/10">
+                            <img class="img-fluid" src="https://e4clinicpilotapi.ekadsoft.org/Upload/20210913163049869968imageser.png" alt="Post Image">
+                        </a>
+                    </div>
+                    <div class="blog-content">
+                        <ul class="entry-meta meta-item">
+
+                            <li>
+                                <i class="far fa-clock"></i> 13 Sep 2021
+                            </li>
+                        </ul>
+                        <h3 class="blog-title">
+                            <a href="/Home/BlogDetails/10">andrew</a>
+                        </h3>
+                    </div>
+                    <a href="/Home/BlogDetails/10" class="careplus-readmore-btn">
+                        Read More
+                        <span></span>
+                    </a>
+                </div>
+                <!-- /Blog Post -->
+
+
+
+            </div>
+            <div class="col-md-6 col-lg-2 col-sm-12">
+                <!-- Blog Post -->
+                <div class="blog grid-blog">
+                    <div class="blog-image">
+                        <a href="/Home/BlogDetails/9">
+                            <img class="img-fluid" src="https://e4clinicpilotapi.ekadsoft.org/Upload/2021091316161099967261370-200.png" alt="Post Image">
+                        </a>
+                    </div>
+                    <div class="blog-content">
+                        <ul class="entry-meta meta-item">
+
+                            <li>
+                                <i class="far fa-clock"></i> 13 Sep 2021
+                            </li>
+                        </ul>
+                        <h3 class="blog-title">
+                            <a href="/Home/BlogDetails/9">nnb</a>
+                        </h3>
+                    </div>
+                    <a href="/Home/BlogDetails/9" class="careplus-readmore-btn">
+                        Read More
+                        <span></span>
+                    </a>
+                </div>
+                <!-- /Blog Post -->
+
+
+
+            </div>
+            
+            <!--<div class="col-md-6 col-lg-2 col-sm-12">-->
+            <!-- Blog Post -->
+            <!--<div class="blog grid-blog">
+        <div class="blog-image">
+            <a href="blog-details.html">
+                <img class="img-fluid" src="/frontassets/img/blog/blog-02.jpg" alt="Post Image">
+            </a>
+        </div>
+        <div class="blog-content">
+            <ul class="entry-meta meta-item">
+                <li>
+                    <div class="post-author">
+                        <a href="doctor-profile.html">
+                            <img src="/frontassets/img/doctors/doctor-thumb-02.jpg" alt="Post Author">
+                            <span>Dr. Darren Elder</span>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <i class="far fa-clock"></i> 3 Dec 2019
+                </li>
+            </ul>
+            <h3 class="blog-title">
+                <a href="blog-details.html">What are the benefits of Online Doctor Booking?</a>
+            </h3>
+            <p class="">Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
+            <a href="#" class="careplus-readmore-btn">
+                Read More
+                <span></span>
+            </a>
+        </div>
+    </div>-->
+            <!-- /Blog Post -->
+            <!--</div>
+    <div class="col-md-6 col-lg-2 col-sm-12">-->
+            <!-- Blog Post -->
+            <!--<div class="blog grid-blog">
+        <div class="blog-image">
+            <a href="#">
+                <img class="img-fluid" src="/frontassets/img/blog/blog-03.jpg" alt="Post Image">
+            </a>
+        </div>
+        <div class="blog-content">
+            <ul class="entry-meta meta-item">
+                <li>
+                    <div class="post-author">
+                        <a href="doctor-profile.html">
+                            <img src="/frontassets/img/doctors/doctor-thumb-03.jpg" alt="Post Author">
+                            <span>Dr. Deborah Angel</span>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <i class="far fa-clock"></i> 3 Dec 2019
+                </li>
+            </ul>
+            <h3 class="blog-title">
+                <a href="#">Benefits of consulting with an Online Doctor</a>
+            </h3>
+            <p class="">Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
+            <a href="#" class="careplus-readmore-btn">
+                Read More
+                <span></span>
+            </a>
+        </div>
+    </div>-->
+            <!-- /Blog Post -->
+            <!--</div>
+    <div class="col-md-6 col-lg-2 col-sm-12">-->
+            <!-- Blog Post -->
+            <!--<div class="blog grid-blog">
+        <div class="blog-image">
+            <a href="blog-details.html">
+                <img class="img-fluid" src="/frontassets/img/blog/blog-04.jpg" alt="Post Image">
+            </a>
+        </div>
+        <div class="blog-content">
+            <ul class="entry-meta meta-item">
+                <li>
+                    <div class="post-author">
+                        <a href="doctor-profile.html">
+                            <img src="/frontassets/img/doctors/doctor-thumb-04.jpg" alt="Post Author">
+                            <span>Dr. Sofia Brient</span>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <i class="far fa-clock"></i> 2 Dec 2019
+                </li>
+            </ul>
+            <h3 class="blog-title">
+                <a href="#">5 Great reasons to use an Online Doctor</a>
+            </h3>
+            <p class="">Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
+            <a href="#" class="careplus-readmore-btn">
+                Read More
+                <span></span>
+            </a>
+        </div>
+    </div>-->
+            <!-- /Blog Post -->
+            <!--</div>
+    <div class="col-md-6 col-lg-2 col-sm-12">-->
+            <!-- Blog Post -->
+            <!--<div class="blog grid-blog">
+        <div class="blog-image">
+            <a href="blog-details.html">
+                <img class="img-fluid" src="/frontassets/img/blog/blog-04.jpg" alt="Post Image">
+            </a>
+        </div>
+        <div class="blog-content">
+            <ul class="entry-meta meta-item">
+                <li>
+                    <div class="post-author">
+                        <a href="doctor-profile.html">
+                            <img src="/frontassets/img/doctors/doctor-thumb-04.jpg" alt="Post Author">
+                            <span>Dr. Sofia Brient</span>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <i class="far fa-clock"></i> 2 Dec 2019
+                </li>
+            </ul>
+            <h3 class="blog-title">
+                <a href="#">5 Great reasons to use an Online Doctor</a>
+            </h3>
+            <p class="">Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
+            <a href="#" class="careplus-readmore-btn">
+                Read More
+                <span></span>
+            </a>
+        </div>
+    </div>-->
+            <!-- /Blog Post -->
+        </div>
+        <!-- <div class="view-all text-center">
+            <a href="#" class="btn  btn-more">View All</a>
+            <span></span>
+        </div> -->
+        <div class="text-center">
+            <a href="/Home/Bloglist" class="careplus-readmore-btn">
+                View All
+                <span></span>
+            </a>
+        </div>
+    </div>
+</section>
+<!-- /Blog Section -->
+<!-- Start Testtomnial -->
+<section class="clients">
+    <div class="container">
+        <section>
+            <div class="section-header text-center">
+                <h2>What Our Client Says </h2>
+                <p class="sub-title">
+                   We are passionate about always going the extra mile for you . Here are what some of our clients had to say . Read our testimonials. 
+                </p>
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                </ol>
+                <div class="carousel-inner">
+
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+        </section>
+    </div>
+</section>
+
+<!-- End Testtomnial -->
+
+        <!-- Edit Footer -->
+
+        
+<footer id="careplus-footer" class="careplus-footer-one">
+    <span class="careplus-footer-transparent"></span>
+    <!--// Footer Widget \\-->
+    <div class="careplus-footer-widget">
+        <div class="container">
+            <div class="row">
+                <!--// Widget Contact Info \\-->
+                <aside class="col-md-4 widget widget_contact_info">
+                    <div>
+
+                        <a href="/" class="footer-logo">
+                            <img src="/frontassets/img/footer-logo.svg" alt="">
+
+                        </a>
+                    </div>
+                    <p>
+                       You can contact us , we also welcome inquiries and suggestions on the mail or unified number ,and service representatives will reply to you quickly
+                    </p>
+                    <ul>
+                        <li>
+                            <h6>Call Us At :</h6>
+                            <span>022444141 - 014225521</span>
+                        </li>
+                        <li>
+                            <h6>Mail Us At :</h6>
+                            <a href="javascript:;">email</a>
+                        </li>
+                        <li>
+                            <h6>Our Location :</h6>
+                            <span>address</span>
+                        </li>
+                    </ul>
+                </aside>
+                <!--// Widget Contact Info \\-->
+                <!--// Widget Useful Link \\-->
+                <aside class="col-md-4 widget widget_useful_link">
+                    <h2 class="careplus-footer-title">Useful Links</h2>
+                    <ul>
+                        <li>
+                            <a href="/Home/About">About Us</a>
+                        </li>
+                        <li>
+                            <a href="/Home/ContactUs">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="/Home/termsOfUse">Terms Of Use</a>
+                        </li>
+                        <li>
+                            <a href="/Home/PrivacyPolicy">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="/Home/DoctorPolicy">Doctor Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="/Home/helpsupport">help and support</a>
+                        </li>
+
+                    </ul>
+                </aside>
+                <!--// Widget Useful Link \\-->
+                <!--// Widget Newsletter \\-->
+                <aside class="col-md-4 widget widget_newsletter">
+                    <h2 class="careplus-footer-title">Our Newsletter</h2>
+                    <p>Subscribe to receive all news about us</p>
+                    <form action="/Home/Subscribe" method="post">
+                        <ul>
+                            <li>
+                                <input required placeholder="Name" type="text" name="name">
+                            </li>
+                            <li>
+                                <input required placeholder="Email" type="email" name="email">
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="submit" value="Subscribe">
+                                    <span></span>
+                                </label>
+                            </li>
+                        </ul>
+                    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8AYACjaxjplHn0CDRBtuMg2PXn_utE7Axmh6wEmIxHzX0os_yhkvuNrYDrYBkxb6neB_ZtqEeUrL6cZoAlqhSPcfs4YRpMo11pZsp_rsrsouRyg6qwktl5DQTvkR9Iw-IFGvik-AYvSbZaKck2mSWvVp031apBu8EXstyn0913qw8xF9gueSgca0p-VoEemS_A" /></form>
+                </aside>
+             
+            </div>
+        </div>
+    </div>
+    <!--// Footer Widget \\-->
+    <!--// Copy Right \\-->
+    <div class="careplus-copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        <i class="fa fa-copyright"></i>
+                        <span id="y"></span>, All Right Reserved - powered by
+                        <a href="http://www.ekadsoft.com/" target="_blank">EkadSoft</a>
+                    </p>
+                    <a href="#" class="careplus-back-top">
+                        <i class="fa fa-angle-up"></i>
+                    </a>
+                    <ul class="careplus-footer-social">
+                        <li>
+                            <a href="https://www.facebook.com" class="fa fa-facebook-square" target="_blank"></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/" class="fa fa-twitter-square" target="_blank"></a>
+                        </li>
+                        <li>
+                            <a href="https://pk.linkedin.com/" class="fa fa-linkedin-square" target="_blank"></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/" class="fa fa-google-plus-square" target="_blank"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--// Copy Right \\-->
+
+
+</footer>
+
+
+
+
+    </div>
+
+    <script src="/frontassets/global/plugins/jquery.min.js" type="text/javascript"></script>
+    <script src="/frontassets/js/popper.min.js"></script>
+    <script src="/frontassets/js/bootstrap.min.js"></script>
+
+
+    <script src="/frontassets/global/plugins/js.cookie.min.js" type="text/javascript"></script>
+    <script src="/frontassets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <script src="/frontassets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+    <script src="/frontassets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+    <link href="/frontassets/plugins/fancybox/jquery.fancybox.min.css" rel="stylesheet" />
+    <script src="/frontassets/plugins/fancybox/jquery.fancybox.min.js"></script>
+    <!-- END CORE PLUGINS -->
+    <!-- BEGIN PAGE LEVEL PLUGINS -->
+    <script src="/frontassets/global/scripts/datatable.js" type="text/javascript"></script>
+    <script src="/frontassets/global/plugins/datatables/datatables.min.js" type="text/javascript"></script>
+    <script src="/frontassets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.js" type="text/javascript"></script>
+
+    <!-- END PAGE LEVEL PLUGINS -->
+    <!-- BEGIN PAGE LEVEL PLUGINS -->
+    <script src="/frontassets/global/plugins/moment.min.js" type="text/javascript"></script>
+    <script src="/frontassets/global/plugins/bootstrap-daterangepicker/daterangepicker.min.js" type="text/javascript"></script>
+    <script src="/frontassets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js" type="text/javascript"></script>
+    <script src="/frontassets/global/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js" type="text/javascript"></script>
+    <script src="/frontassets/global/plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js" type="text/javascript"></script>
+    <script src="/frontassets/global/plugins/clockface/js/clockface.js" type="text/javascript"></script>
+    <!-- END PAGE LEVEL PLUGINS -->
+    <!-- BEGIN THEME GLOBAL SCRIPTS -->
+    <script src="/frontassets/global/plugins/jquery-validation/js/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="/frontassets/global/plugins/jquery-validation/js/additional-methods.min.js" type="text/javascript"></script>
+    <script src="/frontassets/global/plugins/bootstrap-wizard/jquery.bootstrap.wizard.min.js" type="text/javascript"></script>
+    <!-- BEGIN THEME GLOBAL SCRIPTS -->
+    <script src="/frontassets/global/scripts/app.min.js" type="text/javascript"></script>
+    <script src="/frontassets/pages/scripts/components-date-time-pickers.min.js" type="text/javascript"></script>
+
+
+    <!-- END THEME GLOBAL SCRIPTS -->
+    <!-- BEGIN PAGE LEVEL SCRIPTS -->
+    <script src="/frontassets/pages/scripts/table-datatables-managed.min.js" type="text/javascript"></script>
+    <!-- END PAGE LEVEL SCRIPTS -->
+    <!-- BEGIN THEME LAYOUT SCRIPTS -->
+    <script src="/frontassets/layouts/layout/scripts/layout.min.js" type="text/javascript"></script>
+    <script src="/frontassets/layouts/layout/scripts/demo.min.js" type="text/javascript"></script>
+    <script src="/frontassets/layouts/global/scripts/quick-sidebar.min.js" type="text/javascript"></script>
+    <script src="/frontassets/layouts/global/scripts/quick-nav.min.js" type="text/javascript"></script>
+
+    
+    <script>
+        function redirectTomapsearch() {
+            var MainSpecialityIDddlval = $("#MainSpecialityID").val();
+            var ConsultationServiceIdddlval = $("#ConsultationServiceId").val();
+            window.location = '/Patient/mapsearch?MainSpecialityID=' + MainSpecialityIDddlval + '&ConsultationServiceId=' + ConsultationServiceIdddlval;
+        }
+
+    $('.nav li a').click(function () {
+           var type = $(this).attr("id");
+            debugger;
+            $("#ConsultationServiceId").val(type);
+
+
+        });
+        function CityChange() {
+         debugger
+            var CityId = $("#CityId").val();
+            $.ajax({
+                method: "post",
+                url: "/doctor/CityChange",
+                cash: false,
+                data: {
+                    CityId: CityId
+                },
+                success: function (res) {
+                    debugger
+                    $("#AreaId").html("");
+                    if (res != null) {
+                        debugger;
+                        var Content = "<option value=''>"+"Select Area"+"</option>"
+                        var areaName = "";
+                        for (var i = 0; i < res.length; i++) {
+                            if ("en"== "ar") {
+                                areaName = res[i].areaNameAr;
+                            }
+                            else {
+                                areaName = res[i].areaNameEn;
+                            }
+                            Content += "<option value='" + res[i].areaId + "'>" + areaName + "</option>"
+                        }
+                        $("#AreaId").html(Content)
+                    }
+                    else {
+                        $("#AreaId").html("<option value=''>"+"Select Area"+"</option>");
+                    }
+                }, error: function () {
+
+                }
+
+            });
+        }
+    </script>
+
+    <!-- Slick JS -->
+    <script src="/frontassets/js/slick.js"></script>
+    <!-- Select2 JS -->
+    <script src="/frontassets/plugins/select2/js/select2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
+
+    <script src="https://dimsemenov.com/plugins/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+    <script src="/assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+    <script src="/assets/plugins/raphael/raphael.min.js"></script>
+    <script src="/assets/plugins/morris/morris.min.js"></script>
+    <script src="/frontassets/plugins/theia-sticky-sidebar/ResizeSensor.js"></script>
+    <script src="/frontassets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js"></script>
+    <!-- Custom JS -->
+    <script src="/frontassets/js/rangeslider.js"></script>
+    <script src="/assets/js/script.js"></script>
+    <script src="/frontassets/global/plugins/bootstrap-toastr/toastr.min.js"></script>
+    <script src="/frontassets/pages/scripts/ui-toastr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit-icons.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+        <script src="/frontassets/js/script.js"></script>
+
+    <!-- Custom JS -->
+    <script>
+        var btn = $('.careplus-back-top');
+        btn.on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({ scrollTop: 0 }, '300');
+        });
+    </script>
+
+
+    <script>
+        $(".toggle-password").click(function () {
+
+            $(this).toggleClass("fa-eye fa-eye-slash");
+            var input = $($(this).attr("toggle"));
+            if (input.attr("type") == "password") {
+                input.attr("type", "text");
+            } else {
+                input.attr("type", "password");
+            }
+        });
+        $(document).ready(function () {
+            $('.popup-video').magnificPopup({
+                type: 'iframe',
+                disableOn: 700,
+                removalDelay: 160,
+                preloader: false,
+                fixedContentPos: false,
+                mainClass: 'mfp-with-zoom mfp-img-mobile',
+            });
+            $(".select2").select2();
+        });
+        var d = new Date();
+        var n = d.getFullYear();
+        document.getElementById("y").innerHTML = n;
+    </script>
+    <script>
+        function LangChange(thisval) {
+            window.location = '/Home/SetCultureCookie?cltr=' + $(thisval).val();
+        }
+        $(function () {
+            $('.selectpicker').selectpicker();
+        });
+    </script>
+    <script>
+        var sliderRowIndex = 0;
+        var time = 6
+        var $circle,
+            $sliderRow,
+            $actionContent,
+            $actionImages,
+            $pausePlay,
+            $dots,
+            isPause,
+            tick,
+            percentTime
+
+        $sliderRow = $('.slider-row')
+
+        $sliderRow.each(function () {
+            sliderRowIndex++
+
+            $(this).attr('slider-row', sliderRowIndex)
+
+            $actionImages = $('.action-slider', this)
+            $actionContent = $('.action-content-slider', this)
+            $pausePlay = $('.pause-play', this)
+            $dots = $('.slick-dots button', this)
+            $circle = $('circle.progress', this)
+            $('.action-slider').attr('dir', 'rtl');
+            $('.action-content-slider').attr('dir', 'rtl');
+            $actionImages.slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                infinite: true,
+                arrows: false,
+
+                fade: true
+
+            })
+
+            $actionContent.slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+
+                dots: true,
+                arrows: false,
+                autoplay: true,
+                infinite: true,
+                fade: true,
+                speed: 1000,
+                asNavFor: $actionImages
+            })
+
+            function startProgressbar() {
+                resetProgressbar()
+                percentTime = 0
+                isPause = false
+                tick = setInterval(interval, 10);
+            }
+
+            function interval() {
+                if (isPause === false) {
+                    percentTime += 1 / (time + 0.1);
+                    $circle.css({
+                        'stroke-dashoffset': percentTime
+                    });
+                    if (percentTime >= 156) {
+                        $actionContent.slick('slickNext');
+                        startProgressbar();
+                    }
+                }
+            }
+
+            $pausePlay.on('click', function () {
+                if ($(this).attr('data-click-state') == 1) {
+                    $(this).attr('data-click-state', 0)
+                    isPause = false
+                } else {
+                    $(this).attr('data-click-state', 1)
+                    isPause = true
+                    console.log(sliderRowIndex)
+                }
+            });
+
+            $dots.click(function () {
+                startProgressbar();
+            });
+
+            function resetProgressbar() {
+                $circle.css({
+                    'stroke-dashoffset': 0
+                });
+                clearTimeout(tick);
+            }
+
+            startProgressbar();
+
+        })
+
+
+        function notifyerror(title, message) {
+            Command: toastr["error"](message, title)
+
+            toastr.options = {
+                "closeButton": true,
+                "debug": false,
+                "positionClass": "toast-top-left",
+                "onclick": null,
+                "showDuration": "1000",
+                "hideDuration": "1000",
+                "timeOut": "5000",
+                "extendedTimeOut": "1000",
+                "showEasing": "swing",
+                "hideEasing": "linear",
+                "showMethod": "fadeIn",
+                "hideMethod": "fadeOut"
+
+            }
+        }
+        function notifysuccess(title, message) {
+            Command: toastr["success"](message, title)
+
+            toastr.options = {
+                "closeButton": true,
+                "debug": false,
+                "positionClass": "toast-top-left",
+                "onclick": null,
+                "showDuration": "1000",
+                "hideDuration": "1000",
+                "timeOut": "5000",
+                "extendedTimeOut": "1000",
+                "showEasing": "swing",
+                "hideEasing": "linear",
+                "showMethod": "fadeIn",
+                "hideMethod": "fadeOut"
+
+            }
+        }
+
+        function notifyerror(title, message) {
+            Command: toastr["error"](message, title)
+
+            toastr.options = {
+                "closeButton": true,
+                "debug": false,
+                "positionClass": "toast-top-left",
+                "onclick": null,
+                "showDuration": "1000",
+                "hideDuration": "1000",
+                "timeOut": "5000",
+                "extendedTimeOut": "1000",
+                "showEasing": "swing",
+                "hideEasing": "linear",
+                "showMethod": "fadeIn",
+                "hideMethod": "fadeOut"
+
+            }
+        }
+    </script>
+
+    <script>
+        $(".ar-input").on("keypress", function (event) {
+            var englishAlphabet = /^[A-Za-z]*$/;
+            //var arabicAlphabet = /[\u0600-\u06ff]|[\u0621-\u064A0-9 ]|[\u0750-\u077f]|[\ufb50-\ufc3f]|[\ufe70-\ufefc]|[\u0200]|[\u00A0]/g;
+            var key = String.fromCharCode(event.which);
+            // For the keyCodes, look here: http://stackoverflow.com/a/3781360/114029
+            // keyCode == 8  is backspace
+            // keyCode == 32  is space
+            // keyCode == 37 is left arrow
+            // keyCode == 39 is right arrow
+            // if (event.keyCode == 8 || event.keyCode == 32 | event.keyCode == 37 || event.keyCode == 39 || arabicAlphabet.test(key)) {
+            if (!englishAlphabet.test(key)) {
+                return true;
+            } return false;
+        });
+
+        $('.ar-input').on("paste", function (e) {
+            e.preventDefault();
+        });
+        $(".en-input").on("keypress", function (event) {
+
+            //var englishAlphabet = /^[A-Za-z0-9]*$/;
+            var arabicAlphabet = /[\u0600-\u06ff]|[\u0750-\u077f]|[\ufb50-\ufc3f]|[\ufe70-\ufefc]|[\u0200]|[\u00A0]/g;
+
+            var key = String.fromCharCode(event.which);
+            if (!arabicAlphabet.test(key)) {
+                return true;
+            } return false;
+        });
+
+        $('.en-input').on("paste", function (e) {
+            e.preventDefault();
+        });
+
+
+    </script>
+        <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+        <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+        <script src='https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js' type="text/javascript"></script>
+        <script src='https://www.gstatic.com/firebasejs/8.3.1/firebase-messaging.js' type="text/javascript"></script>
+        <!-- Add Firebase products that you want to use -->
+        <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script>
+        <script>
+
+            $(function () {
+
+                var token = null;
+                // Your web app's Firebase configuration
+                // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+                var firebaseConfig = {
+                    apiKey: "AIzaSyB0hLaCVZmL5wE_TdSa-HpUgyEicjEa6no",
+                    authDomain: "e4clinic-bec33.firebaseapp.com",
+                    projectId: "e4clinic-bec33",
+                    storageBucket: "e4clinic-bec33.appspot.com",
+                    messagingSenderId: "107293504862",
+                    appId: "1:107293504862:web:3b24c809b48d5824a58bcf",
+                    measurementId: "G-YHG6GCYDJM"
+                };
+                // Initialize Firebase
+                firebase.initializeApp(firebaseConfig);
+                firebase.analytics();
+
+                const messaging = firebase.messaging();
+
+                messaging.requestPermission()
+                    .then(function () {
+                        console.log("granted");
+                        return messaging.getToken();
+                        //if (isTokenSentToServer()) {
+                        //    console.log("already granted");
+                        //    getRegtoken();
+                        //} else {
+                        //    getRegtoken();
+                        //}
+                    }).then(function (currentToken) {
+                        if (currentToken) {
+                            console.log(currentToken);
+                            $("#Device_token").val(currentToken);
+                        }
+
+                    });
+
+                messaging.onMessage((payload) => {
+                    console.log('Message received. ', payload);
+                    notificationTitle = payload.data.title;
+                    notificationOptions = {
+                        body: payload.data.NotificationMessage,
+                        icon: "/frontassets/img/specialities/specialities-02.png"
+                    };
+                    var audio = new Audio("/frontassets/goes-without-saying-608.ogg");
+                    audio.play();
+                    var notification = new Notification(notificationTitle, notificationOptions);
+                    // ...
+                });
+
+                //function getRegtoken() {
+
+                //    messaging.getToken().then((currentToken) => {
+                //        if (currentToken) {
+                //            console.log(currentToken);
+                //            setTokenSentToServer(true);
+                //            //saveToken(currentToken)
+                //            //   updateUIForPushEnabled(currentToken);
+                //        } else {
+                //            console.log('No Instance ID token available. Request permission to generate one.');
+                //            setTokenSentToServer(false);
+                //        }
+                //    }).catch((err) => {
+                //        console.log('An error occurred while retrieving token. ', err);
+                //        setTokenSentToServer(false);
+                //    });
+
+                //}
+                //function setTokenSentToServer(sent) {
+                //    window.localStorage.setItem('sentToServer', sent ? 1 : 0);
+                //}
+                //function isTokenSentToServer() {
+                //    return window.localStorage.getItem('sentToServer') === '1';
+                //}
+                //firebase.messaging().onMessage(notification => {
+                //    alert('Notification received!', notification);
+                //});
+                //messaging.onMessage(function (payload) {
+                //    console.log('Message received. ', payload);
+                //    debugger;
+                //    alert(payload.notification.title);
+                //    notificationTitle = payload.notification.title;
+                //    notificationOptions = {
+                //        body: payload.notification.body,
+                //        icon: payload.notification.icon
+                //    };
+
+                //    var notification = new Notification(notificationTitle, notificationOptions);
+
+                //});
+
+            });
+
+
+        </script>
+    
+</body>
+</html>

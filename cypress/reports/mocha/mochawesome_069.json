@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-04-07T02:22:09.674Z",
+    "end": "2022-04-07T02:24:00.789Z",
+    "duration": 111115,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "7c2d44d8-61f4-45ef-bf4d-a1915868fd68",
+      "title": "",
+      "fullFile": "cypress/integration/cancelrequest.spec.js",
+      "file": "cypress/integration/cancelrequest.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b7940781-5c2e-4a31-b69a-c5aec9937df9",
+          "title": "regression trumarket",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "assign request to me & broker ",
+              "fullTitle": "regression trumarket assign request to me & broker ",
+              "timedOut": null,
+              "duration": 101542,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.log('assign request to me & broker');\ncy.log('1-login 2-press the assign button 3- asign request to me or other 4-enter description');\ncy.log('see the steps executed below ');\ncy.wait(6000);\ncy.truflalogins();\ncy.wait(6000);\n/* ==== Generated with Cypress Studio ==== */\n/* ==== End Cypress Studio ==== */\n/* ==== Generated with Cypress Studio ==== */\ncy.get(':nth-child(2) > .cell-to-show > :nth-child(1) > .tru-dropdown-menu > .tru-icon > g > [cy=\"7\"]').click({\n  force: true\n});\ncy.wait(9000);\ncy.get(':nth-child(2) > .cell-to-show > :nth-child(1) > .tru-dropdown-menu > .animate__animated > .tru-close-request > span').click({\n  force: true\n});\ncy.wait(9000);\ncy.get(':nth-child(3) > .cell-to-show > :nth-child(1) > .tru-dropdown-menu > .tru-icon > g > [cy=\"2\"]').click({\n  force: true\n});\ncy.wait(9000);\ncy.get(':nth-child(3) > .cell-to-show > :nth-child(1) > .tru-dropdown-menu > .animate__animated > .tru-close-request > span').click({\n  force: true\n});\ncy.wait(9000);\ncy.get(':nth-child(2) > .list-filter > .filter-icon > .tru-icon > path').click({\n  force: true\n});\ncy.wait(4000);\ncy.get('[data-title=\"Canceled\"] > .tru-form-item > .custom-checkbox > .tru-boolean-input').check({\n  force: true\n});\ncy.wait(4000);\ncy.get('h1').click({\n  force: true\n});\ncy.wait(4000);\n/* ==== End Cypress Studio ==== */",
+              "err": {},
+              "uuid": "7331a7a0-2497-4bbd-932b-432192b622f6",
+              "parentUUID": "b7940781-5c2e-4a31-b69a-c5aec9937df9",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7331a7a0-2497-4bbd-932b-432192b622f6"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 101542,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}
