@@ -1,5 +1,5 @@
 # tasks
-for postman install postman 
+1-for postman install postman 
 for jmeter install jmeter 5.2.1
 testchecklist , functionaltest , bugreport for manual test
 api test using cypress you need  to install   npm i cypress@9.5.2
